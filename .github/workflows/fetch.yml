@@ -25,15 +25,24 @@ jobs:
 
       - name: Run fetch script
         env:
-          NO_PROXY: ${{ secrets.NO_PROXY }}        # 可选，部分配置需要
-          HTTP_PROXY: ${{ secrets.HTTP_PROXY }}     # 可选，如需代理可设置
+          NO_PROXY: ${{ secrets.NO_PROXY }}        # 可选
+          HTTP_PROXY: ${{ secrets.HTTP_PROXY }}     # 可选
           HTTPS_PROXY: ${{ secrets.HTTPS_PROXY }}   # 可选
         run: python fetch.py
 
+      # 🔧 修复：只添加存在的文件，避免因缺失文件而失败
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add list.txt list.yml list.meta.yml list_raw.txt list.result.csv
+          # 逐个添加可能生成的文件，如果文件不存在则忽略错误
+          git add list.txt || true
+          git add list.yml || true
+          git add list.meta.yml || true
+          git add list_raw.txt || true
+          git add list.result.csv || true
+          # 如果有其他生成的文件，可继续添加
+          git add *.json || true   # 有些项目会生成 JSON 文件
+          # 检查是否有任何更改，有则提交
           git diff --quiet && git diff --staged --quiet || git commit -m "Auto update nodes"
           git push
