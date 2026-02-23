@@ -3,18 +3,25 @@ import yaml
 import base64
 import requests
 
-# 节点来源网站列表（您可以根据需要增删）
+# 当前可能有效的免费节点源（2026年2月）
 SOURCES = [
-    "https://nodefree.org/dy/2024.yaml",
-    "https://clashnode.com/wp-content/uploads/2024/01/20240115.yaml",
-    # 可添加更多源
+    # 基于 GitHub 的节点池
+    "https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml",
+    "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml",
+    "https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/clash.provider.yaml",
+    "https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/clash.yml",
+    "https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.yml",
+    # 其他来源
+    "https://yoyapai.com/clash/proxies",  # 可能有效
+    "https://nodefree.org/raw/clash.yaml",  # nodefree 新地址
 ]
 
 def fetch_nodes():
     all_proxies = []
     for url in SOURCES:
         try:
-            resp = requests.get(url, timeout=10)
+            print(f"正在抓取: {url}")
+            resp = requests.get(url, timeout=15)
             if resp.status_code != 200:
                 print(f"抓取 {url} 失败，状态码：{resp.status_code}")
                 continue
@@ -33,8 +40,10 @@ def fetch_nodes():
                         if data2 and 'proxies' in data2:
                             all_proxies.extend(data2['proxies'])
                             print(f"从 {url} 获取到 {len(data2['proxies'])} 个节点 (Base64 -> YAML)")
-                    except:
-                        print(f"从 {url} 获取的内容既不是 YAML 也不是 Base64，跳过")
+                        else:
+                            print(f"从 {url} 获取的内容解码后无 proxies 字段，跳过")
+                    except Exception as e:
+                        print(f"从 {url} 获取的内容不是 Base64 或无法解析: {e}")
             except yaml.YAMLError:
                 # 如果 YAML 解析失败，尝试 Base64 解码
                 try:
@@ -43,14 +52,15 @@ def fetch_nodes():
                     if data and 'proxies' in data:
                         all_proxies.extend(data['proxies'])
                         print(f"从 {url} 获取到 {len(data['proxies'])} 个节点 (Base64)")
-                except:
-                    print(f"从 {url} 获取的内容无法解析")
+                    else:
+                        print(f"从 {url} 解码后无 proxies 字段")
+                except Exception as e:
+                    print(f"从 {url} 获取的内容无法解析为 YAML 或 Base64: {e}")
         except Exception as e:
             print(f"抓取 {url} 异常: {e}")
     return all_proxies
 
 def merge_with_base(new_proxies):
-    # 读取基础配置文件（如果有）
     base_file = 'base.yaml'
     if os.path.exists(base_file):
         with open(base_file, 'r', encoding='utf-8') as f:
@@ -58,7 +68,7 @@ def merge_with_base(new_proxies):
     else:
         base = {'proxies': []}
 
-    # 简单去重（根据 server 和 port）
+    # 去重（根据 server 和 port）
     existing = {(p.get('server'), p.get('port')) for p in base.get('proxies', [])}
     for p in new_proxies:
         key = (p.get('server'), p.get('port'))
@@ -77,6 +87,6 @@ if __name__ == '__main__':
         # 以 YAML 格式写入 list.txt
         with open('list.txt', 'w', encoding='utf-8') as f:
             yaml.dump(final_config, f, allow_unicode=True, sort_keys=False)
-        print("已合并并保存为 list.txt")
+        print("已合并并保存为 list.txt，节点总数:", len(final_config['proxies']))
     else:
-        print("未获取到任何新节点")
+        print("未获取到任何新节点，保留原有文件。")
