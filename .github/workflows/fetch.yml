@@ -1,65 +1,39 @@
-name: Fetch
+name: Fetch Nodes
 
 on:
-  workflow_dispatch:
   schedule:
-    # 表达式生成 https://crontab.guru/
-    - cron: '30 */1 * * *'
-  push:
-    paths:
-      - 'sources.list'
-      - 'config.yml'
-      - 'abpwhite.txt'
-      - '.github/workflows/**'
-      - '**.py'
-      - 'snippets/_*'
+    - cron: '0 */12 * * *'   # 每12小时运行一次
+  workflow_dispatch:          # 允许手动触发
 
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    steps:
-    - name: 迁出代码
-      uses: actions/checkout@v4
-    - name: 设置时区
-      run: sudo timedatectl set-timezone 'Asia/Shanghai'
-    - name: 安装 Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.x'
-        cache: 'pip'
-    - name: 安装依赖
-      run: pip install -r requirements.txt
-    - name: 执行任务
-      run: python ./fetch.py
-      
-    - name: 提交更改
-      run: |                 
-        git config --local user.email "actions@github.com"
-        git config --local user.name "GitHub Actions"
-        git pull origin master
-        git add list*
-        git add snippets/
-        git commit -m "$(date '+%Y-%m-%d %H:%M:%S') 抓取节点"
-    - name: 推送更改
-      uses: ad-m/github-push-action@master
-      with:
-        branch: master
 
-    - name: 计算要清除缓存的文件
-      id: purge_urls
-      run: |
-        sleep 5
-        baseUrl="https://cdn.jsdelivr.net/gh/${{ github.repository }}@master"
-        urls=""
-        for f in `find snippets -name "*.yml" -type f`; do
-          urls+="${baseUrl}/${f},"
-        done
-        for f in `find . -name "list*" -type f -maxdepth 1`; do
-          urls+="${baseUrl}/${f},"
-        done
-        echo "urls=${urls%,*}" >> $GITHUB_OUTPUT
-    - name: 清除 JsDelivr CDN 缓存
-      uses: egad13/purge-jsdelivr-cache@v1
-      with:
-        url: ${{ steps.purge_urls.outputs.urls }}
-      continue-on-error: true
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run fetch script
+        env:
+          NO_PROXY: ${{ secrets.NO_PROXY }}        # 可选，部分配置需要
+          HTTP_PROXY: ${{ secrets.HTTP_PROXY }}     # 可选，如需代理可设置
+          HTTPS_PROXY: ${{ secrets.HTTPS_PROXY }}   # 可选
+        run: python fetch.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add list.txt list.yml list.meta.yml list_raw.txt list.result.csv
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto update nodes"
+          git push
