@@ -30,6 +30,12 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add list.txt list.yml list.meta.yml list_raw.txt list.result.csv || true
-          git diff --quiet && git diff --staged --quiet || git commit -m "Auto update nodes"
-          git push
+          # 只添加实际生成的文件（忽略不存在的文件）
+          git add list.txt list.yml list.meta.yml list_raw.txt || true
+          # 检查暂存区是否有更改
+          if git diff --staged --quiet; then
+            echo "没有需要提交的更改"
+          else
+            git commit -m "Auto update nodes"
+            git push
+          fi
