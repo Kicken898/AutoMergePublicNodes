@@ -185,7 +185,7 @@ proxies:
   tls: true
   ws-headers:
     Host: cg1c07.waimaojd.com
-- name: 🏁RELAY-170.114.46.6-20
+- name: 🏁RELAY-170.114.45.6-20
   server: support.zoom.us
   port: 8080
   type: vmess
@@ -288,72 +288,71 @@ proxies:
   type: ss
   cipher: chacha20-ietf-poly1305
   password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-- name: 🇨🇳CN-36.141.116.204-30
-  server: ldu.izenny.com
-  port: 46197
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-- name: 🇮🇸IS-167.17.185.172-31
-  server: 167.17.185.172
-  port: 10889
-  type: trojan
-  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
-  sni: web.max.ru
-  skip-cert-verify: true
-- name: 🇳🇴NO-80.173.231.254-32
-  server: 80.173.231.254
-  port: 12420
-  type: trojan
-  password: wp9IsiY82uQhcmgNC1eoBM
-  sni: www.semanticstaplegun.click
-  skip-cert-verify: true
-- name: 🇨🇳CN-144.48.180.183-33
-  server: v30.hdacd.com
-  port: 30830
+- name: 🏁RELAY-104.21.42.5-29
+  server: dffgg.2no.ccwu.cc
+  port: 443
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 2215657e-2af4-405f-b770-4e61b298d5b8
   alterId: 0
   cipher: auto
   skip-cert-verify: true
-  network: tcp
-  ws-path: /obj
-  tls: false
+  network: ws
+  ws-path: /
+  tls: true
   ws-headers:
-    Host: img14.360buyimg.com
-- name: 🇮🇸IS-167.17.185.152-34
+    Host: dffgg.2no.ccwu.cc
+- name: 🇮🇸IS-167.17.185.152-30
   server: 167.17.185.152
   port: 10889
   type: trojan
   password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
   sni: ozon.ru
   skip-cert-verify: true
-- name: 🇮🇸IS-167.17.185.169-35
-  server: 167.17.185.169
-  port: 10889
+- name: 🇨🇳CN-36.141.116.204-31
+  server: ldu.izenny.com
+  port: 57927
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+- name: 🇹🇼TW-220.130.58.136-32
+  server: green2.cdntencentmusic.com
+  port: 35501
   type: trojan
-  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
-  sni: ya.ru
+  password: 04e5b584-1850-483d-a844-9ad624a4ca8e
+  sni: green2.cdntencentmusic.com
   skip-cert-verify: true
-- name: 🇨🇳CN-36.141.116.204-36
+- name: 🇳🇴NO-80.173.230.196-33
+  server: 80.173.230.196
+  port: 26279
+  type: trojan
+  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
+  sni: io.ozone.ru
+  skip-cert-verify: true
+- name: 🇨🇳CN-36.141.116.204-34
   server: ldu.izenny.com
   port: 20149
   type: ss
   cipher: chacha20-ietf-poly1305
   password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-- name: 🏁RELAY-172.67.158.223-37
-  server: gbnhju.7no.ccwu.cc
-  port: 80
+- name: 🇨🇳CN-36.141.116.204-35
+  server: ldu.izenny.com
+  port: 46197
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+- name: 🇺🇸US-198.62.62.199-37
+  server: 198.62.62.199
+  port: 443
   type: vmess
-  uuid: 9f9b2ba3-77c1-400f-9b72-76b9b0829e51
+  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
   alterId: 0
   cipher: auto
   skip-cert-verify: true
   network: ws
-  ws-path: /5PVvw26jj0Fy6bojk
-  tls: false
+  ws-path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
+  tls: true
   ws-headers:
-    Host: gbnhju.7no.ccwu.cc
+    Host: ous3.dean52.top
 - name: 🇩🇪DE-63.180.254.10-38
   server: 63.180.254.10
   port: 443
