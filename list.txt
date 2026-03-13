@@ -185,7 +185,7 @@ proxies:
   tls: true
   ws-headers:
     Host: cg1c07.waimaojd.com
-- name: 🏁RELAY-170.114.45.6-20
+- name: 🏁RELAY-170.114.46.6-20
   server: support.zoom.us
   port: 8080
   type: vmess
@@ -211,7 +211,7 @@ proxies:
   tls: false
   ws-headers:
     Host: 209.126.84.189
-- name: 🏁RELAY-172.67.197.47-22
+- name: 🏁RELAY-104.21.76.158-22
   server: sy4.620720.xyz
   port: 443
   type: vmess
@@ -224,7 +224,7 @@ proxies:
   tls: true
   ws-headers:
     Host: sy4.620720.xyz
-- name: 🏁RELAY-104.18.16.77-23
+- name: 🏁RELAY-172.64.80.1-23
   server: hgtrojan.zabc.net
   port: 2083
   type: vmess
@@ -282,71 +282,49 @@ proxies:
   tls: true
   ws-headers:
     Host: cg1c14.waimaojd.com
-- name: 🇭🇰HK-209.209.48.20-28
-  server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.358.onl
-  port: 55051
-  type: trojan
-  password: c5f50b0f-3c12-40ed-b63f-74f9c88316a5
-  sni: www.h3yun.com
-  skip-cert-verify: true
-- name: 🇬🇧GB-51.145.91.161-29
-  server: series-a1.samanehha.co
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: W74XFALLLuw6m5IA
-- name: 🇳🇴NO-80.173.230.196-30
-  server: 80.173.230.196
-  port: 26279
-  type: trojan
-  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
-  sni: io.ozone.ru
-  skip-cert-verify: true
-- name: 🇦🇱AL-78.159.131.12-31
-  server: 78.159.131.12
-  port: 28259
-  type: trojan
-  password: MeaDiUmPlkWbZJ2BON8tz
-  sni: ads.x5.ru
-  skip-cert-verify: true
-- name: 🇭🇰HK-209.209.48.19-32
-  server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
-  port: 55052
-  type: trojan
-  password: 366efee9-09fd-4365-8873-63f77468999c
-  sni: www.h3yun.com
-  skip-cert-verify: true
-- name: 🇭🇰HK-209.209.48.20-33
-  server: c80c993c-e6d4-548c-88c0-c4893b3d3d4d.358.onl
-  port: 55022
-  type: trojan
-  password: 366efee9-09fd-4365-8873-63f77468999c
-  sni: www.h3yun.com
-  skip-cert-verify: true
-- name: 🇭🇰HK-209.209.48.19-34
-  server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
-  port: 55053
-  type: trojan
-  password: 366efee9-09fd-4365-8873-63f77468999c
-  sni: www.h3yun.com
-  skip-cert-verify: true
-- name: 🇭🇰HK-154.86.11.145-35
+- name: 🇭🇰HK-154.86.11.145-28
   server: jp05.stimaysmhy8.com
   port: 35203
   type: trojan
   password: d5fa43f9-1ace-4b8f-b865-627e67b1fe37
   sni: jsygouer.weixin-baidu-qq.com
   skip-cert-verify: true
-- name: 🇭🇰HK-209.209.48.19-36
-  server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
-  port: 55024
-  type: trojan
-  password: 366efee9-09fd-4365-8873-63f77468999c
-  sni: www.h3yun.com
+- name: 🇩🇪DE-82.198.246.97-29
+  server: 82.198.246.97
+  port: 180
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
   skip-cert-verify: true
-- name: 🇺🇸US-34.220.86.150-37
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: 82.198.246.97
+- name: 🇬🇧GB-51.105.48.222-30
+  server: admin.c1.webramz.co
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: W74XFALLLuw6m5IA
+- name: 🇳🇴NO-80.173.230.196-31
+  server: 80.173.230.196
+  port: 26279
+  type: trojan
+  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
+  sni: io.ozone.ru
+  skip-cert-verify: true
+- name: 🇭🇰HK-154.86.11.145-32
+  server: sg03.stimaysmhy8.com
+  port: 35902
+  type: trojan
+  password: d5fa43f9-1ace-4b8f-b865-627e67b1fe37
+  sni: jsygouer.weixin-baidu-qq.com
+  skip-cert-verify: true
+- name: 🇹🇼TW-122.118.137.15-33
   server: pub.ap20260228.com
-  port: 64003
+  port: 64018
   type: vmess
   uuid: a739e782-1682-38a5-9153-aad09d779ae9
   alterId: 0
@@ -357,33 +335,46 @@ proxies:
   tls: false
   ws-headers:
     Host: pub.ap20260228.com
-- name: 🇮🇸IS-167.17.185.172-38
-  server: 167.17.185.172
-  port: 10889
-  type: trojan
-  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
-  sni: web.max.ru
-  skip-cert-verify: true
-- name: 🇲🇾MY-85.211.242.85-39
-  server: gtm1.ktmwan.net
-  port: 12888
+- name: 🇬🇧GB-51.105.48.222-34
+  server: series-a2.samanehha.co
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: W74XFALLLuw6m5IA
+- name: 🇭🇰HK-103.181.164.237-36
+  server: 103.181.164.237
+  port: 52283
   type: vmess
-  uuid: bbd785de-9793-4453-be40-6a3fdc418203
-  alterId: 0
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
   cipher: auto
   skip-cert-verify: true
-  network: ws
+  network: tcp
   ws-path: /
   tls: false
   ws-headers:
-    Host: baidu.com
-- name: 🇩🇪DE-63.180.254.10-40
+    Host: 103.181.164.237
+- name: 🇭🇰HK-154.86.11.145-37
+  server: tw05.stimaysmhy8.com
+  port: 31500
+  type: trojan
+  password: d5fa43f9-1ace-4b8f-b865-627e67b1fe37
+  sni: jsygouer.weixin-baidu-qq.com
+  skip-cert-verify: true
+- name: 🇭🇰HK-154.86.11.145-38
+  server: my01.jsylianjie6.com
+  port: 45720
+  type: trojan
+  password: d5fa43f9-1ace-4b8f-b865-627e67b1fe37
+  sni: jsygouer.weixin-baidu-qq.com
+  skip-cert-verify: true
+- name: 🇩🇪DE-63.180.254.10-39
   server: 63.180.254.10
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇭🇰HK-112.118.97.190-41
+- name: 🇭🇰HK-112.118.97.190-40
   server: v10.hdacd.com
   port: 30807
   type: vmess
@@ -396,97 +387,97 @@ proxies:
   tls: false
   ws-headers:
     Host: v10.hdacd.com
-- name: 🇯🇵JP-54.178.24.255-42
-  server: 54.178.24.255
+- name: 🇯🇵JP-54.238.23.69-41
+  server: 54.238.23.69
   port: 921
   type: trojan
   password: f389ed926e512e15f382dc3804029474
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇭🇰HK-95.40.5.151-43
-  server: 95.40.5.151
-  port: 5823
-  type: trojan
-  password: BxceQaOe
-  sni: t.me%2Fripaojiedian
-  skip-cert-verify: true
-- name: 🇭🇰HK-58.152.25.253-44
-  server: 58.152.25.253
+- name: 🇭🇰HK-119.237.128.216-42
+  server: 119.237.128.216
   port: 443
   type: trojan
   password: BxceQaOe
   sni: t.me%2Fripaojiedian
   skip-cert-verify: true
-- name: 🇯🇵JP-54.178.24.255-45
-  server: 54.178.24.255
-  port: 3022
+- name: 🇯🇵JP-13.231.91.242-43
+  server: 13.231.91.242
+  port: 6313
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%2Fripaojiedian
+  skip-cert-verify: true
+- name: 🇯🇵JP-3.112.213.24-44
+  server: 3.112.213.24
+  port: 4945
   type: trojan
   password: BxceQaOe
   sni: t.me%252Fripaojiedian
   skip-cert-verify: true
-- name: 🇯🇵JP-153.121.45.139-46
-  server: 153.121.45.139
+- name: 🇯🇵JP-153.121.38.213-45
+  server: 153.121.38.213
   port: 34818
   type: trojan
   password: f389ed926e512e15f382dc3804029474
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇯🇵JP-153.121.45.139-47
-  server: 153.121.45.139
+- name: 🇯🇵JP-160.16.85.33-46
+  server: 160.16.85.33
   port: 4937
   type: trojan
   password: f389ed926e512e15f382dc3804029474
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇯🇵JP-153.121.45.139-48
-  server: 153.121.45.139
+- name: 🇯🇵JP-160.16.85.33-47
+  server: 160.16.85.33
   port: 3419
   type: trojan
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇯🇵JP-153.121.45.139-49
-  server: 153.121.45.139
+- name: 🇯🇵JP-160.16.85.33-48
+  server: 160.16.85.33
   port: 4674
   type: trojan
   password: f389ed926e512e15f382dc3804029474
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇯🇵JP-54.238.164.64-50
-  server: 54.238.164.64
-  port: 29666
+- name: 🇯🇵JP-13.231.110.103-49
+  server: 13.231.110.103
+  port: 52951
   type: trojan
   password: BxceQaOe
   sni: t.me%252Fripaojiedian
   skip-cert-verify: true
-- name: 🇯🇵JP-153.121.45.139-51
-  server: 153.121.45.139
-  port: 3057
-  type: trojan
-  password: f389ed926e512e15f382dc3804029474
-  sni: www.nintendogames.net
-  skip-cert-verify: true
-- name: 🇯🇵JP-13.231.7.33-52
-  server: 13.231.7.33
+- name: 🇯🇵JP-54.238.23.69-50
+  server: 54.238.23.69
   port: 4920
   type: trojan
   password: f389ed926e512e15f382dc3804029474
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇭🇰HK-18.163.182.91-53
-  server: 18.163.182.91
-  port: 23287
+- name: 🇯🇵JP-54.248.177.86-51
+  server: 54.248.177.86
+  port: 4920
+  type: trojan
+  password: f389ed926e512e15f382dc3804029474
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: 🇭🇰HK-16.163.105.149-52
+  server: 16.163.105.149
+  port: 5390
   type: trojan
   password: BxceQaOe
   sni: t.me%2Fripaojiedian
   skip-cert-verify: true
-- name: 🇨🇳CN-120.196.204.168-68
+- name: 🇨🇳CN-36.141.116.31-67
   server: mofacpdd.til69.com
   port: 41921
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 5d68d91f-ccc5-4c00-b1f6-0d764937f4f6
-- name: 🇺🇸US-216.24.57.250-69
+- name: 🇺🇸US-216.24.57.250-68
   server: 216.24.57.250
   port: 443
   type: trojan
