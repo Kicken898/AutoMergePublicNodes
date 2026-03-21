@@ -18,7 +18,7 @@ proxies:
   tls: false
   ws-headers:
     Host: 547.rtxconfigz.shop
-- name: 🏁RELAY-172.67.197.47-02
+- name: 🏁RELAY-104.21.76.158-02
   server: t1.620720.xyz
   port: 8443
   type: vmess
@@ -185,7 +185,7 @@ proxies:
   tls: true
   ws-headers:
     Host: cg1c07.waimaojd.com
-- name: 🏁RELAY-170.114.46.6-20
+- name: 🏁RELAY-170.114.45.6-20
   server: support.zoom.us
   port: 8080
   type: vmess
@@ -282,14 +282,46 @@ proxies:
   tls: true
   ws-headers:
     Host: cg1c14.waimaojd.com
-- name: 🇭🇰HK-58.152.25.253-28
-  server: 58.152.25.253
-  port: 443
+- name: 🇫🇮FI-212.193.18.144-28
+  server: 212.193.18.144
+  port: 36158
   type: trojan
-  password: BxceQaOe
-  sni: t.me%2Fripaojiedian
+  password: ZblhWr0mqMakCPg.N
+  sni: ya.ru
   skip-cert-verify: true
-- name: 🇩🇪DE-82.198.246.97-29
+- name: 🇨🇳CN-103.166.52.151-29
+  server: chengbai02.ascwt179.com
+  port: 13223
+  type: ss
+  cipher: aes-128-gcm
+  password: JVrsLLN1tkN8oXZO
+- name: 🏁RELAY-172.67.134.208-30
+  server: cxsfvn.uhomdex.shop
+  port: 443
+  type: vmess
+  uuid: bb6e260e-b80d-4365-b252-9fbe466f1f34
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  tls: true
+  ws-headers:
+    Host: cxsfvn.uhomdex.shop
+- name: 🇪🇸ES-85.90.217.42-31
+  server: 85.90.217.42
+  port: 22324
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: 85.90.217.42
+- name: 🇩🇪DE-82.198.246.97-32
   server: 82.198.246.97
   port: 180
   type: vmess
@@ -298,44 +330,10 @@ proxies:
   cipher: auto
   skip-cert-verify: true
   network: tcp
-  ws-path: /RkUUbqhA9GJZBROjL3Q5vTymr
-  tls: false
-  ws-headers:
-    Host: dDdFfGTHYU.922922.SHOP
-- name: 🇨🇳CN-144.48.186.119-30
-  server: v12.hdacd.com
-  port: 30812
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
   ws-path: /
   tls: false
   ws-headers:
-    Host: snippets.kkii.eu.org
-- name: 🇮🇸IS-37.235.49.209-31
-  server: 37.235.49.209
-  port: 28099
-  type: trojan
-  password: qmBSKnAl6LYi9=z23Rs.Z
-  sni: celestialcorset.crystalhamster.click
-  skip-cert-verify: true
-- name: 🇫🇮FI-212.193.18.144-32
-  server: 212.193.18.144
-  port: 36158
-  type: trojan
-  password: ZblhWr0mqMakCPg.N
-  sni: ya.ru
-  skip-cert-verify: true
-- name: 🇳🇴NO-80.173.231.254-33
-  server: 80.173.231.254
-  port: 12420
-  type: trojan
-  password: wp9IsiY82uQhcmgNC1eoBM
-  sni: www.semanticstaplegun.click
-  skip-cert-verify: true
+    Host: 82.198.246.97
 - name: 🇩🇪DE-63.180.254.10-34
   server: 63.180.254.10
   port: 443
