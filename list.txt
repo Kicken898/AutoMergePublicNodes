@@ -18,7 +18,7 @@ proxies:
   tls: false
   ws-headers:
     Host: 547.rtxconfigz.shop
-- name: 🏁RELAY-104.21.76.158-02
+- name: 🏁RELAY-172.67.197.47-02
   server: t1.620720.xyz
   port: 8443
   type: vmess
@@ -282,21 +282,53 @@ proxies:
   tls: true
   ws-headers:
     Host: cg1c14.waimaojd.com
-- name: 🇬🇧GB-82.26.155.3-28
+- name: 🇮🇩ID-70.153.185.160-28
+  server: v12.hdacd.com
+  port: 30812
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  ws-path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+  tls: false
+  ws-headers:
+    Host: AZERB.NET
+- name: 🇯🇵JP-168.138.193.202-29
+  server: tokyo01.zgjok.com
+  port: 443
+  type: vmess
+  uuid: e6d5d668-2091-41d9-9bff-df0a1c5107ec
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  tls: true
+  ws-headers:
+    Host: tokyo01.zgjok.com
+- name: 🇭🇰HK-103.181.164.145-30
+  server: 103.181.164.145
+  port: 54022
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: 103.181.164.145
+- name: 🇬🇧GB-82.26.155.3-31
   server: 82.26.155.3
   port: 10369
   type: trojan
   password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
   sni: fra34.chasem2026sud.com
   skip-cert-verify: true
-- name: 🇮🇹IT-81.29.149.240-29
-  server: 81.29.149.240
-  port: 18390
-  type: trojan
-  password: hCjWaBe5vTkewfiljOL=9FS9DYg0c09c.t
-  sni: osl9.solidly.click
-  skip-cert-verify: true
-- name: 🇩🇪DE-82.198.246.46-30
+- name: 🇩🇪DE-82.198.246.46-32
   server: 82.198.246.46
   port: 180
   type: vmess
@@ -309,21 +341,8 @@ proxies:
   tls: false
   ws-headers:
     Host: 82.198.246.46
-- name: 🇬🇧GB-82.38.31.208-31
-  server: 82.38.31.208
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇺🇸US-166.88.197.60-32
-  server: 166.88.197.60
-  port: 26650
-  type: trojan
-  password: UNWA6USASAb6=uAAZeZMFd+2uKB4.d5KOm
-  sni: sea9.firewallcontract.click
-  skip-cert-verify: true
-- name: 🇩🇪DE-82.198.246.250-33
-  server: 82.198.246.250
+- name: 🇩🇪DE-82.198.246.97-33
+  server: 82.198.246.97
   port: 180
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
@@ -334,27 +353,34 @@ proxies:
   ws-path: /
   tls: false
   ws-headers:
-    Host: 82.198.246.250
-- name: 🇬🇧GB-82.26.155.20-34
-  server: 82.26.155.20
-  port: 10369
+    Host: 82.198.246.97
+- name: 🇸🇬SG-194.87.10.31-34
+  server: 194.87.10.31
+  port: 23357
   type: trojan
-  password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
-  sni: fra35.chasem2026sud.com
+  password: fQmMJwOLMlqHednu2SVED8gi-+H-db9kbg
+  sni: sgp9.node-resource.click
   skip-cert-verify: true
-- name: 🇬🇧GB-20.108.46.35-35
-  server: admin.c1.webramz.co
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: W74XFALLLuw6m5IA
+- name: 🇭🇰HK-188.253.126.251-35
+  server: efan.dnsefan04881.com
+  port: 7754
+  type: vmess
+  uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: efan.dnsefan04881.com
 - name: 🇩🇪DE-63.180.254.10-36
   server: 63.180.254.10
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇭🇰HK-42.2.9.121-37
+- name: 🇭🇰HK-219.79.115.30-37
   server: v10.hdacd.com
   port: 30807
   type: vmess
@@ -451,73 +477,13 @@ proxies:
   password: BxceQaOe
   sni: t.me%2Fripaojiedian
   skip-cert-verify: true
-- name: 🇺🇸US-38.135.24.131-50
-  server: tinkered-pennies-puppies.freesocks.work
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: hbGrpfvNrJsUmKmPbR3iY2
-- name: 🇦🇹AT-152.53.200.98-51
-  server: 152.53.200.98
-  port: 8444
-  type: trojan
-  password: trojan
-  sni: jflsjlaf.pages.dev
-  ws-path: h=%2F
-  skip-cert-verify: true
-- name: 🇦🇹AT-152.53.45.251-53
-  server: 152.53.45.251
-  port: 8888
-  type: trojan
-  password: trojan
-  sni: jflsjlaf.pages.dev
-  ws-path: h=%2F%2F
-  skip-cert-verify: true
-- name: 🏁RELAY-167.68.4.199-54
-  server: 167.68.4.199
-  port: 2053
-  type: trojan
-  password: Aimer
-  sni: epge.muarua.filegear-sg.me
-  ws-path: h=%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw
-  skip-cert-verify: true
-- name: 🇦🇹AT-152.53.200.167-57
-  server: 152.53.200.167
-  port: 8444
-  type: trojan
-  password: trojan
-  sni: jflsjlaf.pages.dev
-  ws-path: h=%2F
-  skip-cert-verify: true
-- name: 🇳🇱NL-152.53.60.198-59
-  server: 152.53.60.198
-  port: 8444
-  type: trojan
-  password: trojan
-  sni: jflsjlaf.pages.dev
-  ws-path: h=%2F
-  skip-cert-verify: true
-- name: 🇳🇱NL-92.112.126.90-62
-  server: switcher-nick-croquet.freesocks.work
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: wwzVn2ZnHfqYa6l8EWh3eY
-- name: 🏁RELAY-109.234.211.66-64
-  server: 109.234.211.66
-  port: 2087
-  type: trojan
-  password: trojan
-  sni: store.timimi.dpdns.org
-  ws-path: h=%2F%3FBIA_TELEGRAM%28%40AZARBAYJAB1%29TM%28%40AZARBAYJAB1%29TM%28%40AZARBAYJAB1%29TM%28%40AZARBAYJAB1%29TM%28%40AZARBAYJAB1%29TM%28%40AZARBAYJAB1%29
-  skip-cert-verify: true
-- name: 🇦🇶NOWHERE-0.0.0.0-93
+- name: 🇦🇶NOWHERE-0.0.0.0-64
   server: mofacpdd.til69.com
   port: 41921
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 5d68d91f-ccc5-4c00-b1f6-0d764937f4f6
-- name: 🇺🇸US-216.24.57.250-94
+- name: 🇺🇸US-216.24.57.250-65
   server: 216.24.57.250
   port: 443
   type: trojan
