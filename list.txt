@@ -1,11 +1,11 @@
 proxies:
-- name: 🇨🇦CA-144.217.164.29-000
+- name: 🇨🇦CA-144.217.164.29-00
   server: 144.217.164.29
   port: 12000
   type: ss
   cipher: aes-256-gcm
   password: 8JCsPssfgS8tiRwiMlhARg==
-- name: 🇦🇶NOWHERE-0.0.0.0-001
+- name: 🇦🇶NOWHERE-0.0.0.0-01
   server: 547.rtxconfigz.shop
   port: 8080
   type: vmess
@@ -18,7 +18,7 @@ proxies:
   tls: false
   ws-headers:
     Host: 547.rtxconfigz.shop
-- name: 🏁RELAY-104.21.76.158-002
+- name: 🏁RELAY-172.67.197.47-02
   server: t1.620720.xyz
   port: 8443
   type: vmess
@@ -31,19 +31,19 @@ proxies:
   tls: true
   ws-headers:
     Host: t1.620720.xyz
-- name: 🇨🇦CA-45.154.204.7-003
+- name: 🇨🇦CA-45.154.204.7-03
   server: 45.154.204.7
   port: 990
   type: ss
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-- name: 🇺🇸US-146.19.49.251-004
+- name: 🇺🇸US-146.19.49.251-04
   server: 146.19.49.251
   port: 443
   type: ss
   cipher: chacha20-ietf-poly1305
   password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
-- name: 🇨🇦CA-15.235.41.200-005
+- name: 🇨🇦CA-15.235.41.200-05
   server: 15.235.41.200
   port: 80
   type: vmess
@@ -56,13 +56,13 @@ proxies:
   tls: false
   ws-headers:
     Host: 15.235.41.200
-- name: 🇺🇸US-71.19.148.143-006
+- name: 🇺🇸US-71.19.148.143-06
   server: 71.19.148.143
   port: 443
   type: ss
   cipher: chacha20-ietf-poly1305
   password: p78naCf2EfOlRSLTX0wFVx
-- name: 🇺🇸US-38.92.10.226-007
+- name: 🇺🇸US-38.92.10.226-07
   server: 38.92.10.226
   port: 45979
   type: vmess
@@ -75,13 +75,13 @@ proxies:
   tls: false
   ws-headers:
     Host: 38.92.10.226
-- name: 🇨🇦CA-23.95.76.59-008
+- name: 🇨🇦CA-23.95.76.59-08
   server: 23.95.76.59
   port: 990
   type: ss
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-- name: 🇨🇦CA-51.79.102.253-009
+- name: 🇨🇦CA-51.79.102.253-09
   server: 51.79.102.253
   port: 80
   type: vmess
@@ -94,7 +94,7 @@ proxies:
   tls: false
   ws-headers:
     Host: 51.79.102.253
-- name: 🇺🇸US-107.151.182.253-010
+- name: 🇺🇸US-107.151.182.253-10
   server: 107.151.182.253
   port: 8080
   type: ssr
@@ -105,31 +105,31 @@ proxies:
   obfsparam: null
   protoparam: null
   group: SSRProvider
-- name: 🇺🇸US-92.118.112.101-011
+- name: 🇺🇸US-92.118.112.101-11
   server: 92.118.112.101
   port: 9483
   type: ss
   cipher: chacha20-ietf-poly1305
   password: qFvn2fNEvBgM5knffrN96q
-- name: 🇺🇸US-15.204.247.49-012
+- name: 🇺🇸US-15.204.247.49-12
   server: 15.204.247.49
   port: 12000
   type: ss
   cipher: aes-256-gcm
   password: 8JCsPssfgS8tiRwiMlhARg==
-- name: 🇺🇸US-71.19.148.143-013
+- name: 🇺🇸US-71.19.148.143-13
   server: pupas-shirting-unsung.freesocks.work
   port: 443
   type: ss
   cipher: chacha20-ietf-poly1305
   password: p78naCf2EfOlRSLTX0wFVx
-- name: 🇨🇦CA-79.127.233.170-014
+- name: 🇨🇦CA-79.127.233.170-14
   server: 79.127.233.170
   port: 990
   type: ss
   cipher: chacha20-ietf-poly1305
   password: f8f7aCzcPKbsF8p3
-- name: 🇺🇸US-209.126.84.189-015
+- name: 🇺🇸US-209.126.84.189-15
   server: v2ray.codefyinc.com
   port: 443
   type: vmess
@@ -142,13 +142,13 @@ proxies:
   tls: false
   ws-headers:
     Host: v2ray.codefyinc.com
-- name: 🇺🇸US-23.95.75.146-016
+- name: 🇺🇸US-23.95.75.146-16
   server: 23.95.75.146
   port: 443
   type: ss
   cipher: chacha20-ietf-poly1305
   password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
-- name: 🇺🇸US-198.23.174.168-017
+- name: 🇺🇸US-198.23.174.168-17
   server: 198.23.174.168
   port: 20086
   type: vmess
@@ -161,7 +161,7 @@ proxies:
   tls: false
   ws-headers:
     Host: 198.23.174.168
-- name: 🇨🇦CA-79.127.233.170-018
+- name: 🇨🇦CA-79.127.233.170-18
   server: 79.127.233.170
   port: 989
   type: ssr
@@ -172,7 +172,7 @@ proxies:
   obfsparam: null
   protoparam: null
   group: SSRProvider
-- name: 🇺🇸US-23.170.40.235-019
+- name: 🇺🇸US-23.170.40.235-19
   server: cg1c07.waimaojd.com
   port: 443
   type: vmess
@@ -185,7 +185,7 @@ proxies:
   tls: true
   ws-headers:
     Host: cg1c07.waimaojd.com
-- name: 🏁RELAY-170.114.46.6-020
+- name: 🏁RELAY-170.114.45.6-20
   server: support.zoom.us
   port: 8080
   type: vmess
@@ -198,7 +198,7 @@ proxies:
   tls: false
   ws-headers:
     Host: support.zoom.us
-- name: 🇺🇸US-209.126.84.189-021
+- name: 🇺🇸US-209.126.84.189-21
   server: 209.126.84.189
   port: 443
   type: vmess
@@ -211,7 +211,7 @@ proxies:
   tls: false
   ws-headers:
     Host: 209.126.84.189
-- name: 🏁RELAY-172.67.197.47-022
+- name: 🏁RELAY-172.67.197.47-22
   server: sy4.620720.xyz
   port: 443
   type: vmess
@@ -224,7 +224,7 @@ proxies:
   tls: true
   ws-headers:
     Host: sy4.620720.xyz
-- name: 🏁RELAY-104.18.16.77-023
+- name: 🏁RELAY-104.18.17.77-23
   server: hgtrojan.zabc.net
   port: 2083
   type: vmess
@@ -237,13 +237,13 @@ proxies:
   tls: true
   ws-headers:
     Host: hgtrojan.zabc.net
-- name: 🇺🇸US-107.175.87.207-024
+- name: 🇺🇸US-107.175.87.207-24
   server: 107.175.87.207
   port: 10011
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 86039b71-ba82-4ca8-838e-87086ae666de
-- name: 🇺🇸US-67.21.83.58-025
+- name: 🇺🇸US-67.21.83.58-25
   server: cg1c01.waimaojd.com
   port: 443
   type: vmess
@@ -256,7 +256,7 @@ proxies:
   tls: true
   ws-headers:
     Host: cg1c01.waimaojd.com
-- name: 🇺🇸US-67.21.85.228-026
+- name: 🏁RELAY-172.67.176.245-26
   server: cg1c04.waimaojd.com
   port: 443
   type: vmess
@@ -269,7 +269,7 @@ proxies:
   tls: true
   ws-headers:
     Host: cg1c04.waimaojd.com
-- name: 🏁RELAY-172.67.176.245-027
+- name: 🏁RELAY-104.21.43.81-27
   server: cg1c14.waimaojd.com
   port: 443
   type: vmess
@@ -282,60 +282,7 @@ proxies:
   tls: true
   ws-headers:
     Host: cg1c14.waimaojd.com
-- name: 🇬🇧GB-82.26.155.199-028
-  server: 82.26.155.199
-  port: 10369
-  type: trojan
-  password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
-  sni: fra4.chasem2026sud.com
-  skip-cert-verify: true
-- name: 🇬🇧GB-82.26.155.105-029
-  server: 82.26.155.105
-  port: 10369
-  type: trojan
-  password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
-  sni: fra32.chasem2026sud.com
-  skip-cert-verify: true
-- name: 🇭🇰HK-202.85.76.170-030
-  server: chengbai02.ascwt179.com
-  port: 13223
-  type: ss
-  cipher: aes-128-gcm
-  password: JVrsLLN1tkN8oXZO
-- name: 🇲🇾MY-85.211.193.237-031
-  server: usgpt.slianrk.com
-  port: 13012
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: e777513e-9df5-4dc3-bc84-74e564345a81
-- name: 🇬🇧GB-82.26.155.121-032
-  server: 82.26.155.121
-  port: 10369
-  type: trojan
-  password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
-  sni: fra33.chasem2026sud.com
-  skip-cert-verify: true
-- name: 🇭🇰HK-188.253.126.251-033
-  server: efan.dnsefan04881.com
-  port: 7754
-  type: vmess
-  uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  ws-path: /
-  tls: false
-  ws-headers:
-    Host: efan.dnsefan04881.com
-- name: 🇸🇬SG-194.87.10.31-034
-  server: 194.87.10.31
-  port: 23357
-  type: trojan
-  password: fQmMJwOLMlqHednu2SVED8gi-+H-db9kbg
-  sni: sgp9.node-resource.click
-  skip-cert-verify: true
-- name: 🇮🇩ID-70.153.147.78-035
+- name: 🇲🇾MY-85.211.183.158-28
   server: v30.hdacd.com
   port: 30830
   type: vmess
@@ -348,20 +295,78 @@ proxies:
   tls: false
   ws-headers:
     Host: v30.hdacd.com
-- name: 🇬🇧GB-82.26.155.3-036
+- name: 🇩🇪DE-92.119.166.46-29
+  server: 92.119.166.46
+  port: 1080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: NffUh2mvk4HshUtyskEg9A
+- name: 🇩🇪DE-82.198.246.46-30
+  server: 82.198.246.46
+  port: 180
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: 82.198.246.46
+- name: 🇬🇧GB-82.26.155.3-31
   server: 82.26.155.3
   port: 10369
   type: trojan
   password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
   sni: fra34.chasem2026sud.com
   skip-cert-verify: true
-- name: 🇩🇪DE-63.180.254.10-037
+- name: 🇬🇧GB-82.26.155.237-32
+  server: 82.26.155.237
+  port: 10369
+  type: trojan
+  password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
+  sni: fra5.chasem2026sud.com
+  skip-cert-verify: true
+- name: 🇬🇧GB-82.26.155.199-33
+  server: 82.26.155.199
+  port: 10369
+  type: trojan
+  password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
+  skip-cert-verify: true
+- name: 🇩🇪DE-82.198.246.97-34
+  server: 82.198.246.97
+  port: 180
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: 82.198.246.97
+- name: 🇩🇪DE-82.198.246.250-35
+  server: 82.198.246.250
+  port: 180
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: 82.198.246.250
+- name: 🇩🇪DE-63.180.254.10-38
   server: 63.180.254.10
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇭🇰HK-119.236.35.50-038
+- name: 🇭🇰HK-219.77.96.103-39
   server: v10.hdacd.com
   port: 30807
   type: vmess
@@ -374,262 +379,97 @@ proxies:
   tls: false
   ws-headers:
     Host: v10.hdacd.com
-- name: 🇭🇰HK-95.40.85.50-039
+- name: 🇭🇰HK-95.40.85.50-40
   server: 95.40.85.50
   port: 52687
   type: trojan
   password: 868ecdaf6aed618ec98cf78585672b2b
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇭🇰HK-54.46.52.70-040
+- name: 🇭🇰HK-54.46.52.70-41
   server: 54.46.52.70
   port: 6313
   type: trojan
   password: BxceQaOe
   sni: t.me%2Fripaojiedian
   skip-cert-verify: true
-- name: 🇯🇵JP-52.69.111.130-041
+- name: 🇯🇵JP-52.69.111.130-42
   server: 52.69.111.130
   port: 6313
   type: trojan
   password: BxceQaOe
   sni: t.me%2Fripaojiedian
   skip-cert-verify: true
-- name: 🇯🇵JP-13.112.73.166-042
+- name: 🇯🇵JP-13.112.73.166-43
   server: 13.112.73.166
   port: 1951
   type: trojan
   password: BxceQaOe
   sni: t.me%252Fripaojiedian
   skip-cert-verify: true
-- name: 🇯🇵JP-54.249.109.55-043
+- name: 🇯🇵JP-54.249.109.55-44
   server: 54.249.109.55
   port: 34818
   type: trojan
   password: 868ecdaf6aed618ec98cf78585672b2b
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇯🇵JP-54.249.109.55-044
+- name: 🇯🇵JP-54.249.109.55-45
   server: 54.249.109.55
   port: 4380
   type: trojan
   password: 868ecdaf6aed618ec98cf78585672b2b
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇯🇵JP-13.115.146.132-045
+- name: 🇯🇵JP-13.115.146.132-46
   server: 13.115.146.132
   port: 4674
   type: trojan
   password: 868ecdaf6aed618ec98cf78585672b2b
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇯🇵JP-54.249.109.55-046
+- name: 🇯🇵JP-54.249.109.55-47
   server: 54.249.109.55
   port: 4674
   type: trojan
   password: 868ecdaf6aed618ec98cf78585672b2b
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇭🇰HK-95.40.68.160-047
+- name: 🇭🇰HK-95.40.68.160-48
   server: 95.40.68.160
   port: 12070
   type: trojan
   password: BxceQaOe
   sni: t.me%252Fripaojiedian
   skip-cert-verify: true
-- name: 🇯🇵JP-54.249.109.55-048
+- name: 🇯🇵JP-54.249.109.55-49
   server: 54.249.109.55
   port: 4019
   type: trojan
   password: 868ecdaf6aed618ec98cf78585672b2b
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇯🇵JP-13.115.246.132-049
+- name: 🇯🇵JP-13.115.246.132-50
   server: 13.115.246.132
   port: 3057
   type: trojan
   password: 868ecdaf6aed618ec98cf78585672b2b
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇭🇰HK-54.46.52.234-050
+- name: 🇭🇰HK-54.46.52.234-51
   server: 54.46.52.234
   port: 23255
   type: trojan
   password: BxceQaOe
   sni: t.me%2Fripaojiedian
   skip-cert-verify: true
-- name: 🇦🇹AT-152.53.45.251-051
-  server: 152.53.45.251
-  port: 8888
-  type: trojan
-  password: 订阅内容解析错误trojan
-  sni: jflsjlaf.pages.dev
-  ws-path: h=%2F%2F
-  skip-cert-verify: true
-- name: 🇦🇹AT-152.53.200.98-052
-  server: 152.53.200.98
-  port: 8444
-  type: trojan
-  password: trojan
-  sni: jflsjlaf.pages.dev
-  ws-path: h=%2F%2F
-  skip-cert-verify: true
-- name: 🇭🇰HK-43.129.239.196-053
-  server: 45e755.shlswe.xyz
-  port: 28118
-  type: ss
-  cipher: aes-128-gcm
-  password: f97cf7d99d
-- name: 🏁RELAY-167.68.4.199-054
-  server: 167.68.4.199
-  port: 2053
-  type: trojan
-  password: Aimer
-  sni: epge.muarua.filegear-sg.me
-  ws-path: h=%2F
-  skip-cert-verify: true
-- name: 🏁RELAY-109.234.211.66-055
-  server: 109.234.211.66
-  port: 2087
-  type: trojan
-  password: trojan
-  sni: store.timimi.dpdns.org
-  ws-path: h=%2F
-  skip-cert-verify: true
-- name: 🇺🇸US-38.135.24.131-057
-  server: tinkered-pennies-puppies.freesocks.work
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: hbGrpfvNrJsUmKmPbR3iY2
-- name: 🇳🇱NL-92.112.126.90-058
-  server: switcher-nick-croquet.freesocks.work
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: RFK38Cg7APneSB5cWDcpbm
-- name: 🇦🇹AT-152.53.200.167-060
-  server: 152.53.200.167
-  port: 8444
-  type: trojan
-  password: trojan
-  sni: jflsjlaf.pages.dev
-  ws-path: h=%2F
-  skip-cert-verify: true
-- name: 🇳🇱NL-152.53.60.198-061
-  server: 152.53.60.198
-  port: 8444
-  type: trojan
-  password: trojan
-  sni: jflsjlaf.pages.dev
-  ws-path: h=%2F
-  skip-cert-verify: true
-- name: 🇷🇺RU-195.58.49.100-065
-  server: 195.58.49.100
-  port: 10990
-  type: ss
-  cipher: aes-256-gcm
-  password: 9f3d1a6d31468599
-- name: 🇯🇵JP-185.141.219.158-068
-  server: 185.141.219.158
-  port: 30312
-  type: ss
-  cipher: aes-256-gcm
-  password: 99394cfebe6c0906
-- name: 🇷🇺RU-89.125.103.52-069
-  server: 89.125.103.52
-  port: 20129
-  type: ss
-  cipher: aes-256-gcm
-  password: 9cdc6440d42cb19c
-- name: 🏁RELAY-109.234.211.66-073
-  server: 109.234.211.66
-  port: 8443
-  type: trojan
-  password: trojan
-  sni: store.timimi.dpdns.org
-  ws-path: h=%2F
-  skip-cert-verify: true
-- name: 🇰🇷KR-203.32.26.157-075
-  server: 203.32.26.157
-  port: 19801
-  type: ss
-  cipher: aes-256-gcm
-  password: 63d7c17506d1f48b
-- name: 🇺🇸US-45.55.40.127-079
-  server: 45.55.40.127
-  port: 49726
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: elTuo73FsQwO90EbLo96Ve
-- name: 🏁RELAY-104.16.148.4-081
-  server: cmcc.877774.xyz
-  port: 443
-  type: trojan
-  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
-  sni: cm22-bgphhh.pages.dev
-  ws-path: h=%2F
-  skip-cert-verify: true
-- name: 🏁RELAY-104.18.43.50-082
-  server: cmcc.090227.xyz
-  port: 443
-  type: trojan
-  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
-  sni: cm22-bgphhh.pages.dev
-  ws-path: h=%2F
-  skip-cert-verify: true
-- name: 🏁RELAY-172.67.174.196-084
-  server: wing2452.nyc.mn
-  port: 443
-  type: trojan
-  password: bpb-trojan
-  sni: wing2452.nyc.mn
-  ws-path: h=%2Ftr
-  skip-cert-verify: true
-- name: 🏁RELAY-104.18.11.110-085
-  server: www.multiplydose.com
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.multiplydose.com
-  ws-path: h=%2Fassignment
-  skip-cert-verify: true
-- name: 🏁RELAY-104.18.42.163-087
-  server: www.shopify.com
-  port: 2053
-  type: trojan
-  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
-  sni: cm22-bgphhh.pages.dev
-  ws-path: h=%2F
-  skip-cert-verify: true
-- name: 🏁RELAY-104.18.11.110-089
-  server: 104.18.11.110
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.multiplydose.com
-  ws-path: h=%2Fassignment
-  skip-cert-verify: true
-- name: 🇯🇵JP-140.238.43.40-102
-  server: jp2-8sb.6121999.dpdns.org
-  port: 24534
-  type: trojan
-  password: e136d465-0558-43b9-b50c-b1f45d4cb2c2
-  sni: jp2-8sb.6121999.dpdns.org
-  skip-cert-verify: true
-- name: 🇭🇰HK-43.129.239.196-108
-  server: 45e755.shlswe.xyz
-  port: 28308
-  type: ss
-  cipher: aes-128-gcm
-  password: f97cf7d99d
-- name: 🇦🇶NOWHERE-0.0.0.0-123
+- name: 🇦🇶NOWHERE-0.0.0.0-66
   server: mofacpdd.til69.com
   port: 41921
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 5d68d91f-ccc5-4c00-b1f6-0d764937f4f6
-- name: 🇺🇸US-216.24.57.250-124
+- name: 🇺🇸US-216.24.57.250-67
   server: 216.24.57.250
   port: 443
   type: trojan
