@@ -18,7 +18,7 @@ proxies:
   tls: false
   ws-headers:
     Host: 547.rtxconfigz.shop
-- name: 🏁RELAY-104.21.76.158-002
+- name: 🏁RELAY-172.67.197.47-002
   server: t1.620720.xyz
   port: 8443
   type: vmess
@@ -185,7 +185,7 @@ proxies:
   tls: true
   ws-headers:
     Host: cg1c07.waimaojd.com
-- name: 🏁RELAY-170.114.46.6-020
+- name: 🏁RELAY-170.114.45.6-020
   server: support.zoom.us
   port: 8080
   type: vmess
@@ -282,49 +282,24 @@ proxies:
   tls: true
   ws-headers:
     Host: cg1c14.waimaojd.com
-- name: 🇩🇪DE-82.198.246.250-028
-  server: 82.198.246.250
-  port: 180
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  ws-path: /
-  tls: false
-  ws-headers:
-    Host: 82.198.246.250
-- name: 🇳🇴NO-80.173.230.196-029
-  server: 80.173.230.196
-  port: 26279
+- name: 🇬🇧GB-82.26.155.121-028
+  server: 82.26.155.121
+  port: 10369
   type: trojan
-  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
+  password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
+  sni: fra33.chasem2026sud.com
   skip-cert-verify: true
-- name: 🇩🇪DE-82.198.246.37-030
-  server: 82.198.246.37
-  port: 180
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  ws-path: /
-  tls: false
-  ws-headers:
-    Host: 82.198.246.37
-- name: 🇬🇧GB-51.132.238.109-031
-  server: series-a2.samanehha.co
+- name: 🇬🇧GB-51.132.238.109-029
+  server: 51.132.238.109
   port: 443
   type: ss
   cipher: chacha20-ietf-poly1305
   password: W74XFALLLuw6m5IA
-- name: 🇲🇾MY-85.211.244.158-032
-  server: v30.hdacd.com
-  port: 30830
+- name: 🇩🇪DE-82.198.246.97-030
+  server: 82.198.246.97
+  port: 180
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   alterId: 0
   cipher: auto
   skip-cert-verify: true
@@ -332,40 +307,98 @@ proxies:
   ws-path: /
   tls: false
   ws-headers:
-    Host: fra34.chasem2026sud.com
-- name: 🇭🇰HK-202.85.76.170-033
-  server: chengbai02.ascwt179.com
-  port: 13223
+    Host: 82.198.246.97
+- name: 🇩🇪DE-82.198.246.214-031
+  server: 82.198.246.214
+  port: 180
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: ads.x5.ru
+- name: 🇬🇧GB-51.132.238.109-032
+  server: admin.c1.webramz.co
+  port: 443
   type: ss
-  cipher: aes-128-gcm
-  password: JVrsLLN1tkN8oXZO
-- name: 🇧🇬BG-78.159.131.12-035
-  server: 78.159.131.12
-  port: 28259
-  type: trojan
-  password: MeaDiUmPlkWbZJ2BON8tz
-  sni: ads.x5.ru
+  cipher: chacha20-ietf-poly1305
+  password: W74XFALLLuw6m5IA
+- name: 🇨🇳CN-113.96.24.34-033
+  server: 76c3.earthdraft.onezz.top
+  port: 22013
+  type: vmess
+  uuid: 7d81d7ed-03f4-331a-ab0d-e9a7425f05e0
+  alterId: 0
+  cipher: auto
   skip-cert-verify: true
-- name: 🇬🇧GB-82.26.155.237-036
-  server: 82.26.155.237
-  port: 10369
-  type: trojan
-  password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
-  sni: fra5.chasem2026sud.com
+  network: ws
+  ws-path: /chat
+  tls: false
+  ws-headers:
+    Host: ithome.com
+- name: 🇩🇪DE-82.198.246.233-034
+  server: 82.198.246.233
+  port: 180
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
   skip-cert-verify: true
-- name: 🇺🇸US-149.28.255.6-037
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: 82.198.246.233
+- name: 🇭🇰HK-103.181.164.145-035
+  server: 103.181.164.145
+  port: 51556
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: 103.181.164.145
+- name: 🇺🇸US-149.28.255.6-036
   server: 149.28.255.6
   port: 816
   type: ss
   cipher: chacha20-ietf-poly1305
   password: GyZ5Xo0ht41vYmW3H4
-- name: 🇩🇪DE-63.180.254.10-038
+- name: 🇬🇧GB-82.26.155.199-037
+  server: 82.26.155.199
+  port: 10369
+  type: trojan
+  password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
+  sni: fra4.chasem2026sud.com
+  skip-cert-verify: true
+- name: 🇭🇰HK-103.181.164.145-038
+  server: 103.181.164.145
+  port: 54022
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: fra33.chasem2026sud.com
+- name: 🇩🇪DE-63.180.254.10-039
   server: 63.180.254.10
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇭🇰HK-42.2.8.58-039
+- name: 🇭🇰HK-119.236.126.10-040
   server: v10.hdacd.com
   port: 30807
   type: vmess
@@ -378,105 +411,105 @@ proxies:
   tls: false
   ws-headers:
     Host: v10.hdacd.com
-- name: 🇨🇳CN-183.232.153.6-040
+- name: 🇨🇳CN-183.232.153.6-041
   server: 0cfbd3c0-fdc0-4f26-82fb-5c8f8b6ce82b.bnsepserv.com
   port: 32000
   type: trojan
   password: f792d9b5-c254-4756-a740-c314fa62f964
   sni: w1.ding-doc.com
   skip-cert-verify: true
-- name: 🇭🇰HK-43.199.33.45-041
+- name: 🇭🇰HK-43.199.33.45-042
   server: 43.199.33.45
   port: 52687
   type: trojan
   password: 1774240c00db2b77d5a99f6540c47b69
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇭🇰HK-16.162.118.81-042
+- name: 🇭🇰HK-16.162.118.81-043
   server: 16.162.118.81
   port: 9211
   type: trojan
   password: BxceQaOe
   sni: t.me%2Fripaojiedian
   skip-cert-verify: true
-- name: 🇭🇰HK-43.198.80.162-043
+- name: 🇭🇰HK-43.198.80.162-044
   server: 43.198.80.162
   port: 5823
   type: trojan
   password: BxceQaOe
   sni: t.me%2Fripaojiedian
   skip-cert-verify: true
-- name: 🇨🇳CN-183.232.153.6-044
+- name: 🇨🇳CN-183.232.153.6-045
   server: 0cfbd3c0-fdc0-4f26-82fb-5c8f8b6ce82b.bnsepserv.com
   port: 32003
   type: trojan
   password: f792d9b5-c254-4756-a740-c314fa62f964
   sni: w1.ding-doc.com
   skip-cert-verify: true
-- name: 🇯🇵JP-18.183.73.62-045
+- name: 🇯🇵JP-18.183.73.62-046
   server: 18.183.73.62
   port: 3122
   type: trojan
   password: BxceQaOe
   sni: t.me%252Fripaojiedian
   skip-cert-verify: true
-- name: 🇯🇵JP-18.183.73.62-046
+- name: 🇯🇵JP-18.183.73.62-047
   server: 18.183.73.62
   port: 2001
   type: trojan
   password: 1774240c00db2b77d5a99f6540c47b69
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇯🇵JP-18.183.73.62-047
+- name: 🇯🇵JP-18.183.73.62-048
   server: 18.183.73.62
   port: 9201
   type: trojan
   password: 1774240c00db2b77d5a99f6540c47b69
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇯🇵JP-160.16.106.99-048
+- name: 🇯🇵JP-160.16.106.99-049
   server: 160.16.106.99
   port: 3057
   type: trojan
   password: 1774240c00db2b77d5a99f6540c47b69
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇯🇵JP-160.16.132.38-049
+- name: 🇯🇵JP-160.16.132.38-050
   server: 160.16.132.38
   port: 32876
   type: trojan
   password: 1774240c00db2b77d5a99f6540c47b69
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇭🇰HK-43.198.80.162-050
+- name: 🇭🇰HK-43.198.80.162-051
   server: 43.198.80.162
   port: 30726
   type: trojan
   password: BxceQaOe
   sni: t.me%252Fripaojiedian
   skip-cert-verify: true
-- name: 🇯🇵JP-54.249.145.163-051
+- name: 🇯🇵JP-54.249.145.163-052
   server: 54.249.145.163
   port: 4019
   type: trojan
   password: 1774240c00db2b77d5a99f6540c47b69
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇯🇵JP-18.183.76.130-052
+- name: 🇯🇵JP-18.183.76.130-053
   server: 18.183.76.130
   port: 3057
   type: trojan
   password: 1774240c00db2b77d5a99f6540c47b69
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇭🇰HK-43.198.80.162-053
+- name: 🇭🇰HK-43.198.80.162-054
   server: 43.198.80.162
   port: 44386
   type: trojan
   password: BxceQaOe
   sni: t.me%2Fripaojiedian
   skip-cert-verify: true
-- name: 🇩🇪DE-144.31.85.72-054
+- name: 🇩🇪DE-144.31.85.72-055
   server: 144.31.85.72
   port: 443
   type: trojan
@@ -484,7 +517,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-95.164.123.131-055
+- name: 🇩🇪DE-95.164.123.131-056
   server: 95.164.123.131
   port: 8443
   type: trojan
@@ -492,7 +525,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F
   skip-cert-verify: true
-- name: 🇩🇪DE-167.17.182.98-056
+- name: 🇩🇪DE-167.17.182.98-057
   server: 167.17.182.98
   port: 443
   type: trojan
@@ -500,7 +533,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇦🇹AT-152.53.228.86-057
+- name: 🇦🇹AT-152.53.228.86-058
   server: 152.53.228.86
   port: 443
   type: trojan
@@ -508,7 +541,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇸🇪SE-109.120.134.104-058
+- name: 🇸🇪SE-109.120.134.104-059
   server: 109.120.134.104
   port: 443
   type: trojan
@@ -516,7 +549,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F
   skip-cert-verify: true
-- name: 🏁RELAY-167.68.4.199-059
+- name: 🏁RELAY-167.68.4.199-060
   server: 167.68.4.199
   port: 2053
   type: trojan
@@ -524,13 +557,13 @@ proxies:
   sni: epge.muarua.filegear-sg.me
   ws-path: h=%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw
   skip-cert-verify: true
-- name: 🇭🇰HK-217.217.35.3-060
+- name: 🇭🇰HK-217.217.35.3-061
   server: 45e755.shlswe.xyz
   port: 28222
   type: ss
   cipher: aes-128-gcm
   password: f97cf7d99d
-- name: 🇩🇪DE-158.101.190.78-061
+- name: 🇩🇪DE-158.101.190.78-062
   server: 158.101.190.78
   port: 443
   type: trojan
@@ -538,7 +571,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇦🇹AT-152.53.138.238-062
+- name: 🇦🇹AT-152.53.138.238-063
   server: 152.53.138.238
   port: 443
   type: trojan
@@ -546,20 +579,20 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇯🇵JP-140.238.43.40-063
+- name: 🇯🇵JP-140.238.43.40-064
   server: jp2-8sb.6121999.dpdns.org
   port: 24534
   type: trojan
   password: e136d465-0558-43b9-b50c-b1f45d4cb2c2
   sni: jp2-8sb.6121999.dpdns.org
   skip-cert-verify: true
-- name: 🇳🇱NL-92.112.126.90-064
+- name: 🇳🇱NL-92.112.126.90-065
   server: switcher-nick-croquet.freesocks.work
   port: 443
   type: ss
   cipher: chacha20-ietf-poly1305
   password: RFK38Cg7APneSB5cWDcpbm
-- name: 🇩🇪DE-143.20.175.77-065
+- name: 🇩🇪DE-143.20.175.77-066
   server: 143.20.175.77
   port: 443
   type: trojan
@@ -567,7 +600,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇨🇿CZ-194.87.77.91-067
+- name: 🇨🇿CZ-194.87.77.91-068
   server: 194.87.77.91
   port: 443
   type: trojan
@@ -575,7 +608,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-138.124.240.36-068
+- name: 🇩🇪DE-138.124.240.36-069
   server: 138.124.240.36
   port: 443
   type: trojan
@@ -583,7 +616,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-86.110.36.87-069
+- name: 🇩🇪DE-86.110.36.87-070
   server: 86.110.36.87
   port: 443
   type: trojan
@@ -591,7 +624,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-2.27.120.108-070
+- name: 🇩🇪DE-2.27.120.108-071
   server: 2.27.120.108
   port: 8443
   type: trojan
@@ -599,7 +632,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-94.141.123.243-071
+- name: 🇩🇪DE-94.141.123.243-072
   server: 94.141.123.243
   port: 443
   type: trojan
@@ -607,7 +640,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-144.31.216.160-072
+- name: 🇩🇪DE-144.31.216.160-073
   server: 144.31.216.160
   port: 443
   type: trojan
@@ -615,13 +648,13 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇺🇸US-38.135.24.131-073
+- name: 🇺🇸US-38.135.24.131-074
   server: tinkered-pennies-puppies.freesocks.work
   port: 443
   type: ss
   cipher: chacha20-ietf-poly1305
   password: hbGrpfvNrJsUmKmPbR3iY2
-- name: 🇩🇪DE-144.31.98.216-075
+- name: 🇩🇪DE-144.31.98.216-076
   server: 144.31.98.216
   port: 443
   type: trojan
@@ -629,7 +662,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-138.124.229.34-076
+- name: 🇩🇪DE-138.124.229.34-077
   server: 138.124.229.34
   port: 443
   type: trojan
@@ -637,7 +670,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-144.31.218.10-077
+- name: 🇩🇪DE-144.31.218.10-078
   server: 144.31.218.10
   port: 443
   type: trojan
@@ -645,7 +678,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-220.93.106.4-078
+- name: 🇰🇷KR-220.93.106.4-079
   server: 220.93.106.4
   port: 11001
   type: trojan
@@ -653,7 +686,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-188.245.161.141-080
+- name: 🇩🇪DE-188.245.161.141-081
   server: 188.245.161.141
   port: 443
   type: trojan
@@ -661,7 +694,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-31.58.85.103-081
+- name: 🇩🇪DE-31.58.85.103-082
   server: 31.58.85.103
   port: 443
   type: trojan
@@ -669,7 +702,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-159.195.5.181-082
+- name: 🇩🇪DE-159.195.5.181-083
   server: 159.195.5.181
   port: 443
   type: trojan
@@ -677,7 +710,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇨🇿CZ-95.85.233.224-083
+- name: 🇨🇿CZ-95.85.233.224-084
   server: 95.85.233.224
   port: 443
   type: trojan
@@ -685,7 +718,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-77.239.127.77-084
+- name: 🇩🇪DE-77.239.127.77-085
   server: 77.239.127.77
   port: 443
   type: trojan
@@ -693,7 +726,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇮🇶IQ-178.17.48.170-085
+- name: 🇮🇶IQ-178.17.48.170-086
   server: 178.17.48.170
   port: 443
   type: trojan
@@ -701,7 +734,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇨🇭CH-138.124.28.173-086
+- name: 🇨🇭CH-138.124.28.173-087
   server: 138.124.28.173
   port: 443
   type: trojan
@@ -709,7 +742,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-84.200.192.87-087
+- name: 🇩🇪DE-84.200.192.87-088
   server: 84.200.192.87
   port: 2053
   type: trojan
@@ -717,7 +750,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-143.20.160.200-090
+- name: 🇩🇪DE-143.20.160.200-091
   server: 143.20.160.200
   port: 443
   type: trojan
@@ -725,7 +758,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-138.124.230.45-091
+- name: 🇩🇪DE-138.124.230.45-092
   server: 138.124.230.45
   port: 443
   type: trojan
@@ -733,7 +766,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇮🇶IQ-178.17.48.78-092
+- name: 🇮🇶IQ-178.17.48.78-093
   server: 178.17.48.78
   port: 443
   type: trojan
@@ -741,7 +774,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇨🇭CH-138.124.32.78-093
+- name: 🇨🇭CH-138.124.32.78-094
   server: 138.124.32.78
   port: 443
   type: trojan
@@ -749,7 +782,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇨🇭CH-138.124.32.0-096
+- name: 🇨🇭CH-138.124.32.0-097
   server: 138.124.32.0
   port: 443
   type: trojan
@@ -757,7 +790,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇨🇭CH-138.124.28.78-097
+- name: 🇨🇭CH-138.124.28.78-098
   server: 138.124.28.78
   port: 443
   type: trojan
@@ -765,7 +798,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-152.53.119.132-098
+- name: 🇩🇪DE-152.53.119.132-099
   server: 152.53.119.132
   port: 443
   type: trojan
@@ -773,7 +806,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇮🇷IR-213.176.78.192-099
+- name: 🇮🇷IR-213.176.78.192-100
   server: 213.176.78.192
   port: 443
   type: trojan
@@ -781,7 +814,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇺🇸US-2.27.35.199-100
+- name: 🇺🇸US-2.27.35.199-101
   server: 2.27.35.199
   port: 8443
   type: trojan
@@ -789,7 +822,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇨🇿CZ-194.87.77.2-104
+- name: 🇨🇿CZ-194.87.77.2-105
   server: 194.87.77.2
   port: 443
   type: trojan
@@ -797,7 +830,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇨🇿CZ-95.85.233.44-105
+- name: 🇨🇿CZ-95.85.233.44-106
   server: 95.85.233.44
   port: 443
   type: trojan
@@ -805,7 +838,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇨🇿CZ-95.85.232.148-106
+- name: 🇨🇿CZ-95.85.232.148-107
   server: 95.85.232.148
   port: 443
   type: trojan
@@ -813,7 +846,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇨🇿CZ-95.85.234.43-107
+- name: 🇨🇿CZ-95.85.234.43-108
   server: 95.85.234.43
   port: 443
   type: trojan
@@ -821,7 +854,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇺🇸US-64.188.89.147-108
+- name: 🇺🇸US-64.188.89.147-109
   server: 64.188.89.147
   port: 8443
   type: trojan
@@ -829,7 +862,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇺🇸US-185.170.153.115-109
+- name: 🇺🇸US-185.170.153.115-110
   server: 185.170.153.115
   port: 8443
   type: trojan
@@ -837,7 +870,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇮🇷IR-213.176.77.231-110
+- name: 🇮🇷IR-213.176.77.231-111
   server: 213.176.77.231
   port: 443
   type: trojan
@@ -845,7 +878,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇺🇸US-64.188.89.147-111
+- name: 🇺🇸US-64.188.89.147-112
   server: 64.188.89.147
   port: 443
   type: trojan
@@ -853,7 +886,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇺🇸US-144.31.51.34-114
+- name: 🇺🇸US-144.31.51.34-115
   server: 144.31.51.34
   port: 443
   type: trojan
@@ -861,7 +894,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇮🇷IR-213.176.77.30-117
+- name: 🇮🇷IR-213.176.77.30-118
   server: 213.176.77.30
   port: 443
   type: trojan
@@ -869,7 +902,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-80.244.13.157-119
+- name: 🇩🇪DE-80.244.13.157-120
   server: 80.244.13.157
   port: 443
   type: trojan
@@ -877,7 +910,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-94.125.101.103-120
+- name: 🇩🇪DE-94.125.101.103-121
   server: 94.125.101.103
   port: 443
   type: trojan
@@ -885,7 +918,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇦🇪AE-104.128.139.68-121
+- name: 🇦🇪AE-104.128.139.68-122
   server: 104.128.139.68
   port: 443
   type: trojan
@@ -893,7 +926,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-144.31.118.170-122
+- name: 🇩🇪DE-144.31.118.170-123
   server: 144.31.118.170
   port: 443
   type: trojan
@@ -901,7 +934,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3%3D
   skip-cert-verify: true
-- name: 🇸🇪SE-138.124.49.137-123
+- name: 🇸🇪SE-138.124.49.137-124
   server: 138.124.49.137
   port: 443
   type: trojan
@@ -909,7 +942,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇸🇪SE-138.124.34.36-124
+- name: 🇸🇪SE-138.124.34.36-125
   server: 138.124.34.36
   port: 443
   type: trojan
@@ -917,7 +950,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-144.31.116.8-126
+- name: 🇩🇪DE-144.31.116.8-127
   server: 144.31.116.8
   port: 443
   type: trojan
@@ -925,7 +958,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-64.188.70.233-129
+- name: 🇩🇪DE-64.188.70.233-130
   server: 64.188.70.233
   port: 443
   type: trojan
@@ -933,7 +966,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F
   skip-cert-verify: true
-- name: 🇩🇪DE-103.109.234.64-130
+- name: 🇩🇪DE-103.109.234.64-131
   server: 103.109.234.64
   port: 443
   type: trojan
@@ -941,7 +974,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F
   skip-cert-verify: true
-- name: 🇩🇪DE-152.53.118.28-132
+- name: 🇩🇪DE-152.53.118.28-133
   server: 152.53.118.28
   port: 443
   type: trojan
@@ -949,7 +982,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F
   skip-cert-verify: true
-- name: 🇩🇪DE-193.23.218.192-134
+- name: 🇩🇪DE-193.23.218.192-135
   server: 193.23.218.192
   port: 443
   type: trojan
@@ -957,7 +990,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F
   skip-cert-verify: true
-- name: 🇦🇪AE-104.128.139.249-136
+- name: 🇦🇪AE-104.128.139.249-137
   server: 104.128.139.249
   port: 8443
   type: trojan
@@ -965,7 +998,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-64.188.105.7-137
+- name: 🇩🇪DE-64.188.105.7-138
   server: 64.188.105.7
   port: 443
   type: trojan
@@ -973,7 +1006,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇦🇹AT-152.53.227.239-138
+- name: 🇦🇹AT-152.53.227.239-139
   server: 152.53.227.239
   port: 8443
   type: trojan
@@ -981,7 +1014,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇨🇭CH-138.124.87.163-139
+- name: 🇨🇭CH-138.124.87.163-140
   server: 138.124.87.163
   port: 8443
   type: trojan
@@ -989,7 +1022,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-93.123.84.194-140
+- name: 🇩🇪DE-93.123.84.194-141
   server: 93.123.84.194
   port: 443
   type: trojan
@@ -997,7 +1030,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇺🇸US-131.143.125.183-143
+- name: 🇺🇸US-131.143.125.183-144
   server: 131.143.125.183
   port: 443
   type: trojan
@@ -1005,7 +1038,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-148.253.215.61-144
+- name: 🇩🇪DE-148.253.215.61-145
   server: 148.253.215.61
   port: 443
   type: trojan
@@ -1013,7 +1046,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-185.219.84.221-147
+- name: 🇩🇪DE-185.219.84.221-148
   server: 185.219.84.221
   port: 443
   type: trojan
@@ -1021,7 +1054,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F
   skip-cert-verify: true
-- name: 🇩🇪DE-202.61.195.167-149
+- name: 🇩🇪DE-202.61.195.167-150
   server: 202.61.195.167
   port: 443
   type: trojan
@@ -1029,7 +1062,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-89.169.9.177-151
+- name: 🇩🇪DE-89.169.9.177-152
   server: 89.169.9.177
   port: 2053
   type: trojan
@@ -1037,7 +1070,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-202.61.226.121-152
+- name: 🇩🇪DE-202.61.226.121-153
   server: 202.61.226.121
   port: 2053
   type: trojan
@@ -1045,7 +1078,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-159.195.79.8-158
+- name: 🇩🇪DE-159.195.79.8-159
   server: 159.195.79.8
   port: 8443
   type: trojan
@@ -1053,7 +1086,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-94.156.114.13-159
+- name: 🇩🇪DE-94.156.114.13-160
   server: 94.156.114.13
   port: 443
   type: trojan
@@ -1061,7 +1094,13 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F
   skip-cert-verify: true
-- name: 🇺🇸US-64.188.115.82-164
+- name: 🇭🇰HK-202.85.76.170-161
+  server: chengbai02.ascwt179.com
+  port: 13223
+  type: ss
+  cipher: aes-128-gcm
+  password: JVrsLLN1tkN8oXZO
+- name: 🇺🇸US-64.188.115.82-165
   server: 64.188.115.82
   port: 443
   type: trojan
@@ -1069,7 +1108,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-159.195.44.151-166
+- name: 🇩🇪DE-159.195.44.151-167
   server: 159.195.44.151
   port: 443
   type: trojan
@@ -1077,7 +1116,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-144.31.191.159-168
+- name: 🇩🇪DE-144.31.191.159-169
   server: 144.31.191.159
   port: 8443
   type: trojan
@@ -1085,7 +1124,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇨🇭CH-138.124.32.120-170
+- name: 🇨🇭CH-138.124.32.120-171
   server: 138.124.32.120
   port: 443
   type: trojan
@@ -1093,7 +1132,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-148.253.210.141-175
+- name: 🇩🇪DE-148.253.210.141-176
   server: 148.253.210.141
   port: 443
   type: trojan
@@ -1101,7 +1140,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇨🇭CH-138.124.32.121-176
+- name: 🇨🇭CH-138.124.32.121-177
   server: 138.124.32.121
   port: 443
   type: trojan
@@ -1109,19 +1148,19 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇯🇵JP-216.38.168.36-183
+- name: 🇯🇵JP-216.38.168.36-184
   server: hkp8.network-cdn-gw-yd.net
   port: 48818
   type: ss
   cipher: chacha20-ietf-poly1305
   password: a71a7679-7718-4655-b487-7a07bad7a70c
-- name: 🇯🇵JP-216.38.168.36-187
+- name: 🇯🇵JP-216.38.168.36-188
   server: hkp1.network-cdn-gw-yd.net
   port: 49901
   type: ss
   cipher: chacha20-ietf-poly1305
   password: a71a7679-7718-4655-b487-7a07bad7a70c
-- name: 🇳🇱NL-213.165.39.142-191
+- name: 🇳🇱NL-213.165.39.142-192
   server: 213.165.39.142
   port: 2053
   type: trojan
@@ -1129,7 +1168,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-109.70.74.67-196
+- name: 🇩🇪DE-109.70.74.67-197
   server: 109.70.74.67
   port: 2053
   type: trojan
@@ -1137,7 +1176,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-109.70.74.67-198
+- name: 🇩🇪DE-109.70.74.67-199
   server: 109.70.74.67
   port: 8443
   type: trojan
@@ -1145,7 +1184,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-64.188.118.193-200
+- name: 🇩🇪DE-64.188.118.193-201
   server: 64.188.118.193
   port: 443
   type: trojan
@@ -1153,7 +1192,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-220.87.152.138-204
+- name: 🇰🇷KR-220.87.152.138-205
   server: 220.87.152.138
   port: 30005
   type: trojan
@@ -1161,7 +1200,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-80.253.249.66-212
+- name: 🇩🇪DE-80.253.249.66-213
   server: 80.253.249.66
   port: 443
   type: trojan
@@ -1169,7 +1208,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F
   skip-cert-verify: true
-- name: 🇰🇷KR-59.4.161.71-219
+- name: 🇰🇷KR-59.4.161.71-220
   server: 59.4.161.71
   port: 28017
   type: trojan
@@ -1177,7 +1216,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-220.84.186.84-220
+- name: 🇰🇷KR-220.84.186.84-221
   server: 220.84.186.84
   port: 10000
   type: trojan
@@ -1185,7 +1224,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-220.122.42.198-222
+- name: 🇰🇷KR-220.122.42.198-223
   server: 220.122.42.198
   port: 10995
   type: trojan
@@ -1193,7 +1232,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-220.95.85.46-223
+- name: 🇰🇷KR-220.95.85.46-224
   server: 220.95.85.46
   port: 24289
   type: trojan
@@ -1201,7 +1240,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-220.124.181.77-224
+- name: 🇰🇷KR-220.124.181.77-225
   server: 220.124.181.77
   port: 18081
   type: trojan
@@ -1209,7 +1248,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-220.87.185.18-226
+- name: 🇰🇷KR-220.87.185.18-227
   server: 220.87.185.18
   port: 25448
   type: trojan
@@ -1217,7 +1256,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-14.57.222.213-228
+- name: 🇰🇷KR-14.57.222.213-229
   server: 14.57.222.213
   port: 20880
   type: trojan
@@ -1225,7 +1264,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-220.124.181.251-229
+- name: 🇰🇷KR-220.124.181.251-230
   server: 220.124.181.251
   port: 12300
   type: trojan
@@ -1233,7 +1272,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-220.85.254.226-230
+- name: 🇰🇷KR-220.85.254.226-231
   server: 220.85.254.226
   port: 38241
   type: trojan
@@ -1241,7 +1280,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-220.77.136.79-232
+- name: 🇰🇷KR-220.77.136.79-233
   server: 220.77.136.79
   port: 10911
   type: trojan
@@ -1249,7 +1288,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-220.127.68.28-233
+- name: 🇰🇷KR-220.127.68.28-234
   server: 220.127.68.28
   port: 50001
   type: trojan
@@ -1257,7 +1296,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-91.107.220.103-234
+- name: 🇩🇪DE-91.107.220.103-235
   server: 91.107.220.103
   port: 443
   type: trojan
@@ -1265,7 +1304,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-220.77.18.195-235
+- name: 🇰🇷KR-220.77.18.195-236
   server: 220.77.18.195
   port: 36814
   type: trojan
@@ -1273,7 +1312,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-118.47.197.17-237
+- name: 🇰🇷KR-118.47.197.17-238
   server: 118.47.197.17
   port: 10088
   type: trojan
@@ -1281,7 +1320,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-84.200.192.87-239
+- name: 🇩🇪DE-84.200.192.87-240
   server: 84.200.192.87
   port: 8443
   type: trojan
@@ -1289,7 +1328,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-195.133.94.19-241
+- name: 🇩🇪DE-195.133.94.19-242
   server: 195.133.94.19
   port: 443
   type: trojan
@@ -1297,7 +1336,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-220.85.254.226-242
+- name: 🇰🇷KR-220.85.254.226-243
   server: 220.85.254.226
   port: 11434
   type: trojan
@@ -1305,7 +1344,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-220.122.102.26-244
+- name: 🇰🇷KR-220.122.102.26-245
   server: 220.122.102.26
   port: 30017
   type: trojan
@@ -1313,7 +1352,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-175.212.149.162-246
+- name: 🇰🇷KR-175.212.149.162-247
   server: 175.212.149.162
   port: 28017
   type: trojan
@@ -1321,7 +1360,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-221.168.213.173-247
+- name: 🇰🇷KR-221.168.213.173-248
   server: 221.168.213.173
   port: 32677
   type: trojan
@@ -1329,7 +1368,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-59.26.177.217-248
+- name: 🇰🇷KR-59.26.177.217-249
   server: 59.26.177.217
   port: 22105
   type: trojan
@@ -1337,7 +1376,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-183.106.76.116-249
+- name: 🇰🇷KR-183.106.76.116-250
   server: 183.106.76.116
   port: 30005
   type: trojan
@@ -1345,7 +1384,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-220.72.90.235-250
+- name: 🇰🇷KR-220.72.90.235-251
   server: 220.72.90.235
   port: 10554
   type: trojan
@@ -1353,7 +1392,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-59.18.139.84-252
+- name: 🇰🇷KR-59.18.139.84-253
   server: 59.18.139.84
   port: 18086
   type: trojan
@@ -1361,7 +1400,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-222.113.18.213-253
+- name: 🇰🇷KR-222.113.18.213-254
   server: 222.113.18.213
   port: 14265
   type: trojan
@@ -1369,7 +1408,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-220.76.161.128-254
+- name: 🇰🇷KR-220.76.161.128-255
   server: 220.76.161.128
   port: 30303
   type: trojan
@@ -1377,7 +1416,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-121.132.124.22-255
+- name: 🇰🇷KR-121.132.124.22-256
   server: 121.132.124.22
   port: 15000
   type: trojan
@@ -1385,7 +1424,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-220.85.252.224-256
+- name: 🇰🇷KR-220.85.252.224-257
   server: 220.85.252.224
   port: 19150
   type: trojan
@@ -1393,7 +1432,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-14.58.60.153-257
+- name: 🇰🇷KR-14.58.60.153-258
   server: 14.58.60.153
   port: 16992
   type: trojan
@@ -1401,7 +1440,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-220.84.174.109-261
+- name: 🇰🇷KR-220.84.174.109-262
   server: 220.84.174.109
   port: 27918
   type: trojan
@@ -1409,7 +1448,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-220.90.53.189-265
+- name: 🇰🇷KR-220.90.53.189-266
   server: 220.90.53.189
   port: 32677
   type: trojan
@@ -1417,7 +1456,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-220.118.97.223-267
+- name: 🇰🇷KR-220.118.97.223-268
   server: 220.118.97.223
   port: 18080
   type: trojan
@@ -1425,7 +1464,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-14.53.107.138-268
+- name: 🇰🇷KR-14.53.107.138-269
   server: 14.53.107.138
   port: 29999
   type: trojan
@@ -1433,7 +1472,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-222.121.232.215-269
+- name: 🇰🇷KR-222.121.232.215-270
   server: 222.121.232.215
   port: 22335
   type: trojan
@@ -1441,7 +1480,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-112.164.151.157-270
+- name: 🇰🇷KR-112.164.151.157-271
   server: 112.164.151.157
   port: 22222
   type: trojan
@@ -1449,7 +1488,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-103.109.234.41-271
+- name: 🇩🇪DE-103.109.234.41-272
   server: 103.109.234.41
   port: 443
   type: trojan
@@ -1457,7 +1496,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-211.184.99.67-274
+- name: 🇰🇷KR-211.184.99.67-275
   server: 211.184.99.67
   port: 12309
   type: trojan
@@ -1465,7 +1504,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-220.87.108.247-275
+- name: 🇰🇷KR-220.87.108.247-276
   server: 220.87.108.247
   port: 18000
   type: trojan
@@ -1473,7 +1512,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-59.2.96.181-276
+- name: 🇰🇷KR-59.2.96.181-277
   server: 59.2.96.181
   port: 22335
   type: trojan
@@ -1481,7 +1520,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-220.79.9.247-279
+- name: 🇰🇷KR-220.79.9.247-280
   server: 220.79.9.247
   port: 10001
   type: trojan
@@ -1489,7 +1528,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-23.251.50.142-281
+- name: 🇩🇪DE-23.251.50.142-282
   server: 23.251.50.142
   port: 443
   type: trojan
@@ -1497,7 +1536,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇦🇹AT-152.53.236.205-283
+- name: 🇦🇹AT-152.53.236.205-284
   server: 152.53.236.205
   port: 443
   type: trojan
@@ -1505,7 +1544,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-59.16.213.86-284
+- name: 🇰🇷KR-59.16.213.86-285
   server: 59.16.213.86
   port: 12300
   type: trojan
@@ -1513,7 +1552,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-211.195.61.136-285
+- name: 🇰🇷KR-211.195.61.136-286
   server: 211.195.61.136
   port: 13722
   type: trojan
@@ -1521,7 +1560,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-220.93.106.4-286
+- name: 🇰🇷KR-220.93.106.4-287
   server: 220.93.106.4
   port: 12345
   type: trojan
@@ -1529,7 +1568,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-220.79.138.184-287
+- name: 🇰🇷KR-220.79.138.184-288
   server: 220.79.138.184
   port: 34599
   type: trojan
@@ -1537,7 +1576,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇰🇷KR-220.78.7.17-288
+- name: 🇰🇷KR-220.78.7.17-289
   server: 220.78.7.17
   port: 18001
   type: trojan
@@ -1545,13 +1584,13 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇲🇾MY-85.211.193.237-289
+- name: 🇲🇾MY-85.211.183.18-290
   server: usgpt.slianrk.com
   port: 13012
   type: ss
   cipher: chacha20-ietf-poly1305
   password: e777513e-9df5-4dc3-bc84-74e564345a81
-- name: 🇦🇹AT-77.110.116.7-293
+- name: 🇦🇹AT-77.110.116.7-294
   server: 77.110.116.7
   port: 443
   type: trojan
@@ -1559,7 +1598,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-194.164.198.156-295
+- name: 🇩🇪DE-194.164.198.156-296
   server: 194.164.198.156
   port: 8443
   type: trojan
@@ -1567,7 +1606,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇩🇪DE-148.253.208.19-300
+- name: 🇩🇪DE-148.253.208.19-301
   server: 148.253.208.19
   port: 443
   type: trojan
@@ -1575,7 +1614,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F
   skip-cert-verify: true
-- name: 🇩🇪DE-144.31.62.181-303
+- name: 🇩🇪DE-144.31.62.181-304
   server: 144.31.62.181
   port: 8443
   type: trojan
@@ -1583,7 +1622,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   ws-path: h=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   skip-cert-verify: true
-- name: 🇭🇰HK-188.253.126.251-310
+- name: 🇭🇰HK-188.253.126.251-311
   server: efan.dnsefan04881.com
   port: 7754
   type: vmess
@@ -1596,13 +1635,73 @@ proxies:
   tls: false
   ws-headers:
     Host: efan.dnsefan04881.com
-- name: 🇦🇶NOWHERE-0.0.0.0-321
+- name: 🇩🇪DE-82.198.246.37-312
+  server: 82.198.246.37
+  port: 180
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: 82.198.246.37
+- name: 🇩🇪DE-82.198.246.9-313
+  server: 82.198.246.9
+  port: 180
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: 82.198.246.9
+- name: 🇬🇧GB-82.26.155.3-316
+  server: 82.26.155.3
+  port: 10369
+  type: trojan
+  password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
+  sni: fra34.chasem2026sud.com
+  skip-cert-verify: true
+- name: 🇬🇧GB-82.26.155.20-317
+  server: 82.26.155.20
+  port: 10369
+  type: trojan
+  password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
+  sni: fra35.chasem2026sud.com
+  skip-cert-verify: true
+- name: 🇩🇪DE-82.198.246.250-320
+  server: 82.198.246.250
+  port: 180
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: fra35.chasem2026sud.com
+- name: 🇬🇧GB-82.26.155.105-324
+  server: 82.26.155.105
+  port: 10369
+  type: trojan
+  password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
+  sni: fra32.chasem2026sud.com
+  skip-cert-verify: true
+- name: 🇦🇶NOWHERE-0.0.0.0-325
   server: mofacpdd.til69.com
   port: 41921
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 5d68d91f-ccc5-4c00-b1f6-0d764937f4f6
-- name: 🇺🇸US-216.24.57.250-322
+- name: 🇺🇸US-216.24.57.250-326
   server: 216.24.57.250
   port: 443
   type: trojan
