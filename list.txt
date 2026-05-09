@@ -185,7 +185,7 @@ proxies:
   tls: true
   ws-headers:
     Host: cg1c07.waimaojd.com
-- name: 🏁RELAY-170.114.45.6-20
+- name: 🏁RELAY-170.114.46.6-20
   server: support.zoom.us
   port: 8080
   type: vmess
@@ -224,7 +224,7 @@ proxies:
   tls: true
   ws-headers:
     Host: sy4.620720.xyz
-- name: 🏁RELAY-104.18.17.77-23
+- name: 🏁RELAY-104.18.16.77-23
   server: hgtrojan.zabc.net
   port: 2083
   type: vmess
@@ -282,11 +282,11 @@ proxies:
   tls: true
   ws-headers:
     Host: cg1c14.waimaojd.com
-- name: 🇩🇪DE-82.198.246.37-28
-  server: 82.198.246.37
-  port: 180
+- name: 🇭🇰HK-103.181.164.145-28
+  server: 103.181.164.145
+  port: 51556
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: 0
   cipher: auto
   skip-cert-verify: true
@@ -294,7 +294,7 @@ proxies:
   ws-path: /
   tls: false
   ws-headers:
-    Host: 82.198.246.37
+    Host: 103.181.164.145
 - name: 🇩🇪DE-82.198.246.250-29
   server: 82.198.246.250
   port: 180
@@ -308,20 +308,26 @@ proxies:
   tls: false
   ws-headers:
     Host: 82.198.246.250
-- name: 🇫🇷FR-162.19.192.89-30
-  server: t.cnmjcn.cyou
-  port: 16616
-  type: vmess
-  uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
-  alterId: 0
-  cipher: auto
+- name: 🇬🇧GB-82.38.31.179-30
+  server: 82.38.31.179
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇭🇰HK-16.163.127.160-31
+  server: bb.bejkn.cn
+  port: 11233
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%2Fripaojiedian
   skip-cert-verify: true
-  network: ws
-  ws-path: /
-  tls: false
-  ws-headers:
-    Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
-- name: 🇭🇰HK-103.181.164.145-31
+- name: 🇬🇧GB-82.38.31.148-32
+  server: 82.38.31.148
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇭🇰HK-103.181.164.145-33
   server: 103.181.164.145
   port: 54022
   type: vmess
@@ -334,7 +340,26 @@ proxies:
   tls: false
   ws-headers:
     Host: 103.181.164.145
-- name: 🇩🇪DE-82.198.246.233-32
+- name: 🇩🇪DE-82.198.246.37-34
+  server: 82.198.246.37
+  port: 180
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: 82.198.246.37
+- name: 🇬🇧GB-82.38.31.82-37
+  server: 82.38.31.82
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇩🇪DE-82.198.246.233-38
   server: 82.198.246.233
   port: 180
   type: vmess
@@ -347,97 +372,13 @@ proxies:
   tls: false
   ws-headers:
     Host: 82.198.246.233
-- name: 🇩🇪DE-82.198.246.214-33
-  server: 82.198.246.214
-  port: 180
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  ws-path: /
-  tls: false
-  ws-headers:
-    Host: 82.198.246.214
-- name: 🇫🇷FR-162.19.192.89-34
-  server: planb.mojcn.com
-  port: 16648
-  type: vmess
-  uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  tls: false
-  ws-headers:
-    Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
-- name: 🇦🇶GOOGLE-34.126.92.235-35
-  server: node33.ourfast.asia
-  port: 443
-  type: vmess
-  uuid: 360470f4-8c38-4934-b690-4458c0834604
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  tls: true
-  ws-headers:
-    Host: node33.ourfast.asia
-- name: 🇫🇷FR-162.19.192.89-36
-  server: m.cnmjin.net
-  port: 16616
-  type: vmess
-  uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  tls: false
-  ws-headers:
-    Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
-- name: 🇺🇸US-216.38.170.154-38
-  server: chengbai02.ascwt179.com
-  port: 13223
-  type: ss
-  cipher: aes-128-gcm
-  password: JVrsLLN1tkN8oXZO
-- name: 🇫🇷FR-162.19.192.89-39
-  server: planb.mojcn.com
-  port: 16632
-  type: vmess
-  uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  tls: false
-  ws-headers:
-    Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
-- name: 🇫🇷FR-162.19.192.89-40
-  server: t.cnmjcn.cyou
-  port: 16648
-  type: vmess
-  uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  tls: false
-  ws-headers:
-    Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
-- name: 🇩🇪DE-63.180.254.10-42
+- name: 🇩🇪DE-63.180.254.10-39
   server: 63.180.254.10
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇭🇰HK-42.2.15.213-43
+- name: 🇭🇰HK-119.237.147.15-40
   server: v10.hdacd.com
   port: 30807
   type: vmess
@@ -450,91 +391,84 @@ proxies:
   tls: false
   ws-headers:
     Host: v10.hdacd.com
-- name: 🇭🇰HK-16.162.192.117-44
-  server: 16.162.192.117
-  port: 2008
+- name: 🇭🇰HK-16.162.191.171-41
+  server: 16.162.191.171
+  port: 53018
   type: trojan
-  password: ba62c023f9bce796ae334fecb20ef7cc
+  password: 7ebc402f3383366fe4f554abd8625439
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇯🇵JP-18.183.218.93-45
-  server: 18.183.218.93
-  port: 4327
+- name: 🇯🇵JP-13.158.22.253-42
+  server: 13.158.22.253
+  port: 3685
   type: trojan
   password: BxceQaOe
   sni: t.me%2Fripaojiedian
   skip-cert-verify: true
-- name: 🇯🇵JP-18.181.180.183-46
-  server: 18.181.180.183
-  port: 13963
-  type: trojan
-  password: BxceQaOe
-  sni: t.me%2Fripaojiedian
-  skip-cert-verify: true
-- name: 🇭🇰HK-54.46.123.251-47
-  server: 54.46.123.251
-  port: 2140
+- name: 🇯🇵JP-54.178.153.235-44
+  server: 54.178.153.235
+  port: 6463
   type: trojan
   password: BxceQaOe
   sni: t.me%252Fripaojiedian
   skip-cert-verify: true
-- name: 🇯🇵JP-52.197.26.190-48
-  server: 52.197.26.190
+- name: 🇭🇰HK-16.162.87.210-45
+  server: 16.162.87.210
   port: 11541
   type: trojan
-  password: ba62c023f9bce796ae334fecb20ef7cc
+  password: 7ebc402f3383366fe4f554abd8625439
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇯🇵JP-54.65.211.149-49
-  server: 54.65.211.149
+- name: 🇭🇰HK-16.162.87.210-46
+  server: 16.162.87.210
   port: 24184
   type: trojan
-  password: ba62c023f9bce796ae334fecb20ef7cc
+  password: 7ebc402f3383366fe4f554abd8625439
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇯🇵JP-52.197.26.190-50
-  server: 52.197.26.190
+- name: 🇯🇵JP-54.92.68.201-47
+  server: 54.92.68.201
+  port: 2511
+  type: trojan
+  password: 7ebc402f3383366fe4f554abd8625439
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: 🇭🇰HK-16.162.191.171-48
+  server: 16.162.191.171
   port: 4840
   type: trojan
-  password: ba62c023f9bce796ae334fecb20ef7cc
+  password: 7ebc402f3383366fe4f554abd8625439
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇯🇵JP-54.65.211.149-51
-  server: 54.65.211.149
-  port: 1180
-  type: trojan
-  password: ba62c023f9bce796ae334fecb20ef7cc
-  sni: www.nintendogames.net
-  skip-cert-verify: true
-- name: 🇯🇵JP-13.158.32.76-52
-  server: 13.158.32.76
-  port: 4203
+- name: 🇯🇵JP-54.178.153.235-49
+  server: 54.178.153.235
+  port: 2074
   type: trojan
   password: BxceQaOe
   sni: t.me%252Fripaojiedian
   skip-cert-verify: true
-- name: 🇭🇰HK-16.162.192.117-53
-  server: 16.162.192.117
-  port: 6604
-  type: trojan
-  password: ba62c023f9bce796ae334fecb20ef7cc
-  sni: www.nintendogames.net
-  skip-cert-verify: true
-- name: 🇭🇰HK-43.198.85.13-54
-  server: 43.198.85.13
+- name: 🇭🇰HK-16.162.191.171-50
+  server: 16.162.191.171
   port: 52249
   type: trojan
-  password: ba62c023f9bce796ae334fecb20ef7cc
+  password: 7ebc402f3383366fe4f554abd8625439
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇯🇵JP-43.207.42.56-55
-  server: 43.207.42.56
-  port: 44386
+- name: 🇭🇰HK-16.162.87.210-51
+  server: 16.162.87.210
+  port: 6604
+  type: trojan
+  password: 7ebc402f3383366fe4f554abd8625439
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: 🇯🇵JP-54.178.153.235-52
+  server: 54.178.153.235
+  port: 50606
   type: trojan
   password: BxceQaOe
   sni: t.me%2Fripaojiedian
   skip-cert-verify: true
-- name: 🇭🇰HK-188.253.126.251-58
+- name: 🇭🇰HK-188.253.126.251-55
   server: efan.dnsefan04881.com
   port: 7754
   type: vmess
@@ -547,7 +481,33 @@ proxies:
   tls: false
   ws-headers:
     Host: efan.dnsefan04881.com
-- name: 🇩🇪DE-82.198.246.97-59
+- name: 🇩🇪DE-82.198.246.214-56
+  server: 82.198.246.214
+  port: 180
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: 82.198.246.214
+- name: 🇩🇪DE-82.198.246.9-58
+  server: 82.198.246.9
+  port: 180
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: 82.198.246.9
+- name: 🇩🇪DE-82.198.246.97-61
   server: 82.198.246.97
   port: 180
   type: vmess
@@ -560,98 +520,19 @@ proxies:
   tls: false
   ws-headers:
     Host: 82.198.246.97
-- name: 🇫🇷FR-15.236.112.206-60
-  server: 15.236.112.206
-  port: 22222
-  type: trojan
-  password: telegram-id-privatevpns
-  sni: trojan.burgerip.co.uk
-  skip-cert-verify: true
-- name: 🇫🇷FR-13.37.76.238-61
-  server: 13.37.76.238
-  port: 22222
-  type: trojan
-  password: telegram-id-privatevpns
-  sni: trojan.burgerip.co.uk
-  skip-cert-verify: true
-- name: 🇬🇧GB-51.142.112.40-65
-  server: series-a1.samanehha.co
-  port: 443
+- name: 🇬🇧GB-82.38.31.186-63
+  server: 82.38.31.186
+  port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: W74XFALLLuw6m5IA
-- name: 🇫🇷FR-162.19.192.89-67
-  server: t.cnmjcn.cyou
-  port: 16632
-  type: vmess
-  uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  tls: false
-  ws-headers:
-    Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
-- name: 🇫🇷FR-162.19.192.89-69
-  server: m.cnmjin.net
-  port: 16648
-  type: vmess
-  uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  tls: false
-  ws-headers:
-    Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
-- name: 🇫🇷FR-162.19.192.89-70
-  server: planb.mojcn.com
-  port: 16618
-  type: vmess
-  uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  tls: false
-  ws-headers:
-    Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
-- name: 🇭🇰HK-103.181.164.145-71
-  server: 103.181.164.145
-  port: 51556
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  ws-path: /
-  tls: false
-  ws-headers:
-    Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
-- name: 🇫🇷FR-162.19.192.89-72
-  server: planb.mojcn.com
-  port: 16616
-  type: vmess
-  uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  tls: false
-  ws-headers:
-    Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
-- name: 🇦🇶NOWHERE-0.0.0.0-73
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇦🇶NOWHERE-0.0.0.0-66
   server: mofacpdd.til69.com
   port: 41921
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 5d68d91f-ccc5-4c00-b1f6-0d764937f4f6
-- name: 🇺🇸US-216.24.57.250-74
+- name: 🇺🇸US-216.24.57.250-67
   server: 216.24.57.250
   port: 443
   type: trojan
