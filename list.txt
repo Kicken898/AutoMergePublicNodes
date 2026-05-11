@@ -185,7 +185,7 @@ proxies:
   tls: true
   ws-headers:
     Host: cg1c07.waimaojd.com
-- name: 🏁RELAY-170.114.45.6-20
+- name: 🏁RELAY-170.114.46.6-20
   server: support.zoom.us
   port: 8080
   type: vmess
@@ -211,7 +211,7 @@ proxies:
   tls: false
   ws-headers:
     Host: 209.126.84.189
-- name: 🏁RELAY-104.21.76.158-22
+- name: 🏁RELAY-172.67.197.47-22
   server: sy4.620720.xyz
   port: 443
   type: vmess
@@ -288,19 +288,19 @@ proxies:
   type: ss
   cipher: chacha20-ietf-poly1305
   password: W74XFALLLuw6m5IA
-- name: 🇬🇧GB-20.117.152.226-29
+- name: 🇬🇧GB-20.50.113.56-29
   server: admin.c1.webramz.co
   port: 443
   type: ss
   cipher: chacha20-ietf-poly1305
   password: W74XFALLLuw6m5IA
-- name: 🇬🇧GB-20.117.152.226-30
+- name: 🇬🇧GB-20.50.113.56-30
   server: admin.c1.havij.co
   port: 443
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 1kVr0KATIJI7mwOF
-- name: 🇲🇾MY-85.211.193.21-31
+- name: 🇺🇸US-103.182.97.253-31
   server: v30.hdacd.com
   port: 30830
   type: vmess
@@ -371,7 +371,7 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇭🇰HK-42.3.170.140-37
+- name: 🇭🇰HK-112.118.142.6-37
   server: v10.hdacd.com
   port: 30807
   type: vmess
@@ -384,85 +384,78 @@ proxies:
   tls: false
   ws-headers:
     Host: v10.hdacd.com
-- name: 🇭🇰HK-54.46.109.238-38
-  server: 54.46.109.238
-  port: 53018
+- name: 🇯🇵JP-3.112.206.12-38
+  server: 3.112.206.12
+  port: 2008
   type: trojan
   password: 7ebc402f3383366fe4f554abd8625439
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇭🇰HK-16.163.127.160-39
-  server: 16.163.127.160
-  port: 5823
+- name: 🇭🇰HK-54.46.123.251-39
+  server: 54.46.123.251
+  port: 63131
   type: trojan
   password: BxceQaOe
   sni: t.me%2Fripaojiedian
   skip-cert-verify: true
-- name: 🇭🇰HK-16.163.127.16-40
-  server: 16.163.127.16
-  port: 5823
-  type: trojan
-  password: BxceQaOe
-  sni: t.me%2Fripaojiedian
-  skip-cert-verify: true
-- name: 🇯🇵JP-54.64.30.114-41
-  server: 54.64.30.114
-  port: 4099
+- name: 🇯🇵JP-116.80.61.236-41
+  server: 116.80.61.236
+  port: 443
   type: trojan
   password: BxceQaOe
   sni: t.me%252Fripaojiedian
   skip-cert-verify: true
-- name: 🇭🇰HK-54.46.109.238-42
-  server: 54.46.109.238
+- name: 🇭🇰HK-54.46.127.252-42
+  server: 54.46.127.252
   port: 8066
   type: trojan
   password: 7ebc402f3383366fe4f554abd8625439
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇭🇰HK-18.167.37.32-43
-  server: 18.167.37.32
-  port: 24184
+- name: 🇯🇵JP-3.112.206.12-43
+  server: 3.112.206.12
+  port: 11541
   type: trojan
   password: 7ebc402f3383366fe4f554abd8625439
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇯🇵JP-43.206.223.143-44
-  server: 43.206.223.143
-  port: 1180
+- name: 🇭🇰HK-95.40.118.115-44
+  server: 95.40.118.115
+  port: 4840
   type: trojan
   password: 7ebc402f3383366fe4f554abd8625439
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇯🇵JP-13.113.153.204-45
-  server: 13.113.153.204
-  port: 667
+- name: 🇯🇵JP-3.112.206.12-45
+  server: 3.112.206.12
+  port: 3842
   type: trojan
   password: 7ebc402f3383366fe4f554abd8625439
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇯🇵JP-35.78.121.124-46
-  server: 35.78.121.124
-  port: 42750
+- name: 🇯🇵JP-43.206.119.178-46
+  server: 43.206.119.178
+  port: 5159
   type: trojan
   password: BxceQaOe
   sni: t.me%252Fripaojiedian
   skip-cert-verify: true
-- name: 🇭🇰HK-18.167.37.32-47
-  server: 18.167.37.32
-  port: 6604
-  type: trojan
-  password: 7ebc402f3383366fe4f554abd8625439
-  sni: www.nintendogames.net
-  skip-cert-verify: true
-- name: 🇯🇵JP-13.113.153.204-48
-  server: 13.113.153.204
+- name: 🇯🇵JP-3.112.206.12-47
+  server: 3.112.206.12
   port: 52249
   type: trojan
   password: 7ebc402f3383366fe4f554abd8625439
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇯🇵JP-13.112.154.17-49
-  server: 13.112.154.17
+- name: 🇯🇵JP-54.249.141.77-48
+  server: 54.249.141.77
+  port: 6604
+  type: trojan
+  password: 7ebc402f3383366fe4f554abd8625439
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: 🇭🇰HK-43.198.240.167-49
+  server: 43.198.240.167
   port: 44386
   type: trojan
   password: BxceQaOe
