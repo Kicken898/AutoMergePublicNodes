@@ -18,7 +18,7 @@ proxies:
   tls: false
   ws-headers:
     Host: 547.rtxconfigz.shop
-- name: 🏁RELAY-172.67.197.47-02
+- name: 🏁RELAY-104.21.76.158-02
   server: t1.620720.xyz
   port: 8443
   type: vmess
@@ -185,7 +185,7 @@ proxies:
   tls: true
   ws-headers:
     Host: cg1c07.waimaojd.com
-- name: 🏁RELAY-170.114.46.6-20
+- name: 🏁RELAY-170.114.45.6-20
   server: support.zoom.us
   port: 8080
   type: vmess
@@ -211,7 +211,7 @@ proxies:
   tls: false
   ws-headers:
     Host: 209.126.84.189
-- name: 🏁RELAY-172.67.197.47-22
+- name: 🏁RELAY-104.21.76.158-22
   server: sy4.620720.xyz
   port: 443
   type: vmess
@@ -224,7 +224,7 @@ proxies:
   tls: true
   ws-headers:
     Host: sy4.620720.xyz
-- name: 🏁RELAY-104.18.17.77-23
+- name: 🏁RELAY-172.64.80.1-23
   server: hgtrojan.zabc.net
   port: 2083
   type: vmess
@@ -282,121 +282,110 @@ proxies:
   tls: true
   ws-headers:
     Host: cg1c14.waimaojd.com
-- name: 🇫🇮FI-31.57.92.205-28
-  server: 31.57.92.205
-  port: 2053
-  type: trojan
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  sni: Koma-YT.PAGeS.Dev
-  ws-path: h=%2FtrTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2
-  skip-cert-verify: true
-- name: 🇺🇸US-144.31.79.168-29
-  server: 144.31.79.168
-  port: 443
-  type: trojan
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  sni: Koma-YT.PAGeS.Dev
-  ws-path: h=%2FtrTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2
-  skip-cert-verify: true
-- name: 🇫🇮FI-213.232.204.65-30
-  server: 213.232.204.65
+- name: 🇵🇱PL-82.118.22.141-28
+  server: 82.118.22.141
   port: 8443
   type: trojan
   password: 8r%3C%5B9%27l6hAO%238ZQi
   sni: Koma-YT.PAGeS.Dev
   ws-path: h=%2FtrTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2
   skip-cert-verify: true
-- name: 🇺🇸US-94.183.185.151-31
-  server: 94.183.185.151
+- name: 🇯🇵JP-142.91.108.54-29
+  server: 142.91.108.54
   port: 443
   type: trojan
   password: 8r%3C%5B9%27l6hAO%238ZQi
   sni: Koma-YT.PAGeS.Dev
   ws-path: h=%2FtrTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2
   skip-cert-verify: true
-- name: 🇫🇮FI-31.56.196.56-32
-  server: 31.56.196.56
+- name: 🇨🇿CZ-194.135.38.131-30
+  server: 194.135.38.131
   port: 8443
-  type: trojan
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  sni: Koma-YT.PAGeS.Dev
-  ws-path: h=%2FtrTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2
-  skip-cert-verify: true
-- name: 🇭🇰HK-8.223.63.189-33
-  server: 8.223.63.189
-  port: 443
-  type: trojan
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  sni: Koma-YT.PAGeS.Dev
-  ws-path: h=%2FtrTelegram
-  skip-cert-verify: true
-- name: 🇩🇪DE-138.124.54.117-34
-  server: 138.124.54.117
-  port: 8443
-  type: trojan
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  sni: Koma-YT.PAGeS.Dev
-  ws-path: h=%2FtrTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2
-  skip-cert-verify: true
-- name: 🇫🇮FI-92.118.233.134-35
-  server: 92.118.233.134
-  port: 8443
-  type: trojan
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  sni: Koma-YT.PAGeS.Dev
-  ws-path: h=%2FtrTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2
-  skip-cert-verify: true
-- name: 🇺🇸US-192.0.63.253-36
-  server: 192.0.63.253
-  port: 443
   type: trojan
   password: 8r%3C%5B9%27l6hAO%238ZQi
   sni: Koma-YT.PAGeS.Dev
   ws-path: h=%2FtrTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2
   skip-cert-verify: true
-- name: 🇺🇸US-198.204.227.171-37
-  server: 198.204.227.171
-  port: 2053
+- name: 🇷🇴RO-46.229.253.73-31
+  server: 46.229.253.73
+  port: 8443
   type: trojan
   password: 8r%3C%5B9%27l6hAO%238ZQi
   sni: Koma-YT.PAGeS.Dev
-  ws-path: h=%2FtrTelegram
+  ws-path: h=%2FtrTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2
   skip-cert-verify: true
-- name: 🇲🇦MA-154.70.207.97-38
-  server: 154.70.207.97
-  port: 990
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-- name: 🇫🇮FI-31.57.62.145-39
-  server: 31.57.62.145
+- name: 🇩🇪DE-82.198.246.37-32
+  server: 82.198.246.37
+  port: 180
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: 82.198.246.37
+- name: 🇹🇼TW-211.76.176.98-33
+  server: jpbgp.netvigor.cc
+  port: 19128
+  type: trojan
+  password: gcuCpQfaiVeDBdWG
+  sni: yazhou10.dynu.net
+  skip-cert-verify: true
+- name: 🇩🇪DE-89.107.10.22-34
+  server: 89.107.10.22
+  port: 8443
+  type: trojan
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  sni: Koma-YT.PAGeS.Dev
+  ws-path: h=%2FtrTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2
+  skip-cert-verify: true
+- name: 🇭🇰HK-103.181.164.145-35
+  server: 103.181.164.145
+  port: 54022
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: 103.181.164.145
+- name: 🇰🇷KR-59.22.80.192-36
+  server: 59.22.80.192
+  port: 10443
+  type: trojan
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  sni: Koma-YT.PAGeS.Dev
+  ws-path: h=%2FtrTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2
+  skip-cert-verify: true
+- name: 🇺🇸US-104.167.196.91-37
+  server: 104.167.196.91
   port: 2053
   type: trojan
   password: 8r%3C%5B9%27l6hAO%238ZQi
   sni: Koma-YT.PAGeS.Dev
   ws-path: h=%2FtrTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2
   skip-cert-verify: true
-- name: 🇺🇸US-199.119.137.41-40
-  server: 199.119.137.41
-  port: 2053
+- name: 🇸🇬SG-47.79.237.236-38
+  server: 47.79.237.236
+  port: 22000
   type: trojan
   password: 8r%3C%5B9%27l6hAO%238ZQi
   sni: Koma-YT.PAGeS.Dev
   ws-path: h=%2FtrTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2
   skip-cert-verify: true
-- name: 🇺🇸US-156.146.38.169-41
-  server: 156.146.38.169
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇩🇪DE-63.180.254.10-42
+- name: 🇩🇪DE-63.180.254.10-39
   server: 63.180.254.10
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇭🇰HK-112.118.143.21-43
+- name: 🇭🇰HK-218.250.120.25-40
   server: v10.hdacd.com
   port: 30807
   type: vmess
@@ -409,91 +398,91 @@ proxies:
   tls: false
   ws-headers:
     Host: v10.hdacd.com
-- name: 🇭🇰HK-16.162.217.83-44
-  server: 16.162.217.83
-  port: 2008
+- name: 🇯🇵JP-52.195.217.94-41
+  server: 52.195.217.94
+  port: 53018
   type: trojan
-  password: 635340b47bddf8f41c123dc6f2b5f7ce
+  password: f6d3aa07a52dbcedcb4731029e2fb6ae
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇯🇵JP-13.230.159.214-45
-  server: 13.230.159.214
-  port: 3285
+- name: 🇯🇵JP-54.250.202.23-42
+  server: 54.250.202.23
+  port: 1123
   type: trojan
   password: BxceQaOe
   sni: t.me%2Fripaojiedian
   skip-cert-verify: true
-- name: 🇭🇰HK-18.162.145.230-46
+- name: 🇭🇰HK-18.162.145.230-43
   server: 18.162.145.230
   port: 11233
   type: trojan
   password: BxceQaOe
   sni: t.me%2Fripaojiedian
   skip-cert-verify: true
-- name: 🇭🇰HK-43.198.101.71-47
-  server: 43.198.101.71
-  port: 4099
+- name: 🇯🇵JP-13.158.82.174-44
+  server: 13.158.82.174
+  port: 2140
   type: trojan
   password: BxceQaOe
   sni: t.me%252Fripaojiedian
+  skip-cert-verify: true
+- name: 🇯🇵JP-18.183.203.240-45
+  server: 18.183.203.240
+  port: 3135
+  type: trojan
+  password: f6d3aa07a52dbcedcb4731029e2fb6ae
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: 🇯🇵JP-52.195.217.94-46
+  server: 52.195.217.94
+  port: 11541
+  type: trojan
+  password: f6d3aa07a52dbcedcb4731029e2fb6ae
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: 🇯🇵JP-13.113.236.116-47
+  server: 13.113.236.116
+  port: 1180
+  type: trojan
+  password: f6d3aa07a52dbcedcb4731029e2fb6ae
+  sni: www.nintendogames.net
   skip-cert-verify: true
 - name: 🇯🇵JP-18.181.205.14-48
   server: 18.181.205.14
-  port: 24184
+  port: 2511
   type: trojan
-  password: 635340b47bddf8f41c123dc6f2b5f7ce
+  password: f6d3aa07a52dbcedcb4731029e2fb6ae
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇭🇰HK-16.162.217.83-49
-  server: 16.162.217.83
-  port: 24184
-  type: trojan
-  password: 635340b47bddf8f41c123dc6f2b5f7ce
-  sni: www.nintendogames.net
-  skip-cert-verify: true
-- name: 🇭🇰HK-16.162.217.83-50
-  server: 16.162.217.83
-  port: 4840
-  type: trojan
-  password: 635340b47bddf8f41c123dc6f2b5f7ce
-  sni: www.nintendogames.net
-  skip-cert-verify: true
-- name: 🇯🇵JP-52.195.217.94-51
-  server: 52.195.217.94
-  port: 3842
-  type: trojan
-  password: 635340b47bddf8f41c123dc6f2b5f7ce
-  sni: www.nintendogames.net
-  skip-cert-verify: true
-- name: 🇯🇵JP-43.207.215.131-52
-  server: 43.207.215.131
-  port: 10578
+- name: 🇯🇵JP-13.158.82.174-49
+  server: 13.158.82.174
+  port: 10478
   type: trojan
   password: BxceQaOe
   sni: t.me%252Fripaojiedian
   skip-cert-verify: true
-- name: 🇯🇵JP-18.181.205.14-53
-  server: 18.181.205.14
-  port: 5224
-  type: trojan
-  password: 635340b47bddf8f41c123dc6f2b5f7ce
-  sni: www.nintendogames.net
-  skip-cert-verify: true
-- name: 🇯🇵JP-43.206.93.224-54
-  server: 43.206.93.224
+- name: 🇯🇵JP-18.183.203.240-50
+  server: 18.183.203.240
   port: 2663
   type: trojan
-  password: 635340b47bddf8f41c123dc6f2b5f7ce
+  password: f6d3aa07a52dbcedcb4731029e2fb6ae
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇯🇵JP-13.114.188.23-55
-  server: 13.114.188.23
-  port: 8359
+- name: 🇯🇵JP-13.113.236.116-51
+  server: 13.113.236.116
+  port: 6604
+  type: trojan
+  password: f6d3aa07a52dbcedcb4731029e2fb6ae
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: 🇯🇵JP-54.250.202.23-52
+  server: 54.250.202.23
+  port: 17801
   type: trojan
   password: BxceQaOe
   sni: t.me%2Fripaojiedian
   skip-cert-verify: true
-- name: 🇩🇪DE-82.198.246.250-56
+- name: 🇩🇪DE-82.198.246.250-53
   server: 82.198.246.250
   port: 180
   type: vmess
@@ -506,7 +495,7 @@ proxies:
   tls: false
   ws-headers:
     Host: 82.198.246.250
-- name: 🇩🇪DE-82.198.246.233-57
+- name: 🇩🇪DE-82.198.246.233-54
   server: 82.198.246.233
   port: 180
   type: vmess
@@ -519,7 +508,7 @@ proxies:
   tls: false
   ws-headers:
     Host: 82.198.246.233
-- name: 🇭🇰HK-188.253.126.251-58
+- name: 🇭🇰HK-188.253.126.251-55
   server: efan.dnsefan04881.com
   port: 7754
   type: vmess
@@ -532,123 +521,93 @@ proxies:
   tls: false
   ws-headers:
     Host: efan.dnsefan04881.com
-- name: 🇳🇱NL-195.211.124.140-59
-  server: 195.211.124.140
-  port: 2053
-  type: trojan
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  sni: Koma-YT.PAGeS.Dev
-  ws-path: h=%252FtrTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%252B%2540WangCai2
-  skip-cert-verify: true
-- name: 🇫🇮FI-31.57.92.251-60
-  server: 31.57.92.251
-  port: 2053
-  type: trojan
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  sni: Koma-YT.PAGeS.Dev
-  ws-path: h=%252FtrTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%252B%2540WangCai2
-  skip-cert-verify: true
-- name: 🇩🇪DE-138.124.50.47-62
-  server: 138.124.50.47
+- name: 🇩🇪DE-193.23.216.14-56
+  server: 193.23.216.14
   port: 8443
   type: trojan
   password: 8r%3C%5B9%27l6hAO%238ZQi
   sni: Koma-YT.PAGeS.Dev
   ws-path: h=%252FtrTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%252B%2540WangCai2
   skip-cert-verify: true
-- name: 🇸🇬SG-47.79.237.236-63
-  server: 47.79.237.236
-  port: 22000
-  type: trojan
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  sni: Koma-YT.PAGeS.Dev
-  ws-path: h=%252FtrTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2520%2540WangCai2
-  skip-cert-verify: true
-- name: 🇬🇧GB-185.5.38.111-64
-  server: 185.5.38.111
-  port: 55988
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: bZ87amPpdG7KuWM62bKtm1KHoowuVjnV8CKtq653ymHcg2dPYcPJfnaQ61stuAjr2ZiLDaqH56XpkxEYuwDzzRrMWieebWGt
-- name: 🇵🇱PL-31.133.0.159-65
-  server: 31.133.0.159
-  port: 2053
-  type: trojan
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  sni: Koma-YT.PAGeS.Dev
-  ws-path: h=%252FtrTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%252B%2540WangCai2
-  skip-cert-verify: true
-- name: 🇸🇨SC-154.205.147.166-66
-  server: 154.205.147.166
-  port: 11201
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 93069d226f003fab
-- name: 🇸🇬SG-159.89.207.154-67
-  server: 159.89.207.154
-  port: 443
-  type: trojan
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  sni: Koma-YT.PAGeS.Dev
-  ws-path: h=%252FtrTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2520%2540WangCai2
-  skip-cert-verify: true
-- name: 🇸🇪SE-62.60.150.140-68
-  server: 62.60.150.140
-  port: 2053
-  type: trojan
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  sni: Koma-YT.PAGeS.Dev
-  ws-path: h=%252FtrTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%252B%2540WangCai2
-  skip-cert-verify: true
-- name: 🇺🇸US-144.31.57.146-69
-  server: 144.31.57.146
+- name: 🇩🇪DE-77.239.98.192-57
+  server: 77.239.98.192
   port: 8443
   type: trojan
   password: 8r%3C%5B9%27l6hAO%238ZQi
   sni: Koma-YT.PAGeS.Dev
-  ws-path: h=%252FtrTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+  ws-path: h=%252FtrTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%252B%2540WangCai2
   skip-cert-verify: true
-- name: 🇸🇬SG-178.128.97.53-70
-  server: 178.128.97.53
+- name: 🇳🇱NL-31.56.222.119-58
+  server: 31.56.222.119
+  port: 2053
+  type: trojan
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  sni: Koma-YT.PAGeS.Dev
+  ws-path: h=%252FtrTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%252B%2540WangCai2
+  skip-cert-verify: true
+- name: 🇵🇱PL-82.118.22.141-59
+  server: 82.118.22.141
+  port: 2053
+  type: trojan
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  sni: Koma-YT.PAGeS.Dev
+  ws-path: h=%252FtrTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%252B%2540WangCai2
+  skip-cert-verify: true
+- name: 🇺🇸US-198.62.62.253-60
+  server: 198.62.62.253
   port: 443
+  type: trojan
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  sni: Koma-YT.PAGeS.Dev
+  ws-path: h=%252FtrTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2520%2540WangCai2
+  skip-cert-verify: true
+- name: 🇭🇰HK-8.223.63.150-61
+  server: 8.223.63.150
+  port: 443
+  type: trojan
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  sni: Koma-YT.PAGeS.Dev
+  ws-path: h=%252FtrTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2520%2540WangCai2
+  skip-cert-verify: true
+- name: 🇫🇮FI-31.57.26.194-62
+  server: 31.57.26.194
+  port: 2053
+  type: trojan
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  sni: Koma-YT.PAGeS.Dev
+  ws-path: h=%252FtrTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%252B%2540WangCai2
+  skip-cert-verify: true
+- name: 🇺🇸US-77.110.119.35-64
+  server: 77.110.119.35
+  port: 2053
+  type: trojan
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  sni: Koma-YT.PAGeS.Dev
+  ws-path: h=%252FtrTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%252B%2540WangCai2
+  skip-cert-verify: true
+- name: 🇹🇷TR-138.124.107.101-66
+  server: 138.124.107.101
+  port: 8443
+  type: trojan
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  sni: Koma-YT.PAGeS.Dev
+  ws-path: h=%252FtrTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%252B%2540WangCai2
+  skip-cert-verify: true
+- name: 🇺🇸US-31.58.50.114-68
+  server: 31.58.50.114
+  port: 2053
   type: trojan
   password: 8r%3C%5B9%27l6hAO%238ZQi
   sni: Koma-YT.PAGeS.Dev
   ws-path: h=%252FtrTelegram
   skip-cert-verify: true
-- name: 🇲🇦MA-188.214.157.30-71
-  server: 188.214.157.30
-  port: 990
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-- name: 🇺🇸US-144.172.101.253-72
-  server: 144.172.101.253
-  port: 443
-  type: trojan
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  sni: Koma-YT.PAGeS.Dev
-  ws-path: h=%252FtrTelegram
-  skip-cert-verify: true
-- name: 🇳🇱NL-213.109.147.242-73
-  server: 213.109.147.242
-  port: 62685
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: VpKABcOpNNA0l5G2AVOmw8
-- name: 🇲🇹MT-171.22.254.129-74
-  server: 171.22.254.129
-  port: 990
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-- name: 🇦🇶NOWHERE-0.0.0.0-75
+- name: 🇦🇶NOWHERE-0.0.0.0-69
   server: mofacpdd.til69.com
   port: 41921
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 5d68d91f-ccc5-4c00-b1f6-0d764937f4f6
-- name: 🇺🇸US-216.24.57.250-76
+- name: 🇺🇸US-216.24.57.250-70
   server: 216.24.57.250
   port: 443
   type: trojan
