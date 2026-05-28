@@ -18,7 +18,7 @@ proxies:
   tls: false
   ws-headers:
     Host: 547.rtxconfigz.shop
-- name: 🏁RELAY-104.21.76.158-02
+- name: 🏁RELAY-172.67.197.47-02
   server: t1.620720.xyz
   port: 8443
   type: vmess
@@ -185,7 +185,7 @@ proxies:
   tls: true
   ws-headers:
     Host: cg1c07.waimaojd.com
-- name: 🏁RELAY-170.114.46.6-20
+- name: 🏁RELAY-170.114.45.6-20
   server: support.zoom.us
   port: 8080
   type: vmess
@@ -282,7 +282,26 @@ proxies:
   tls: true
   ws-headers:
     Host: cg1c14.waimaojd.com
-- name: 🇭🇰HK-103.127.243.59-28
+- name: 🇩🇪DE-82.198.246.214-28
+  server: 82.198.246.214
+  port: 180
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: 82.198.246.214
+- name: 🇹🇼TW-111.248.88.150-29
+  server: r3mrcg0011499tl.cybervena.com
+  port: 50099
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+- name: 🇭🇰HK-103.127.243.59-30
   server: 103.127.243.59
   port: 56738
   type: vmess
@@ -295,29 +314,8 @@ proxies:
   tls: false
   ws-headers:
     Host: 103.127.243.59
-- name: 🇭🇰HK-103.181.164.145-29
-  server: 103.181.164.145
-  port: 51556
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  ws-path: /
-  tls: false
-  ws-headers:
-    Host: 103.181.164.145
-- name: 🏁RELAY-167.68.4.199-30
-  server: 167.68.4.199
-  port: 2053
-  type: trojan
-  password: Aimer
-  sni: epge.muarua.filegear-sg.me
-  ws-path: h=%2F%3Fproxyip%3Dts.hpc.tw%26ed%3D2560
-  skip-cert-verify: true
-- name: 🇹🇼TW-111.248.73.29-31
-  server: r3mrcg007117fb8.cybervena.com
+- name: 🇹🇼TW-36.228.154.213-31
+  server: nbmrcg0034686rw.cybervena.com
   port: 50099
   type: ss
   cipher: chacha20-ietf-poly1305
@@ -328,7 +326,7 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇭🇰HK-116.48.49.245-33
+- name: 🇭🇰HK-58.153.27.99-33
   server: v10.hdacd.com
   port: 30807
   type: vmess
@@ -464,54 +462,27 @@ proxies:
   tls: false
   ws-headers:
     Host: efan.dnsefan04881.com
-- name: 🏁RELAY-104.20.6.134-49
-  server: 104.20.6.134
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.calmloud.com
-  ws-path: h=%252Fassignment
-  skip-cert-verify: true
-- name: 🇹🇼TW-111.248.88.150-50
-  server: r3mrcg0011499tl.cybervena.com
+- name: 🇹🇼TW-111.248.73.29-49
+  server: r3mrcg007117fb8.cybervena.com
   port: 50099
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇹🇼TW-61.231.15.57-51
-  server: r3mrcg001286ek2.cybervena.com
-  port: 50099
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇹🇼TW-1.161.240.114-52
-  server: nbmrcg0034686rw.cybervena.com
-  port: 50099
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇹🇼TW-211.76.176.98-53
-  server: jpbgp.netvigor.cc
-  port: 19128
+- name: 🏁RELAY-167.68.4.199-52
+  server: 167.68.4.199
+  port: 2053
   type: trojan
-  password: gcuCpQfaiVeDBdWG
-  sni: yazhou10.dynu.net
+  password: Aimer
+  sni: epge.muarua.filegear-sg.me
+  ws-path: h=%252F%253Fproxyip%253Dts.hpc.tw%2526ed%253D2560
   skip-cert-verify: true
-- name: 🏁RELAY-172.66.44.211-55
-  server: v1.dabache.top
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.multiplydose.com
-  ws-path: h=%252Fassignment
-  skip-cert-verify: true
-- name: 🇦🇶NOWHERE-0.0.0.0-56
+- name: 🇦🇶NOWHERE-0.0.0.0-55
   server: mofacpdd.til69.com
   port: 41921
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 5d68d91f-ccc5-4c00-b1f6-0d764937f4f6
-- name: 🇺🇸US-216.24.57.250-57
+- name: 🇺🇸US-216.24.57.250-56
   server: 216.24.57.250
   port: 443
   type: trojan
