@@ -1,166 +1,614 @@
 proxies:
-- name: 🇯🇵_JP_日本->🇺🇸_US_美国
+- name: 🇨🇦CA-144.217.164.29-00
+  server: 144.217.164.29
+  port: 12000
+  type: ss
+  cipher: aes-256-gcm
+  password: 8JCsPssfgS8tiRwiMlhARg==
+- name: 🇦🇶NOWHERE-0.0.0.0-01
+  server: 547.rtxconfigz.shop
+  port: 8080
+  type: vmess
+  uuid: 44e57485-eccc-46ef-808f-cd17ac810018
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /@Malinda6104
+  tls: false
+  ws-headers:
+    Host: 547.rtxconfigz.shop
+- name: 🏁RELAY-104.21.76.158-02
+  server: t1.620720.xyz
+  port: 8443
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  tls: true
+  ws-headers:
+    Host: t1.620720.xyz
+- name: 🇨🇦CA-45.154.204.7-03
+  server: 45.154.204.7
+  port: 990
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+- name: 🇺🇸US-146.19.49.251-04
+  server: 146.19.49.251
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
+- name: 🇨🇦CA-15.235.41.200-05
+  server: 15.235.41.200
+  port: 80
+  type: vmess
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /IOebhLMhl1CTbFHbL95myfRX2
+  tls: false
+  ws-headers:
+    Host: 15.235.41.200
+- name: 🇺🇸US-71.19.148.143-06
+  server: 71.19.148.143
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: p78naCf2EfOlRSLTX0wFVx
+- name: 🇺🇸US-38.92.10.226-07
+  server: 38.92.10.226
+  port: 45979
+  type: vmess
+  uuid: 23bdf6df-c482-46d0-c0f4-5a98d534ea11
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /test
+  tls: false
+  ws-headers:
+    Host: 38.92.10.226
+- name: 🇨🇦CA-23.95.76.59-08
+  server: 23.95.76.59
+  port: 990
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+- name: 🇨🇦CA-51.79.102.253-09
+  server: 51.79.102.253
+  port: 80
+  type: vmess
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /IOebhLMhl1CTbFHbL95myfRX2
+  tls: false
+  ws-headers:
+    Host: 51.79.102.253
+- name: 🇺🇸US-107.151.182.253-10
+  server: 107.151.182.253
+  port: 8080
+  type: ssr
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  obfs: plain
+  protocol: origin
+  obfsparam: null
+  protoparam: null
+  group: SSRProvider
+- name: 🇺🇸US-92.118.112.101-11
+  server: 92.118.112.101
+  port: 9483
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: qFvn2fNEvBgM5knffrN96q
+- name: 🇺🇸US-15.204.247.49-12
+  server: 15.204.247.49
+  port: 12000
+  type: ss
+  cipher: aes-256-gcm
+  password: 8JCsPssfgS8tiRwiMlhARg==
+- name: 🇺🇸US-71.19.148.143-13
+  server: pupas-shirting-unsung.freesocks.work
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: p78naCf2EfOlRSLTX0wFVx
+- name: 🇨🇦CA-79.127.233.170-14
+  server: 79.127.233.170
+  port: 990
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: f8f7aCzcPKbsF8p3
+- name: 🇦🇶NOWHERE-0.0.0.0-15
+  server: v2ray.codefyinc.com
+  port: 443
+  type: vmess
+  uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /vmessws
+  tls: false
+  ws-headers:
+    Host: v2ray.codefyinc.com
+- name: 🇺🇸US-23.95.75.146-16
+  server: 23.95.75.146
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+- name: 🇺🇸US-198.23.174.168-17
+  server: 198.23.174.168
+  port: 20086
+  type: vmess
+  uuid: 2b36304b-4f88-4ff5-9033-f4d57dbb5490
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: 198.23.174.168
+- name: 🇨🇦CA-79.127.233.170-18
+  server: 79.127.233.170
+  port: 989
+  type: ssr
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+  obfs: plain
+  protocol: origin
+  obfsparam: null
+  protoparam: null
+  group: SSRProvider
+- name: 🇺🇸US-23.170.40.235-19
+  server: cg1c07.waimaojd.com
+  port: 443
+  type: vmess
+  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /api/v1/graphql
+  tls: true
+  ws-headers:
+    Host: cg1c07.waimaojd.com
+- name: 🏁RELAY-170.114.46.6-20
+  server: support.zoom.us
+  port: 8080
+  type: vmess
+  uuid: 44e57485-eccc-46ef-808f-cd17ac810018
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /@Malinda6104
+  tls: false
+  ws-headers:
+    Host: support.zoom.us
+- name: 🇺🇸US-209.126.84.189-21
+  server: 209.126.84.189
+  port: 443
+  type: vmess
+  uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /vmessws
+  tls: false
+  ws-headers:
+    Host: 209.126.84.189
+- name: 🏁RELAY-104.21.76.158-22
+  server: sy4.620720.xyz
+  port: 443
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  tls: true
+  ws-headers:
+    Host: sy4.620720.xyz
+- name: 🏁RELAY-104.18.16.77-23
+  server: hgtrojan.zabc.net
+  port: 2083
+  type: vmess
+  uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /e6395c20
+  tls: true
+  ws-headers:
+    Host: hgtrojan.zabc.net
+- name: 🇺🇸US-107.175.87.207-24
+  server: 107.175.87.207
+  port: 10011
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 86039b71-ba82-4ca8-838e-87086ae666de
+- name: 🇺🇸US-104.160.191.187-25
+  server: cg1c01.waimaojd.com
+  port: 443
+  type: vmess
+  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /api/v1/graphql
+  tls: true
+  ws-headers:
+    Host: cg1c01.waimaojd.com
+- name: 🇺🇸US-67.21.85.227-26
+  server: cg1c04.waimaojd.com
+  port: 443
+  type: vmess
+  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /api/v1/graphql
+  tls: true
+  ws-headers:
+    Host: cg1c04.waimaojd.com
+- name: 🇺🇸US-91.149.239.165-27
+  server: cg1c14.waimaojd.com
+  port: 443
+  type: vmess
+  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /api/v1/graphql
+  tls: true
+  ws-headers:
+    Host: cg1c14.waimaojd.com
+- name: 🏁RELAY-104.20.42.250-28
+  server: 104.20.42.250
+  port: 443
   type: trojan
+  password: humanity
+  sni: www.calmloud.com
+  ws-path: h=%2Fassignment
+  skip-cert-verify: true
+- name: 🇦🇶FASTLY-167.82.101.251-29
+  server: 167.82.101.251
+  port: 443
+  type: trojan
+  password: Mitivpn
+  sni: ssl.fastly.com
+  ws-path: h=%2Fde
+  skip-cert-verify: true
+- name: 🇮🇩ID-130.94.94.15-30
+  server: 130.94.94.15
+  port: 443
+  type: trojan
+  password: tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR
+  sni: 130.94.94.15
+  skip-cert-verify: true
+- name: 🏁RELAY-104.16.71.213-31
+  server: 104.16.71.213
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  ws-path: h=%2Fassignment
+  skip-cert-verify: true
+- name: 🇭🇰HK-203.218.28.73-32
+  server: jpbgp.netvigor.cc
+  port: 19128
+  type: trojan
+  password: OccIqeORGQwiNkwS
+  sni: yazhou10.dynu.net
+  skip-cert-verify: true
+- name: 🇩🇪DE-63.180.254.10-33
+  server: 63.180.254.10
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇭🇰HK-203.218.9.153-34
+  server: v10.hdacd.com
+  port: 30807
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: v10.hdacd.com
+- name: 🇭🇰HK-54.46.30.217-35
+  server: 54.46.30.217
+  port: 53012
+  type: trojan
+  password: 230012981ba34c12fec11deca0379005
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: 🇭🇰HK-18.166.29.105-36
+  server: 18.166.29.105
+  port: 3941
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%2Fripaojiedian
+  skip-cert-verify: true
+- name: 🇭🇰HK-18.163.56.230-37
+  server: 18.163.56.230
+  port: 3941
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%2Fripaojiedian
+  skip-cert-verify: true
+- name: 🇯🇵JP-18.183.83.131-38
+  server: 18.183.83.131
+  port: 18021
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%252Fripaojiedian
+  skip-cert-verify: true
+- name: 🇭🇰HK-54.46.30.217-39
+  server: 54.46.30.217
+  port: 3743
+  type: trojan
+  password: 230012981ba34c12fec11deca0379005
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: 🇭🇰HK-54.46.30.217-40
+  server: 54.46.30.217
+  port: 5701
+  type: trojan
+  password: 230012981ba34c12fec11deca0379005
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: 🇭🇰HK-54.46.30.217-41
+  server: 54.46.30.217
+  port: 48738
+  type: trojan
+  password: 230012981ba34c12fec11deca0379005
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: 🇭🇰HK-18.166.29.105-43
+  server: 18.166.29.105
+  port: 9149
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%252Fripaojiedian
+  skip-cert-verify: true
+- name: 🇭🇰HK-54.46.30.217-44
+  server: 54.46.30.217
+  port: 49277
+  type: trojan
+  password: 230012981ba34c12fec11deca0379005
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: 🇭🇰HK-16.163.142.40-46
+  server: 16.163.142.40
+  port: 22657
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%2Fripaojiedian
+  skip-cert-verify: true
+- name: 🇦🇶NOWHERE-0.0.0.0-47
   server: d1.catcat321.com
   port: 35141
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  type: trojan
+  password: 订阅内容解析错误订阅内容解析错误7e70223b-f331-41d5-9313-02b8d2df2885
   sni: d.usj1.cat.bilibili.com
   skip-cert-verify: true
-  tls: false
-  udp: true
-- name: 🇨🇦_CA_加拿大->🇨🇭_CH_瑞士
-  type: trojan
+- name: 🇭🇰HK-103.177.136.45-48
   server: 103.177.136.45
   port: 45553
+  type: trojan
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   sni: ch.01.naiun.bilibili.com
   skip-cert-verify: true
-  tls: false
-  udp: true
-- name: 🇯🇵_JP_日本->🇺🇸_US_美国_1
-  type: trojan
+- name: 🇦🇶NOWHERE-0.0.0.0-49
   server: d1.catcat321.com
   port: 48045
+  type: trojan
   password: 7e70223b-f331-41d5-9313-02b8d2df2885
   sni: d.usj1.cat.bilibili.com
   skip-cert-verify: true
-  tls: false
-  udp: true
-- name: 🇯🇵_JP_日本->🇺🇸_US_美国_2
-  type: trojan
+- name: 🇦🇶NOWHERE-0.0.0.0-50
   server: d1.catcat321.com
   port: 47339
+  type: trojan
   password: 7e70223b-f331-41d5-9313-02b8d2df2885
   sni: d.usj1.cat.bilibili.com
   skip-cert-verify: true
+- name: 🇦🇶NOWHERE-0.0.0.0-51
+  server: d1.catcat321.com
+  port: 46581
+  type: trojan
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  sni: d.usj1.cat.bilibili.com
+  skip-cert-verify: true
+- name: 🇦🇶NOWHERE-0.0.0.0-52
+  server: d1.catcat321.com
+  port: 19139
+  type: trojan
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  sni: d.usj1.cat.bilibili.com
+  skip-cert-verify: true
+- name: 🇭🇰HK-203.218.9.153-53
+  server: v10.zgtfqs.click
+  port: 30807
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  ws-path: /
   tls: false
-  udp: true
-- name: 🇨🇭_CH_瑞士
+  ws-headers:
+    Host: v10.zgtfqs.click
+- name: 🇦🇶GOOGLE-136.110.13.19-54
+  server: v6.hdacd.com
+  port: 30806
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: v6.hdacd.com
+- name: 🇦🇶NOWHERE-0.0.0.0-55
+  server: d1.catcat321.com
+  port: 42133
+  type: trojan
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  sni: d.usj1.cat.bilibili.com
+  skip-cert-verify: true
+- name: 🇦🇶NOWHERE-0.0.0.0-56
+  server: d1.catcat321.com
+  port: 31504
+  type: trojan
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  sni: d.usj1.cat.bilibili.com
+  skip-cert-verify: true
+- name: 🇦🇶NOWHERE-0.0.0.0-57
+  server: d1.catcat321.com
+  port: 56686
+  type: trojan
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  sni: d.usj1.cat.bilibili.com
+  skip-cert-verify: true
+- name: 🇦🇶NOWHERE-0.0.0.0-58
+  server: d1.catcat321.com
+  port: 14423
+  type: trojan
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  sni: d.usj1.cat.bilibili.com
+  skip-cert-verify: true
+- name: 🇦🇶NOWHERE-0.0.0.0-59
+  server: d1.catcat321.com
+  port: 13320
+  type: trojan
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  sni: d.usj1.cat.bilibili.com
+  skip-cert-verify: true
+- name: 🇦🇶NOWHERE-0.0.0.0-60
+  server: d1.catcat321.com
+  port: 14912
+  type: trojan
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  sni: d.usj1.cat.bilibili.com
+  skip-cert-verify: true
+- name: 🇭🇰HK-103.177.136.45-61
+  server: 103.177.136.45
+  port: 45619
+  type: trojan
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  sni: fr.01.naiun.bilibili.com
+  skip-cert-verify: true
+- name: 🇦🇶NOWHERE-0.0.0.0-62
+  server: d1.catcat321.com
+  port: 37145
+  type: trojan
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  sni: d.usj1.cat.bilibili.com
+  skip-cert-verify: true
+- name: 🇫🇮FI-109.107.182.229-63
+  server: 109.107.182.229
+  port: 51544
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 4d1nVpqJVp5oq2W4D0Ljy4
+- name: 🇦🇶NOWHERE-0.0.0.0-64
+  server: d1.catcat321.com
+  port: 36751
+  type: trojan
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  sni: d.usj1.cat.bilibili.com
+  skip-cert-verify: true
+- name: 🇱🇹_LT_立陶宛
   type: vless
-  server: 45.195.137.178
+  server: 45.194.10.147
   port: 8443
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
   servername: storage.yandex.net
   tls: true
   flow: xtls-rprx-vision
   client-fingerprint: chrome
   reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: e3d38cee79d4f94c
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
   skip-cert-verify: true
   udp: true
-- name: 🇯🇵_JP_日本->🇺🇸_US_美国_3
-  type: trojan
-  server: d1.catcat321.com
-  port: 46581
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  sni: d.usj1.cat.bilibili.com
-  skip-cert-verify: true
-  tls: false
-  udp: true
-- name: 🇯🇵_JP_日本->🇺🇸_US_美国_4
-  type: trojan
-  server: d1.catcat321.com
-  port: 19139
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  sni: d.usj1.cat.bilibili.com
-  skip-cert-verify: true
-  tls: false
-  udp: true
-- name: 🇭🇰_HK_中国香港
-  type: vmess
-  server: v10.zgtfqs.click
-  port: 30807
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵_JP_日本
-  type: vmess
-  server: v6.hdacd.com
-  port: 30806
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 🇬🇧_GB_英国
+- name: 🇱🇹_LT_立陶宛_1
   type: vless
-  server: 31.76.45.228
-  port: 23492
-  uuid: 4608d306-56d7-4c05-89ef-f84acbb049bf
-  tls: false
+  server: 45.194.10.100
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  servername: storage.yandex.net
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
   skip-cert-verify: true
   udp: true
-- name: 🇯🇵_JP_日本->🇺🇸_US_美国_5
-  type: trojan
-  server: d1.catcat321.com
-  port: 42133
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  sni: d.usj1.cat.bilibili.com
+- name: 🇭🇺_HU_匈牙利
+  type: vless
+  server: 45.198.87.32
+  port: 8443
+  uuid: 7896c501-248f-4068-bc2f-363c91ba5122
+  servername: storage.yandex.net
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: 2715592069f36fe7
   skip-cert-verify: true
-  tls: false
-  udp: true
-- name: 🇯🇵_JP_日本->🇺🇸_US_美国_6
-  type: trojan
-  server: d1.catcat321.com
-  port: 31504
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  sni: d.usj1.cat.bilibili.com
-  skip-cert-verify: true
-  tls: false
-  udp: true
-- name: 🇯🇵_JP_日本->🇺🇸_US_美国_7
-  type: trojan
-  server: d1.catcat321.com
-  port: 56686
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  sni: d.usj1.cat.bilibili.com
-  skip-cert-verify: true
-  tls: false
-  udp: true
-- name: 🇯🇵_JP_日本->🇺🇸_US_美国_8
-  type: trojan
-  server: d1.catcat321.com
-  port: 14423
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  sni: d.usj1.cat.bilibili.com
-  skip-cert-verify: true
-  tls: false
-  udp: true
-- name: 🇯🇵_JP_日本->🇺🇸_US_美国_9
-  type: trojan
-  server: d1.catcat321.com
-  port: 13320
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  sni: d.usj1.cat.bilibili.com
-  skip-cert-verify: true
-  tls: false
-  udp: true
-- name: 🇯🇵_JP_日本->🇺🇸_US_美国_10
-  type: trojan
-  server: d1.catcat321.com
-  port: 14912
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  sni: d.usj1.cat.bilibili.com
-  skip-cert-verify: true
-  tls: false
   udp: true
 - name: 🇨🇦_CA_加拿大
   type: trojan
-  server: 103.177.136.45
-  port: 45619
+  server: 103.177.136.42
+  port: 48697
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  sni: fr.01.naiun.bilibili.com
+  sni: gh.01.naiun.bilibili.com
+  skip-cert-verify: true
+  tls: true
+  udp: true
+- name: 🇨🇦_CA_加拿大->🇩🇪_DE_德国
+  type: trojan
+  server: 103.177.136.45
+  port: 46424
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  sni: de.01.naiun.bilibili.com
   skip-cert-verify: true
   tls: false
   udp: true
-- name: 🇨🇭_CH_瑞士_1
+- name: 🇨🇭_CH_瑞士
   type: vless
-  server: 45.195.137.194
+  server: 45.195.137.195
   port: 8443
   uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
   servername: storage.yandex.net
@@ -172,31 +620,37 @@ proxies:
     short-id: e3d38cee79d4f94c
   skip-cert-verify: true
   udp: true
-- name: 🇯🇵_JP_日本->🇺🇸_US_美国_11
+- name: 🇨🇦_CA_加拿大_1
   type: trojan
-  server: d1.catcat321.com
-  port: 37145
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  sni: d.usj1.cat.bilibili.com
+  server: 103.177.136.42
+  port: 46424
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  sni: de.01.naiun.bilibili.com
+  skip-cert-verify: true
+  tls: true
+  udp: true
+- name: 🇨🇦_CA_加拿大_2
+  type: trojan
+  server: 103.177.136.42
+  port: 47909
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  sni: is.01.naiun.bilibili.com
   skip-cert-verify: true
   tls: false
   udp: true
-- name: 🇫🇮_FI_芬兰
-  type: ss
-  server: 109.107.182.229
-  port: 51544
-  cipher: chacha20-ietf-poly1305
-  password: 4d1nVpqJVp5oq2W4D0Ljy4
+- name: 🇱🇹_LT_立陶宛_2
+  type: vless
+  server: 45.194.10.43
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  servername: storage.yandex.net
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
   skip-cert-verify: true
-  udp: true
-- name: 🇯🇵_JP_日本->🇺🇸_US_美国_12
-  type: trojan
-  server: d1.catcat321.com
-  port: 36751
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  sni: d.usj1.cat.bilibili.com
-  skip-cert-verify: true
-  tls: false
   udp: true
 - name: 🇻🇳_VN_越南
   type: hysteria2
@@ -207,6 +661,266 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
+  udp: true
+- name: 🇵🇱_PL_波兰
+  type: vless
+  server: 95.85.227.25
+  port: 443
+  uuid: e3e90161-fe65-443a-a3a4-e0e3a73704ca
+  servername: pol1.hatvpn.org
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: PL-jIhHOxLpCUmnDvMEsB3YY3n8o7smiAT0P_SV6RCM
+    short-id: 19d6296d2621d9fa
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸_US_美国
+  type: vless
+  server: us3-r.link-t7.com
+  port: 10240
+  uuid: 418DA912-0248-4762-8D21-5CB38467CA4D
+  network: grpc
+  servername: s0.awsstatic.com
+  tls: true
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: movie
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸_US_美国->🇩🇪_DE_德国
+  type: vless
+  server: speedtest.net
+  port: 80
+  uuid: 3e0e4c48-9cc4-4903-98ec-e007f78ab5de
+  network: ws
+  tls: false
+  ws-opts:
+    path: /chat/ws
+    headers:
+      Host: Nextsession.global.ssl.fastly.net
+  skip-cert-verify: true
+  udp: true
+- name: 🇨🇦_CA_加拿大_4
+  type: trojan
+  server: 103.177.136.42
+  port: 41943
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  sni: az.01.naiun.bilibili.com
+  skip-cert-verify: true
+  tls: false
+  udp: true
+- name: 🇩🇪_DE_德国
+  type: vless
+  server: 185.137.157.72
+  port: 443
+  uuid: 55a5044d-5b35-405f-971c-ea7aacaafcb4
+  servername: www.nvidia.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: z6_OFl0jskilOOxkQcUcdQOCS4-LVndwFF9i7kIOPzg
+    short-id: d23753491eefde7e
+  skip-cert-verify: true
+  udp: true
+- name: 🇫🇮_FI_芬兰
+  type: vless
+  server: fi.wequ.host
+  port: 443
+  uuid: 60300afa-3366-4ae3-959a-7b50438acebb
+  servername: fi.wequ.host
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: qq
+  reality-opts:
+    public-key: lmL4HN_bqIRcSVZRzpBQ9Vwe7QBWCU98D3oRIcuvNxc
+    short-id: ba0eab94983e0633
+  skip-cert-verify: true
+  udp: true
+- name: 🇱🇹_LT_立陶宛_3
+  type: vless
+  server: 45.194.10.3
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  servername: storage.yandex.net
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸_US_美国->🇳🇱_NL_荷兰
+  type: vless
+  server: 199.232.78.159
+  port: 443
+  uuid: 75dc57ca-6e1c-4f7d-977e-beeb2b622ce4
+  network: ws
+  servername: ssl.fastly.com
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: bazaryabab.global.ssl.fastly.net
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸_US_美国_1
+  type: vless
+  server: 199.232.245.90
+  port: 443
+  uuid: d27a232b-de94-4204-9bae-b0c243c6b93c
+  network: ws
+  servername: default.ssl.fastly.net
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: newip.global.ssl.fastly.neT.
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸_US_美国_2
+  type: vless
+  server: us2-r.link-t7.com
+  port: 10239
+  uuid: 418DA912-0248-4762-8D21-5CB38467CA4D
+  network: grpc
+  servername: s0.awsstatic.com
+  tls: true
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: movie
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  skip-cert-verify: true
+  udp: true
+- name: 🇨🇦_CA_加拿大_5
+  type: trojan
+  server: 103.177.136.45
+  port: 41943
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  sni: az.01.naiun.bilibili.com
+  skip-cert-verify: true
+  tls: false
+  udp: true
+- name: 🇱🇹_LT_立陶宛_4
+  type: vless
+  server: 45.194.10.208
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  servername: storage.yandex.net
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  skip-cert-verify: true
+  udp: true
+- name: 🇳🇱_NL_荷兰
+  type: vless
+  server: nl.go-vpn.club
+  port: 443
+  uuid: 40de6299-d792-4868-8a82-411ead0aa943
+  servername: gateway.icloud.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: L0acYoTxKR5ix7LXAmP10cy06n2JjgkXTojGjtWAqww
+    short-id: ed7b9bdfedb9b8e5
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬_SG_新加坡
+  type: vless
+  server: 52.237.89.171
+  port: 443
+  uuid: 61f7a0ac-7500-42f1-b27b-e85cb16d6afa
+  servername: www.cloudflare.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: safari
+  reality-opts:
+    public-key: Oe1AXeDO0L6_NXhNtjh3SQHOvCkfHrVZFzg1ASl4RhQ
+    short-id: 3292498d
+  skip-cert-verify: true
+  udp: true
+- name: 🇨🇭_CH_瑞士_1
+  type: vless
+  server: 45.195.137.93
+  port: 8443
+  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
+  servername: storage.yandex.net
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
+    short-id: e3d38cee79d4f94c
+  skip-cert-verify: true
+  udp: true
+- name: 🇱🇹_LT_立陶宛_5
+  type: vless
+  server: 45.194.10.210
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  servername: storage.yandex.net
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇪_SE_瑞典
+  type: vless
+  server: sw.cloudload.org
+  port: 443
+  uuid: 17550015-678f-43ad-b0d2-65c0a829bedb
+  servername: sw.cloudload.org
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: qq
+  reality-opts:
+    public-key: I_h51HYy1GxghdjFod51Wv4xIAeRh1ezYN-7vubv5zQ
+    short-id: a1ab5a56bc11c2
+  skip-cert-verify: true
+  udp: true
+- name: 🇨🇭_CH_瑞士_2
+  type: vless
+  server: 45.195.137.231
+  port: 8443
+  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
+  servername: storage.yandex.net
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
+    short-id: e3d38cee79d4f94c
+  skip-cert-verify: true
+  udp: true
+- name: 🇱🇹_LT_立陶宛_6
+  type: vless
+  server: 45.194.10.195
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  servername: storage.yandex.net
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  skip-cert-verify: true
   udp: true
 - name: 🇯🇵 adi|0703v - 日本-04 免流
   server: superstar.jp1.srayx.xyz
