@@ -1,128 +1,363 @@
 proxies:
-- name: 🇨🇳_CN_中国
+- name: 🇮🇳IN-103.111.114.82-00
+  server: 103.111.114.82
+  port: 28061
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
+- name: 🇩🇪DE-185.137.157.151-01
+  server: 185.137.157.151
+  port: 443
   type: trojan
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  skip-cert-verify: true
+- name: 🏁RELAY-188.114.99.0-02
+  server: 188.114.99.0
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.gossipglove.com
+  ws-path: h=%2Fassignment
+  skip-cert-verify: true
+- name: 🇩🇪DE-185.137.157.128-03
+  server: 185.137.157.128
+  port: 443
+  type: trojan
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  skip-cert-verify: true
+- name: 🏁RELAY-104.20.6.134-04
+  server: 104.20.6.134
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.multiplydose.com
+  ws-path: h=%2F%2Fassignment
+  skip-cert-verify: true
+- name: 🇫🇷FR-38.60.168.129-05
+  server: 38.60.168.129
+  port: 443
+  type: trojan
+  password: Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD
+  skip-cert-verify: true
+- name: 🇩🇪DE-185.137.157.135-06
+  server: 185.137.157.135
+  port: 443
+  type: trojan
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  skip-cert-verify: true
+- name: 🏁RELAY-104.18.152.208-07
+  server: 104.18.152.208
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.ignitelimit.com
+  ws-path: h=%2Fassignment
+  skip-cert-verify: true
+- name: 🇩🇪DE-63.180.254.10-08
+  server: 63.180.254.10
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇭🇰HK-1.36.131.105-09
+  server: v10.hdacd.com
+  port: 30807
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: v10.hdacd.com
+- name: 🇭🇰HK-16.163.41.104-10
+  server: 16.163.41.104
+  port: 13118
+  type: trojan
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: 🇭🇰HK-43.198.114.146-11
+  server: 43.198.114.146
+  port: 27161
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%2Fripaojiedian
+  skip-cert-verify: true
+- name: 🇭🇰HK-95.40.50.170-12
+  server: 95.40.50.170
+  port: 27161
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%2Fripaojiedian
+  skip-cert-verify: true
+- name: 🇯🇵JP-13.230.164.110-13
+  server: 13.230.164.110
+  port: 19708
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%252Fripaojiedian
+  skip-cert-verify: true
+- name: 🇭🇰HK-54.46.12.97-14
+  server: 54.46.12.97
+  port: 40138
+  type: trojan
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: 🇭🇰HK-18.163.121.106-15
+  server: 18.163.121.106
+  port: 24370
+  type: trojan
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: 🇭🇰HK-18.163.121.106-16
+  server: 18.163.121.106
+  port: 48738
+  type: trojan
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: 🇭🇰HK-16.163.41.104-17
+  server: 16.163.41.104
+  port: 6357
+  type: trojan
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: 🇭🇰HK-18.166.58.225-18
+  server: 18.166.58.225
+  port: 32434
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%252Fripaojiedian
+  skip-cert-verify: true
+- name: 🇭🇰HK-54.46.12.97-19
+  server: 54.46.12.97
+  port: 17005
+  type: trojan
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: 🇭🇰HK-54.46.12.97-20
+  server: 54.46.12.97
+  port: 49277
+  type: trojan
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: 🇭🇰HK-95.40.50.170-21
+  server: 95.40.50.170
+  port: 11993
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%2Fripaojiedian
+  skip-cert-verify: true
+- name: 🇺🇸US-147.90.234.133-22
+  server: tinkered-pennies-puppies.freesocks.work
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: hbGrpfvNrJsUmKmPbR3iY2
+- name: 🏁RELAY-104.18.152.246-23
+  server: 104.18.152.246
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.calmloud.com
+  ws-path: h=%2Fassignment
+  skip-cert-verify: true
+- name: 🇺🇸US-165.215.250.14-24
+  server: 165.215.250.14
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.ignitelimit.com
+  ws-path: h=%2Fassignment
+  skip-cert-verify: true
+- name: 🇭🇰HK-119.236.231.219-27
+  server: jpbgp.netvigor.cc
+  port: 19128
+  type: trojan
+  password: OccIqeORGQwiNkwS
+  sni: yazhou10.dynu.net
+  skip-cert-verify: true
+- name: 🇨🇳CN-114.80.8.128-33
   server: 114.80.8.128
   port: 39001
+  type: trojan
   password: 1df3ece1218bedba28c6c6ac726a07bb
   sni: www.yrtok.com
   skip-cert-verify: true
-  tls: true
-  udp: true
-- name: 🇭🇰_HK_中国香港
-  type: vmess
-  server: v10.hdacd.com
-  port: 30807
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵_JP_日本
-  type: hysteria2
-  server: 45.88.43.116
-  port: 52454
-  password: 6c077487-06af-4fb1-9e46-d485d98f0a31
-  sni: www.bing.com
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸_US_美国
-  type: vmess
+- name: 🇨🇳CN-49.232.147.138-35
   server: v4.hdacd.com
   port: 30804
+  type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   alterId: 2
   cipher: auto
-  tls: false
   skip-cert-verify: true
-  udp: true
-- name: 🇭🇰_HK_中国香港_1
-  type: vmess
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: v4.hdacd.com
+- name: 🇭🇰HK-43.100.32.12-36
   server: n1747624274.4u9ma.icu
   port: 443
+  type: vmess
   uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
   alterId: 0
   cipher: auto
-  tls: true
   skip-cert-verify: true
   network: ws
-  udp: true
-- name: 🇯🇵_JP_日本->🇫🇷_FR_法国
-  type: vmess
+  ws-path: /
+  tls: true
+  ws-headers:
+    Host: n1747624274.4u9ma.icu
+- name: 🇨🇳CN-139.155.97.210-37
   server: v35.hdacd.com
   port: 30835
+  type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   alterId: 2
   cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  ws-path: /
   tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸_US_美国_1
-  type: hysteria2
-  server: 69.63.220.227
-  port: 443
-  password: 038663b35fe801158d3eca2dae5a6fb1
-  sni: 69.63.220.227
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: 7e3ea7dfee4694e5e0e73383
-  udp: true
-- name: 🇸🇬_SG_新加坡
-  type: hysteria2
-  server: 54.255.102.19
-  port: 443
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/WangCai2🇨🇳
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸_US_美国_2
-  type: vmess
+  ws-headers:
+    Host: v35.hdacd.com
+- name: 🇺🇸US-23.95.248.105-38
   server: guanwang.awsno.com
   port: 443
+  type: vmess
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
   alterId: 0
   cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  ws-path: /
   tls: true
-  skip-cert-verify: true
-  servername: gw.alicdn.com
-  udp: true
-- name: 🇩🇪_DE_德国
-  type: hysteria
-  server: 5.83.129.90
-  port: 54177
-  auth_str: dongtaiwang.com
-  up: '500'
-  down: '1000'
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  udp: true
-- name: 🇫🇷_FR_法国->🇫🇮_FI_芬兰
-  type: vless
-  server: fn.fifapes.monster
-  port: 2090
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 🇷🇺_RU_俄罗斯
-  type: ss
+  ws-headers:
+    Host: guanwang.awsno.com
+- name: 🇷🇺RU-185.22.154.103-39
   server: 185.22.154.103
   port: 10921
+  type: ss
   cipher: aes-256-gcm
   password: cfe685726eea2c4b
+- name: 🇨🇳CN-139.155.130.156-40
+  server: v29.hdacd.com
+  port: 30829
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
   skip-cert-verify: true
-  udp: true
-- name: 🇯🇵_JP_日本_1
-  type: hysteria2
-  server: haigc.shop
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: v29.hdacd.com
+- name: 🇨🇳CN-111.229.121.23-41
+  server: v33.hdacd.com
+  port: 30833
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: v33.hdacd.com
+- name: 🇭🇰HK-47.83.221.185-42
+  server: 47.83.221.185
+  port: 80
+  type: vmess
+  uuid: 771a590c-5eac-5732-b796-17251132f8d2
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: 47.83.221.185
+- name: 🇭🇰HK-43.100.32.4-43
+  server: n1747624260.4u9ma.icu
   port: 443
-  password: xtoRpl9CCisiSwbIawiZ
-  sni: haigc.shop
+  type: vmess
+  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  tls: true
+  ws-headers:
+    Host: n1747624260.4u9ma.icu
+- name: 🇲🇾MY-47.250.217.108-44
+  server: 47.250.217.108
+  port: 25031
+  type: vmess
+  uuid: 626a25dc-97e3-4d39-98cb-93b78d4f83c7
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: 47.250.217.108
+- name: 🇭🇰HK-103.149.182.79-45
+  server: 103.149.182.79
+  port: 8388
+  type: ss
+  cipher: chacha20-ietf
+  password: asd123456
+- name: 🇭🇰HK-47.76.127.88-46
+  server: 47.76.127.88
+  port: 5566
+  type: vmess
+  uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: 47.76.127.88
+- name: 🇺🇸US-3.145.57.90-47
+  server: 3.145.57.90
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇮🇩_ID_印度尼西亚
+  type: trojan
+  server: ine07011438.tmdsb.org
+  port: 3367
+  password: '3632736327'
+  sni: ine07011438.tmdsb.org
+  skip-cert-verify: true
+  tls: true
+  udp: true
+- name: 🇷🇺_RU_俄罗斯->🇫🇮_FI_芬兰
+  type: hysteria2
+  server: fast88.screw.page
+  port: 443
+  password: c0aa0cee-e855-4bcc-9afc-46241cb17990
+  sni: fast88.screw.page
   skip-cert-verify: true
   udp: true
-- name: 🇩🇪_DE_德国_1
+- name: 🇩🇪_DE_德国
   type: hysteria
   server: 5.83.129.153
   port: 20088
@@ -134,25 +369,43 @@ proxies:
   alpn:
   - h3
   udp: true
-- name: 🇭🇰_HK_中国香港->🇺🇸_US_美国
-  type: vmess
-  server: v29.hdacd.com
-  port: 30829
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
+- name: 🇯🇵_JP_日本
+  type: hysteria2
+  server: 45.88.43.116
+  port: 52454
+  password: 6c077487-06af-4fb1-9e46-d485d98f0a31
+  sni: www.bing.com
   skip-cert-verify: true
   udp: true
-- name: 🇭🇰_HK_中国香港->🇩🇪_DE_德国
-  type: vmess
-  server: v33.hdacd.com
-  port: 30833
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: none
-  tls: false
+- name: 🇩🇪_DE_德国_1
+  type: hysteria
+  server: 5.83.129.90
+  port: 54177
+  auth_str: dongtaiwang.com
+  up: '500'
+  down: '1000'
+  sni: apple.com
   skip-cert-verify: true
+  alpn:
+  - h3
+  udp: true
+- name: 🇰🇷_KR_韩国
+  type: trojan
+  server: kr04021338.tmdsb.org
+  port: 1864
+  password: '3632736327'
+  sni: kr04021338.tmdsb.org
+  skip-cert-verify: true
+  tls: true
+  udp: true
+- name: 🇺🇸_US_美国
+  type: trojan
+  server: us04021322.tmdsb.org
+  port: 2888
+  password: '3632736327'
+  sni: us04021322.tmdsb.org
+  skip-cert-verify: true
+  tls: true
   udp: true
 - name: 🇩🇪_DE_德国_2
   type: hysteria2
@@ -164,70 +417,12 @@ proxies:
   obfs: salamander
   obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
   udp: true
-- name: 🇭🇰_HK_中国香港特别行政区
-  type: vmess
-  server: 47.83.221.185
-  port: 80
-  uuid: 771a590c-5eac-5732-b796-17251132f8d2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 🇭🇰_HK_中国香港_2
-  type: vmess
-  server: n1747624260.4u9ma.icu
-  port: 443
-  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  udp: true
-- name: 🇲🇾_MY_马来西亚
-  type: vmess
-  server: 47.250.217.108
-  port: 25031
-  uuid: 626a25dc-97e3-4d39-98cb-93b78d4f83c7
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  udp: true
-- name: 🇭🇰_HK_中国香港_3
-  type: ss
-  server: 103.149.182.79
-  port: 8388
-  cipher: chacha20-ietf
-  password: asd123456
-  skip-cert-verify: true
-  udp: true
-- name: 🇭🇰_HK_中国香港_4
-  type: vmess
-  server: 47.76.127.88
-  port: 5566
-  uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸_US_美国_3
-  type: ss
-  server: 3.145.57.90
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-  skip-cert-verify: true
-  udp: true
-- name: 🇷🇺_RU_俄罗斯->🇫🇮_FI_芬兰
+- name: 🇺🇸_US_美国_2
   type: hysteria2
-  server: fast88.screw.page
-  port: 443
-  password: c0aa0cee-e855-4bcc-9afc-46241cb17990
-  sni: fast88.screw.page
+  server: 156.229.164.1
+  port: 55000
+  password: 1624ccf4-f88b-4411-81bd-978570b3cbdc
+  sni: www.bing.com
   skip-cert-verify: true
   udp: true
 - name: 🇯🇵 adi|0703v - 日本-04 免流
