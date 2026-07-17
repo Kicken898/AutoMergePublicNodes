@@ -1,27 +1,35 @@
 proxies:
-- name: 🇩🇪DE-185.137.157.135-00
-  server: 185.137.157.135
-  port: 443
-  type: trojan
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+- name: 🇳🇱NL-104.193.8.31-00
+  server: c87s5.portablesubmarines.com
+  port: 18339
+  type: vmess
+  uuid: 3cd9077d-76f7-4104-bd82-eb6916b89d43
+  alterId: 0
+  cipher: auto
   skip-cert-verify: true
-- name: 🇮🇳IN-103.111.114.80-01
-  server: 103.111.114.80
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: c87s5.portablesubmarines.com
+- name: 🇮🇳IN-103.111.114.82-01
+  server: 103.111.114.82
   port: 28061
   type: ss
   cipher: chacha20-ietf-poly1305
   password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
-- name: 🇩🇪DE-185.137.157.145-02
+- name: 🇫🇷FR-38.60.168.129-02
+  server: 38.60.168.129
+  port: 443
+  type: trojan
+  password: Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD
+  skip-cert-verify: true
+- name: 🇩🇪DE-185.137.157.145-03
   server: 185.137.157.145
   port: 443
   type: trojan
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  skip-cert-verify: true
-- name: 🇺🇸US-38.54.64.247-03
-  server: 38.54.64.247
-  port: 443
-  type: trojan
-  password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
+  sni: 185.137.157.145
   skip-cert-verify: true
 - name: 🇩🇪DE-63.180.254.10-04
   server: 63.180.254.10
@@ -29,7 +37,7 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇭🇰HK-119.236.23.58-05
+- name: 🇭🇰HK-58.153.170.239-05
   server: v10.hdacd.com
   port: 30807
   type: vmess
@@ -126,102 +134,108 @@ proxies:
   password: BxceQaOe
   sni: t.me%2Fripaojiedian
   skip-cert-verify: true
-- name: 🇺🇸US-43.165.66.209-18
-  server: us03180923.tmdsb.org
-  port: 3411
+- name: 🏁RELAY-104.21.224.5-18
+  server: mmefi.cloudflare.182682.xyz
+  port: 443
   type: trojan
-  password: 订阅内容解析错误订阅内容解析错误3632736327
-  sni: us03180923.tmdsb.org
+  password: 订阅内容解析错误a5e355b9-11fc-449a-aa7b-eb707783f25a
+  sni: thank.bpmalai2026.top
+  ws-path: h=%2Fimages
   skip-cert-verify: true
-- name: 🇯🇵JP-54.178.7.201-19
-  server: immune-mullet.rooster465.autos
+- name: 🏁RELAY-104.21.227.134-19
+  server: tw3011h8r.cloudflare.182682.xyz
+  port: 443
+  type: trojan
+  password: a5e355b9-11fc-449a-aa7b-eb707783f25a
+  sni: kfb9frqf0v.bpis2026.top
+  ws-path: h=%2Fimages
+  skip-cert-verify: true
+- name: 🇺🇸US-165.215.250.14-20
+  server: 165.215.250.14
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  ws-path: h=%2Fassignment
+  skip-cert-verify: true
+- name: 🇺🇸US-44.251.239.102-23
+  server: polite-coyote.rooster465.autos
   port: 443
   type: trojan
   password: CF68213490
-  sni: immune-mullet.rooster465.autos
+  sni: polite-coyote.rooster465.autos
   skip-cert-verify: true
-- name: 🇯🇵JP-3.112.234.3-20
-  server: free-hare.rooster465.autos
+- name: 🇺🇸US-147.90.234.133-24
+  server: tinkered-pennies-puppies.freesocks.work
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: hbGrpfvNrJsUmKmPbR3iY2
+- name: 🏁RELAY-104.17.25.173-26
+  server: tt45y3.cloudflare.182682.xyz
   port: 443
   type: trojan
-  password: CF68213490
-  sni: free-hare.rooster465.autos
+  password: a5e355b9-11fc-449a-aa7b-eb707783f25a
+  sni: tuerqitt.bper2026.top
+  ws-path: h=%2Fimages
   skip-cert-verify: true
-- name: 🇩🇪DE-18.184.4.15-21
-  server: harmless-lab.rooster465.autos
+- name: 🇮🇷IR-213.176.6.187-27
+  server: e2.cover20.ir
+  port: 30874
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7g7IygV+nnM14seRqIXT4lN7wJ+hKcSLdqgEQpcOq4g=
+- name: 🏁RELAY-104.18.35.15-28
+  server: cdn2.bpcdn.cc
   port: 443
   type: trojan
-  password: CF68213490
-  sni: harmless-lab.rooster465.autos
+  password: a5e355b9-11fc-449a-aa7b-eb707783f25a
+  sni: tuerqitt.bper2026.top
+  ws-path: h=%2Fimages
   skip-cert-verify: true
-- name: 🇭🇰HK-185.14.47.86-22
-  server: electric-sturgeon.rooster465.autos
+- name: 🏁RELAY-104.21.224.5-31
+  server: jjyeye.cloudflare.182682.xyz
+  port: 443
+  type: trojan
+  password: a5e355b9-11fc-449a-aa7b-eb707783f25a
+  sni: bjbx8xu6iih7zht5.jptimecsgo.xyz
+  ws-path: h=%2Fimages
+  skip-cert-verify: true
+- name: 🏁RELAY-104.19.174.68-32
+  server: 104.19.174.68
+  port: 443
+  type: trojan
+  password: a5e355b9-11fc-449a-aa7b-eb707783f25a
+  sni: px8r9i1b4k.bpusfaster2.top
+  ws-path: h=%2Fimages
+  skip-cert-verify: true
+- name: 🇦🇺AU-87.121.33.171-34
+  server: selected-bison.rooster465.autos
   port: 443
   type: trojan
   password: KV63147582
-  sni: electric-sturgeon.rooster465.autos
+  sni: selected-bison.rooster465.autos
   skip-cert-verify: true
-- name: 🇸🇬SG-54.255.251.6-23
-  server: grateful-owl.rooster465.autos
-  port: 443
-  type: trojan
-  password: CF68213490
-  sni: grateful-owl.rooster465.autos
-  skip-cert-verify: true
-- name: 🇭🇰HK-47.76.127.88-24
-  server: 47.76.127.88
-  port: 5566
+- name: 🇺🇸US-88.210.36.109-35
+  server: 88.210.36.109
+  port: 2377
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+- name: 🇨🇳CN-139.155.155.44-36
+  server: v35.hdacd.com
+  port: 30835
   type: vmess
-  uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
-  alterId: 0
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
   cipher: auto
   skip-cert-verify: true
   network: tcp
   ws-path: /
   tls: false
   ws-headers:
-    Host: 47.76.127.88
-- name: 🇯🇵JP-43.207.122.159-25
-  server: ultimate-jaguar.rooster465.autos
-  port: 443
-  type: trojan
-  password: CF68213490
-  sni: ultimate-jaguar.rooster465.autos
-  skip-cert-verify: true
-- name: 🇺🇸US-23.95.248.105-26
-  server: guanwang.awsno.com
-  port: 443
-  type: vmess
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  ws-path: /
-  tls: true
-  ws-headers:
-    Host: guanwang.awsno.com
-- name: 🇸🇬SG-13.212.252.228-27
-  server: prime-buzzard.rooster465.autos
-  port: 443
-  type: trojan
-  password: CF68213490
-  sni: prime-buzzard.rooster465.autos
-  skip-cert-verify: true
-- name: 🏁RELAY-104.16.143.237-28
-  server: 4cdn.njkrpl.com
-  port: 443
-  type: vmess
-  uuid: a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  tls: true
-  ws-headers:
-    Host: 4cdn.njkrpl.com
-- name: 🇨🇳CN-139.155.157.147-29
+    Host: v35.hdacd.com
+- name: 🇨🇳CN-106.53.166.196-37
   server: v6.hdacd.com
   port: 30806
   type: vmess
@@ -234,42 +248,59 @@ proxies:
   tls: false
   ws-headers:
     Host: v6.hdacd.com
-- name: 🇩🇪DE-3.67.171.41-30
-  server: busy-hermit.rooster465.autos
+- name: 🏁RELAY-104.16.143.237-38
+  server: 4cdn.njkrpl.com
   port: 443
-  type: trojan
-  password: OD90375861
-  sni: busy-hermit.rooster465.autos
+  type: vmess
+  uuid: a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8
+  alterId: 0
+  cipher: auto
   skip-cert-verify: true
-- name: 🇸🇬SG-18.143.166.214-31
-  server: evolving-platypus.rooster465.autos
+  network: ws
+  ws-path: /
+  tls: true
+  ws-headers:
+    Host: 4cdn.njkrpl.com
+- name: 🇨🇳CN-162.14.78.110-39
+  server: v4.hdacd.com
+  port: 30804
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: v4.hdacd.com
+- name: 🇭🇰HK-58.153.170.239-40
+  server: v10.zgtfqs.click
+  port: 30807
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: v10.zgtfqs.click
+- name: 🇭🇰HK-43.100.32.4-41
+  server: n1747624260.4u9ma.icu
   port: 443
-  type: trojan
-  password: CF68213490
-  sni: evolving-platypus.rooster465.autos
+  type: vmess
+  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
+  alterId: 0
+  cipher: auto
   skip-cert-verify: true
-- name: 🇸🇬SG-47.129.229.87-32
-  server: brief-warthog.rooster465.autos
-  port: 443
-  type: trojan
-  password: CF68213490
-  sni: brief-warthog.rooster465.autos
-  skip-cert-verify: true
-- name: 🇸🇬SG-47.131.229.111-33
-  server: normal-macaque.rooster465.autos
-  port: 443
-  type: trojan
-  password: CF68213490
-  sni: normal-macaque.rooster465.autos
-  skip-cert-verify: true
-- name: 🇯🇵JP-3.112.189.201-34
-  server: wealthy-gobbler.rooster465.autos
-  port: 443
-  type: trojan
-  password: CF68213490
-  sni: wealthy-gobbler.rooster465.autos
-  skip-cert-verify: true
-- name: 🇨🇳CN-152.136.153.105-35
+  network: ws
+  ws-path: /
+  tls: true
+  ws-headers:
+    Host: n1747624260.4u9ma.icu
+- name: 🇨🇳CN-81.71.22.133-42
   server: v33.hdacd.com
   port: 30833
   type: vmess
@@ -282,112 +313,58 @@ proxies:
   tls: false
   ws-headers:
     Host: v33.hdacd.com
-- name: 🇪🇪_EE_爱沙尼亚
-  type: vless
-  server: 185.93.33.7
+- name: 🇺🇸US-18.190.176.112-43
+  server: 18.190.176.112
   port: 443
-  uuid: ecad47b0-249e-0014-adff-e3c8f02b1897
-  servername: auto.quattro-tech.ru
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
-    short-id: 43dcff53849b81e6
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸_US_美国
   type: ss
-  server: 88.210.36.109
-  port: 2377
-  cipher: chacha20-ietf-poly1305
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: (Telegram🇨🇳 @VPNine1)6db9d46:44797
-  skip-cert-verify: true
-  udp: true
-- name: 🇨🇳_CN_中国->🇫🇷_FR_法国
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇭🇰HK-47.76.127.88-44
+  server: 47.76.127.88
+  port: 5566
   type: vmess
-  server: v35.hdacd.com
-  port: 30835
+  uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: 47.76.127.88
+- name: 🇨🇳_CN_中国->🇺🇸_US_美国
+  type: vmess
+  server: v29.hdacd.com
+  port: 30829
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 🇩🇪_DE_德国
+- name: 🇷🇺_RU_俄罗斯
   type: vless
-  server: de.themesh.site
+  server: 89.169.39.55
   port: 443
-  uuid: 419bfbd4-3097-4cef-a6b3-aebd78506ed7
-  servername: de.themesh.site
+  uuid: c61ec320-29f1-4e00-9272-8b676e6957b4
+  servername: max.ru
   tls: true
   flow: xtls-rprx-vision
   client-fingerprint: chrome
   reality-opts:
-    public-key: L7JB_3bRdr08McJ2_RNR6thyx1s65gdj6OeLdkJ463s
-    short-id: c98e3dfeb3aff317
+    public-key: Lbug_wz0y9xgKeDK44D9kuUap0fXzNKyv_nMJxnZRzU
+    short-id: 28a059440d3d5ba1
   skip-cert-verify: true
   udp: true
-- name: 🇨🇳_CN_中国->🇺🇸_US_美国
-  type: vmess
-  server: v4.hdacd.com
-  port: 30804
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
+- name: 🇩🇪_DE_德国
+  type: vless
+  server: 18.194.165.203
+  port: 22222
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 🇩🇪_DE_德国_1
-  type: hysteria2
-  server: ff2.yuntong.click
-  port: 443
-  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
-  sni: ff2.yuntong.click
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
-  udp: true
-- name: 🇺🇸_US_美国->🇫🇮_FI_芬兰
-  type: vless
-  server: 1.tls.fastly.veraspeed.ir
-  port: 443
-  uuid: 891710f4-45f3-41b1-99a6-6f1510f83c10
-  network: ws
-  servername: ssl.fastly.com
-  tls: true
-  ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
-    headers:
-      Host: pan21.global.ssl.fastly.net
-  skip-cert-verify: true
-  udp: true
-- name: 🇩🇪_DE_德国_2
-  type: hysteria
-  server: 5.83.129.153
-  port: 20088
-  auth_str: dongtaiwang.com
-  up: '500'
-  down: '1000'
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  udp: true
-- name: 🇮🇷_IR_伊朗->🇩🇪_DE_德国
-  type: vless
-  server: dash1.dequa.ir
-  port: 443
-  uuid: 26c5d167-03ae-42f9-81a2-b9d57b3409a7
-  network: ws
-  tls: true
-  skip-cert-verify: true
-  udp: true
-- name: 🇭🇰_HK_中国香港
+- name: 🇭🇰_HK_中国香港_2
   type: vless
   server: hk.259470.xyz
   port: 443
@@ -407,74 +384,150 @@ proxies:
     short-id: 31fb576726
   skip-cert-verify: true
   udp: true
-- name: 🇭🇰_HK_中国香港_1
+- name: 🇫🇷_FR_法国->🇫🇮_FI_芬兰
+  type: vless
+  server: fn.fifapes.monster
+  port: 2090
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸_US_美国->🇳🇱_NL_荷兰
+  type: vless
+  server: 69.46.46.42
+  port: 443
+  uuid: nebla
+  network: ws
+  servername: node-7946883854-80433a-production.up.railway.app
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /ws/nebla
+    headers:
+      Host: node-7946883854-80433a-production.up.railway.app
+  skip-cert-verify: true
+  udp: true
+- name: 🇫🇷_FR_法国
+  type: vless
+  server: 13.39.152.119
+  port: 22223
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 🇭🇰_HK_中国香港_3
   type: vmess
-  server: v10.zgtfqs.click
-  port: 30807
+  server: n1747624274.4u9ma.icu
+  port: 443
+  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: n1747624274.4u9ma.icu
+  udp: true
+- name: 🇫🇷_FR_法国_1
+  type: vless
+  server: 13.39.152.119
+  port: 22224
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
+  type: vmess
+  server: v8.hdacd.com
+  port: 30808
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 🇸🇨_SC_塞舌尔->🇩🇪_DE_德国
-  type: vless
-  server: push.sukario.ir
-  port: 2087
-  uuid: 03707fb7-0990-440f-88f6-b0e0f7242a38
-  network: ws
-  servername: k3.erooo12345.xyz
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: k3.erooo12345.xyz
-  skip-cert-verify: true
-  udp: true
-- name: 🇷🇺_RU_俄罗斯
-  type: vless
-  server: 89.169.39.55
-  port: 443
-  uuid: c61ec320-29f1-4e00-9272-8b676e6957b4
-  servername: max.ru
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: Lbug_wz0y9xgKeDK44D9kuUap0fXzNKyv_nMJxnZRzU
-    short-id: 28a059440d3d5ba1
-  skip-cert-verify: true
-  udp: true
-- name: 🇭🇰_HK_中国香港_2
-  type: vmess
-  server: n1747624260.4u9ma.icu
-  port: 443
-  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  udp: true
-- name: 🇩🇪_DE_德国_3
+- name: 🇩🇪_DE_德国_1
   type: hysteria
-  server: 5.83.129.90
-  port: 54177
+  server: 5.83.129.153
+  port: 20088
   auth_str: dongtaiwang.com
-  up: '11'
-  down: '55'
-  sni: bing.com
+  up: '500'
+  down: '1000'
+  sni: apple.com
   skip-cert-verify: true
   alpn:
   - h3
   udp: true
-- name: 🇺🇸_US_美国_1
+- name: 🇺🇸_US_美国_2
   type: ss
-  server: 18.190.176.112
+  server: 88.210.36.106
+  port: 2377
+  cipher: chacha20-ietf-poly1305
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: (Telegram🇨🇳 @WangCai2)f6e348d:70852
+  skip-cert-verify: true
+  udp: true
+- name: 🇩🇪_DE_德国_2
+  type: hysteria2
+  server: ff2.yuntong.click
   port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
+  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
+  sni: ff2.yuntong.click
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
+  udp: true
+- name: 🇱🇻_LV_拉脱维亚->🇫🇮_FI_芬兰
+  type: vless
+  server: 31.57.93.195
+  port: 2090
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 🇮🇷_IR_伊朗->🇩🇪_DE_德国
+  type: vless
+  server: 193.151.150.135
+  port: 2095
+  uuid: aff6f31d-e503-4a75-b87f-6f2e566ffb88
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 🇩🇪_DE_德国_3
+  type: vless
+  server: 18.194.165.203
+  port: 22223
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸_US_美国_3
+  type: vmess
+  server: 45.158.23.138
+  port: 27272
+  uuid: 1c7c0c72-6bc1-4e51-ada8-0e5570bb4780
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: http
+  http-opts:
+    path:
+    - /
+  udp: true
+- name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
+  type: vmess
+  server: v24.hdacd.com
+  port: 30824
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
   skip-cert-verify: true
   udp: true
 - name: 🇯🇵 adi|0703v - 日本-04 免流
