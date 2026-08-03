@@ -1,32 +1,27 @@
 proxies:
-- name: 🏁RELAY-86.38.214.205-00
-  server: 86.38.214.205
+- name: 🏁RELAY-172.67.149.60-00
+  server: 172.67.149.60
   port: 443
   type: trojan
   password: humanity
   sni: www.ignitelimit.com
   ws-path: h=%2Fassignment
   skip-cert-verify: true
-- name: 🇭🇰HK-47.86.107.119-01
-  server: lcv8v9l7oyamxxfz.v.3dns.vip
+- name: 🏁RELAY-104.18.152.155-01
+  server: 104.18.152.155
   port: 443
-  type: vmess
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
+  type: trojan
+  password: humanity
+  sni: www.ignitelimit.com
+  ws-path: h=%2Fassignment
   skip-cert-verify: true
-  network: ws
-  ws-path: /ws-vmess
-  tls: true
-  ws-headers:
-    Host: lcv8v9l7OyamxxfZ.v.3dns.vip
 - name: 🇩🇪DE-63.180.254.10-02
   server: 63.180.254.10
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇭🇰HK-58.153.70.49-03
+- name: 🇭🇰HK-112.118.142.110-03
   server: v10.hdacd.com
   port: 30807
   type: vmess
@@ -39,50 +34,43 @@ proxies:
   tls: false
   ws-headers:
     Host: v10.hdacd.com
-- name: 🇭🇰HK-95.40.107.76-04
-  server: 95.40.107.76
-  port: 50887
+- name: 🇭🇰HK-16.162.191.180-04
+  server: 16.162.191.180
+  port: 39412
   type: trojan
   password: d1960ba9f0f6353353994fa844cf817b
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇭🇰HK-18.166.249.45-05
-  server: 18.166.249.45
-  port: 29443
+- name: 🇭🇰HK-16.162.191.180-06
+  server: 16.162.191.180
+  port: 27161
   type: trojan
   password: BxceQaOe
   sni: t.me%2Fripaojiedian
   skip-cert-verify: true
-- name: 🇭🇰HK-16.163.123.222-06
-  server: 16.163.123.222
-  port: 11035
-  type: trojan
-  password: BxceQaOe
-  sni: t.me%2Fripaojiedian
-  skip-cert-verify: true
-- name: 🇭🇰HK-16.163.123.222-07
-  server: 16.163.123.222
-  port: 7630
+- name: 🇭🇰HK-16.162.191.180-07
+  server: 16.162.191.180
+  port: 49811
   type: trojan
   password: BxceQaOe
   sni: t.me%252Fripaojiedian
   skip-cert-verify: true
 - name: 🇭🇰HK-18.166.178.12-08
   server: 18.166.178.12
-  port: 14625
+  port: 3415
   type: trojan
   password: d1960ba9f0f6353353994fa844cf817b
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇯🇵JP-57.183.7.187-09
-  server: 57.183.7.187
+- name: 🇭🇰HK-18.163.100.58-09
+  server: 18.163.100.58
   port: 54876
   type: trojan
   password: d1960ba9f0f6353353994fa844cf817b
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇭🇰HK-18.163.100.58-10
-  server: 18.163.100.58
+- name: 🇭🇰HK-18.166.178.12-10
+  server: 18.166.178.12
   port: 51396
   type: trojan
   password: d1960ba9f0f6353353994fa844cf817b
@@ -95,35 +83,35 @@ proxies:
   password: d1960ba9f0f6353353994fa844cf817b
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇭🇰HK-18.163.90.221-12
-  server: 18.163.90.221
-  port: 45744
+- name: 🇭🇰HK-16.162.22.218-12
+  server: 16.162.22.218
+  port: 9149
   type: trojan
   password: BxceQaOe
   sni: t.me%252Fripaojiedian
   skip-cert-verify: true
-- name: 🇭🇰HK-95.40.107.76-13
-  server: 95.40.107.76
-  port: 34039
-  type: trojan
-  password: d1960ba9f0f6353353994fa844cf817b
-  sni: www.nintendogames.net
-  skip-cert-verify: true
-- name: 🇭🇰HK-18.163.100.58-14
+- name: 🇭🇰HK-18.163.100.58-13
   server: 18.163.100.58
-  port: 53001
+  port: 28051
   type: trojan
   password: d1960ba9f0f6353353994fa844cf817b
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇭🇰HK-18.163.90.221-15
-  server: 18.163.90.221
+- name: 🇭🇰HK-95.40.107.76-14
+  server: 95.40.107.76
+  port: 28051
+  type: trojan
+  password: d1960ba9f0f6353353994fa844cf817b
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: 🇭🇰HK-16.162.164.238-15
+  server: 16.162.164.238
   port: 29085
   type: trojan
   password: BxceQaOe
   sni: t.me%2Fripaojiedian
   skip-cert-verify: true
-- name: 🏁RELAY-104.21.88.77-16
+- name: 🏁RELAY-172.67.174.10-16
   server: blackshadow.dpdns.org
   port: 443
   type: trojan
@@ -146,21 +134,8 @@ proxies:
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   sni: hk.catxstar.com
   skip-cert-verify: true
-- name: 🇭🇰HK-47.86.167.194-20
-  server: 47.86.167.194
-  port: 800
-  type: vmess
-  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: http
-  ws-path: /x
-  tls: false
-  ws-headers:
-    Host: sjskendn.dingtalk.com
-- name: 🇭🇰HK-47.239.208.160-21
-  server: drbkg16egf3fzlm3.v.3dns.vip
+- name: 🇭🇰HK-8.210.108.58-20
+  server: u2frxj0g13vdi0wo.v.3dns.vip
   port: 443
   type: vmess
   uuid: f23bb427c1f94373876c2f43e9f790f3
@@ -171,16 +146,16 @@ proxies:
   ws-path: /ws-vmess
   tls: true
   ws-headers:
-    Host: drbkg16egf3fzlm3.v.3dns.vip
-- name: 🇺🇸US-157.254.38.210-22
+    Host: u2frxj0g13vdi0wo.v.3dns.vip
+- name: 🇺🇸US-157.254.38.210-21
   server: hkdcrtc-e.catcat321.com
   port: 20041
   type: trojan
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   sni: de.catxstar.com
   skip-cert-verify: true
-- name: 🇭🇰HK-47.76.197.72-23
-  server: m01c7b2z26dtqgee.v.3dns.vip
+- name: 🇭🇰HK-47.243.233.149-22
+  server: 7timuei1uufoixbf.v.3dns.vip
   port: 443
   type: vmess
   uuid: f23bb427c1f94373876c2f43e9f790f3
@@ -191,163 +166,106 @@ proxies:
   ws-path: /ws-vmess
   tls: true
   ws-headers:
-    Host: m01c7b2z26dtqgee.v.3dns.vip
-- name: 🇨🇳CN-43.136.173.78-24
-  server: v9.hdacd.com
-  port: 30809
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  ws-path: /
-  tls: false
-  ws-headers:
-    Host: v9.hdacd.com
-- name: 🇺🇸US-23.95.248.105-25
-  server: guanwang.awsno.com
-  port: 443
-  type: vmess
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  ws-path: /
-  tls: true
-  ws-headers:
-    Host: guanwang.awsno.com
-- name: 🇺🇸_US_美国
-  type: vless
-  server: 88.218.44.4
-  port: 993
-  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-  servername: download.nvidia.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
-  skip-cert-verify: true
-  udp: true
-- name: 🇭🇰_HK_中国香港
-  type: vmess
-  server: u2frxj0g13vdi0wo.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-  udp: true
-- name: 🇳🇱_NL_荷兰
-  type: vless
-  server: ne.tunnelx.space
-  port: 443
-  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
-  servername: ne.tunnelx.space
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: z0sVn6TJzORVJQX_vhS-ucGnJCKhDMD6eqnOdQrjrUQ
-    short-id: f3a9d2b1c7e4f608
-  skip-cert-verify: true
-  udp: true
-- name: 🇩🇪_DE_德国
-  type: hysteria
-  server: 5.83.129.90
-  port: 54177
-  auth_str: dongtaiwang.com
-  up: '11'
-  down: '55'
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  udp: true
-- name: 🇭🇰_HK_中国香港_1
-  type: vmess
-  server: 7timuei1uufoixbf.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-  udp: true
-- name: 🇭🇰_HK_中国香港->🇩🇪_DE_德国_1
-  type: trojan
+    Host: 7timuei1uufoixbf.v.3dns.vip
+- name: 🇺🇸US-157.254.38.210-23
   server: Hkdcrtc-e.catcat321.com
   port: 20041
+  type: trojan
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   sni: de.catxstar.com
   skip-cert-verify: true
-  tls: false
-  udp: true
-- name: 🇺🇸_US_美国_1
-  type: ss
+- name: 🇺🇸US-88.210.36.106-24
   server: 88.210.36.106
   port: 2377
+  type: ss
   cipher: chacha20-ietf-poly1305
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: (TG @VPNine1)7eb777f:123571
-  skip-cert-verify: true
-  udp: true
-- name: 🇹🇷_TR_土耳其
-  type: vless
-  server: tr.tunnelx.space
-  port: 443
-  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
-  servername: tr.tunnelx.space
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: zvbLa6BrfAeAKIg4TZ2AASiEZ9ntYCSEFhgkbqWwkQg
-    short-id: 4e9b5c2d1a3f5728
-  skip-cert-verify: true
-  udp: true
-- name: 🇩🇪_DE_德国_1
-  type: vless
-  server: 159.195.201.235
-  port: 25310
-  uuid: 6af3672b-8994-4cf1-aa15-23ce6574ebf0
-  network: grpc
-  servername: cloudflare.com
-  tls: true
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: auragrpc
-  reality-opts:
-    public-key: 3Ow1WhWHN1nUEkOR4kThVpzEuvlcB5ZrqoBcHtJGyiY
-    short-id: a3d8f1e9b2c7d4e6
-  skip-cert-verify: true
-  udp: true
-- name: 🇭🇰_HK_中国香港_2
-  type: vmess
+- name: 🇭🇰HK-47.76.102.39-25
   server: ex1ogt73nzpqkac2.v.3dns.vip
   port: 443
+  type: vmess
   uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
   cipher: auto
-  tls: true
   skip-cert-verify: true
   network: ws
-  ws-opts:
-    path: /ws-vmess
+  ws-path: /ws-vmess
+  tls: true
+  ws-headers:
+    Host: ex1ogt73nzpqkac2.v.3dns.vip
+- name: 🇭🇰HK-8.218.184.4-26
+  server: nycqg19zkwacpm1b.v.3dns.vip
+  port: 443
+  type: vmess
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /ws-vmess
+  tls: true
+  ws-headers:
+    Host: nycqg19zkwacpm1b.v.3dns.vip
+- name: 🇸🇬SG-47.129.65.118-27
+  server: epnbiaynh2yw.cdn000.com
+  port: 30302
+  type: ss
+  cipher: 2022-blake3-aes-128-gcm
+  password: Y2FkNzhhZWQ0MzA1NzlhZA==:YmU0ZDQzODMtYWFhZi00Yg==
+- name: 🇭🇰HK-47.83.207.148-28
+  server: vah4urdzl3jdx5r2.v.3dns.vip
+  port: 443
+  type: vmess
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /ws-vmess
+  tls: true
+  ws-headers:
+    Host: vah4urdzl3jdx5r2.v.3dns.vip
+- name: 🇸🇬SG-47.129.65.118-29
+  server: epnbiaynh2yw.cdn000.com
+  port: 30204
+  type: ss
+  cipher: 2022-blake3-aes-128-gcm
+  password: Y2FkNzhhZWQ0MzA1NzlhZA==:YmU0ZDQzODMtYWFhZi00Yg==
+- name: 🇨🇳_CN_中国
+  type: vless
+  server: 120.227.1.43
+  port: 12528
+  uuid: f0169b08-43fd-4dc3-8195-18f6ad2fe39d
+  tls: false
+  skip-cert-verify: true
   udp: true
-- name: 🇩🇪_DE_德国_2
+- name: 🇮🇷_IR_伊朗->🇩🇪_DE_德国
+  type: vless
+  server: ddc-akn.astralweb.tech
+  port: 443
+  uuid: 04b9e828-43ed-4faf-8952-41069ec08355
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: 🇨🇳_CN_中国_1
+  type: ss
+  server: 61.171.92.202
+  port: 1001
+  cipher: aes-256-gcm
+  password: '123'
+  skip-cert-verify: true
+  udp: true
+- name: 🇦🇪_AE_阿拉伯联合酋长国->🇩🇪_DE_德国
+  type: vless
+  server: 217.60.193.1
+  port: 443
+  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
+  servername: ddc-akn.astralweb.tech
+  tls: true
+  client-fingerprint: firefox
+  skip-cert-verify: true
+  udp: true
+- name: 🇩🇪_DE_德国
   type: vless
   server: 31.76.11.46.cdn-one.org
   port: 443
@@ -362,9 +280,9 @@ proxies:
       Host: 31.76.11.46.cdn-one.org
   skip-cert-verify: true
   udp: true
-- name: 🇭🇰_HK_中国香港_3
+- name: 🇭🇰_HK_中国香港_1
   type: vmess
-  server: nycqg19zkwacpm1b.v.3dns.vip
+  server: zudssgtmrqg9lpvi.v.3dns.vip
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
@@ -375,11 +293,11 @@ proxies:
   ws-opts:
     path: /ws-vmess
   udp: true
-- name: 🇺🇸_US_美国_2
+- name: 🇫🇮_FI_芬兰->🇹🇷_TR_土耳其
   type: vless
-  server: 88.218.44.4
+  server: 170.168.97.3
   port: 8443
-  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
+  uuid: 5e243126-4a2a-84b6-782a-73b14797fb5f
   network: grpc
   servername: download.nvidia.com
   tls: true
@@ -387,20 +305,12 @@ proxies:
   grpc-opts:
     grpc-service-name: TunService
   reality-opts:
-    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
+    public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
   skip-cert-verify: true
   udp: true
-- name: 🇸🇬_SG_新加坡->🇰🇷_KR_韩国
-  type: ss
-  server: epnbiaynh2yw.cdn000.com
-  port: 30302
-  cipher: 2022-blake3-aes-128-gcm
-  password: Y2FkNzhhZWQ0MzA1NzlhZA==:YmU0ZDQzODMtYWFhZi00Yg==
-  skip-cert-verify: true
-  udp: true
-- name: 🇭🇰_HK_中国香港_4
+- name: 🇭🇰_HK_中国香港_2
   type: vmess
-  server: vah4urdzl3jdx5r2.v.3dns.vip
+  server: m01c7b2z26dtqgee.v.3dns.vip
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
@@ -411,54 +321,109 @@ proxies:
   ws-opts:
     path: /ws-vmess
   udp: true
-- name: 🇫🇮_FI_芬兰
+- name: 🇹🇷_TR_土耳其
   type: vless
-  server: 83.143.112.140.cdn-one.org
+  server: 87.120.106.126
   port: 443
-  uuid: 2a6b708e-6799-473e-85e9-d4b116c5eedc
-  network: ws
-  servername: 83.143.112.140.cdn-one.org
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /29378/wQYeoLE7LS
-    headers:
-      Host: 83.143.112.140.cdn-one.org
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬_SG_新加坡->🇯🇵_JP_日本
-  type: ss
-  server: epnbiaynh2yw.cdn000.com
-  port: 30204
-  cipher: 2022-blake3-aes-128-gcm
-  password: Y2FkNzhhZWQ0MzA1NzlhZA==:YmU0ZDQzODMtYWFhZi00Yg==
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸_US_美国_3
-  type: vless
-  server: 64.49.38.6
-  port: 993
-  uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
-  servername: dl.google.com
+  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
+  servername: tr.tunnelx.space
   tls: true
   flow: xtls-rprx-vision
   client-fingerprint: firefox
   reality-opts:
-    public-key: 92KJ-ibs1qTy8nODGrHTW8T0b_trG7McLYv8My9o2EE
+    public-key: zvbLa6BrfAeAKIg4TZ2AASiEZ9ntYCSEFhgkbqWwkQg
+    short-id: 4e9b5c2d1a3f5728
   skip-cert-verify: true
   udp: true
-- name: 🇩🇪_DE_德国->🇹🇭_TH_泰国
+- name: 🇳🇱_NL_荷兰
+  type: hysteria2
+  server: 205.237.109.212
+  port: 8443
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  sni: grape-turbo-fr.roxa.org
+  skip-cert-verify: true
+  udp: true
+- name: 🇨🇳_CN_中国->🇭🇰_HK_中国香港
+  type: vmess
+  server: v9.hdacd.com
+  port: 30809
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 🇹🇷_TR_土耳其_1
   type: vless
-  server: www.true.th
-  port: 80
-  uuid: 89c3b66f-c849-4602-a5a8-84b6f06af478
+  server: 45.196.201.32
+  port: 443
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+  servername: storage.yandex.net
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: c6ef72e4635d15a5
+  skip-cert-verify: true
+  udp: true
+- name: 🇭🇰_HK_中国香港_4
+  type: vmess
+  server: drbkg16egf3fzlm3.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
   network: ws
-  servername: d2pwbkmfr5lxa4.cloudfront.net
+  ws-opts:
+    path: /ws-vmess
+  udp: true
+- name: 🇳🇱_NL_荷兰_1
+  type: trojan
+  server: 45.130.22.70
+  port: 32914
+  password: 1BARPLkaLl
+  sni: 45.130.22.70
+  skip-cert-verify: true
+  tls: false
+  udp: true
+- name: 🇭🇰_HK_中国香港_5
+  type: vmess
+  server: n1747624274.4u9ma.icu
+  port: 443
+  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  udp: true
+- name: 🇺🇸_US_美国
+  type: vless
+  server: 88.218.44.4
+  port: 993
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
+  servername: download.nvidia.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
+  skip-cert-verify: true
+  udp: true
+- name: 🇷🇺_RU_俄罗斯
+  type: vless
+  server: 185.247.16.4
+  port: 2200
+  uuid: 55009b9b-7b9c-4830-86c6-cb058a7a2e2f
+  network: ws
   tls: false
   ws-opts:
-    path: /
+    path: /v1
     headers:
-      Host: d2pwbkmfr5lxa4.cloudfront.net
+      Host: rzd.ru
   skip-cert-verify: true
   udp: true
 - name: 🇯🇵 adi|0703v - 日本-04 免流
