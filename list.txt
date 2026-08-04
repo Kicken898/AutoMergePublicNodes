@@ -1,20 +1,23 @@
 proxies:
-- name: 🏁RELAY-172.67.149.60-00
-  server: 172.67.149.60
+- name: 🇸🇦SA-149.104.104.58-00
+  server: 149.104.104.58
   port: 443
   type: trojan
-  password: humanity
-  sni: www.ignitelimit.com
-  ws-path: h=%2Fassignment
+  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
   skip-cert-verify: true
-- name: 🏁RELAY-104.18.152.155-01
-  server: 104.18.152.155
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.ignitelimit.com
-  ws-path: h=%2Fassignment
+- name: 🇯🇵JP-74.176.37.62-01
+  server: cindy50.ceoiii.com
+  port: 36801
+  type: vmess
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  alterId: 0
+  cipher: auto
   skip-cert-verify: true
+  network: ws
+  ws-path: /hls/cctv5phd.m3u8
+  tls: false
+  ws-headers:
+    Host: ajax.microsoft.com
 - name: 🇩🇪DE-63.180.254.10-02
   server: 63.180.254.10
   port: 443
@@ -134,27 +137,7 @@ proxies:
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   sni: hk.catxstar.com
   skip-cert-verify: true
-- name: 🇭🇰HK-8.210.108.58-20
-  server: u2frxj0g13vdi0wo.v.3dns.vip
-  port: 443
-  type: vmess
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: ws
-  ws-path: /ws-vmess
-  tls: true
-  ws-headers:
-    Host: u2frxj0g13vdi0wo.v.3dns.vip
-- name: 🇺🇸US-157.254.38.210-21
-  server: hkdcrtc-e.catcat321.com
-  port: 20041
-  type: trojan
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  sni: de.catxstar.com
-  skip-cert-verify: true
-- name: 🇭🇰HK-47.243.233.149-22
+- name: 🇭🇰HK-47.243.233.149-20
   server: 7timuei1uufoixbf.v.3dns.vip
   port: 443
   type: vmess
@@ -167,21 +150,14 @@ proxies:
   tls: true
   ws-headers:
     Host: 7timuei1uufoixbf.v.3dns.vip
-- name: 🇺🇸US-157.254.38.210-23
-  server: Hkdcrtc-e.catcat321.com
-  port: 20041
-  type: trojan
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  sni: de.catxstar.com
-  skip-cert-verify: true
-- name: 🇺🇸US-88.210.36.106-24
-  server: 88.210.36.106
-  port: 2377
+- name: 🇨🇳CN-61.171.92.202-21
+  server: 61.171.92.202
+  port: 1001
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-- name: 🇭🇰HK-47.76.102.39-25
-  server: ex1ogt73nzpqkac2.v.3dns.vip
+  cipher: aes-256-gcm
+  password: 123
+- name: 🇭🇰HK-47.243.10.180-22
+  server: zudssgtmrqg9lpvi.v.3dns.vip
   port: 443
   type: vmess
   uuid: f23bb427c1f94373876c2f43e9f790f3
@@ -192,9 +168,9 @@ proxies:
   ws-path: /ws-vmess
   tls: true
   ws-headers:
-    Host: ex1ogt73nzpqkac2.v.3dns.vip
-- name: 🇭🇰HK-8.218.184.4-26
-  server: nycqg19zkwacpm1b.v.3dns.vip
+    Host: zudssgtmrqg9lpvi.v.3dns.vip
+- name: 🇭🇰HK-47.76.197.72-23
+  server: m01c7b2z26dtqgee.v.3dns.vip
   port: 443
   type: vmess
   uuid: f23bb427c1f94373876c2f43e9f790f3
@@ -205,14 +181,8 @@ proxies:
   ws-path: /ws-vmess
   tls: true
   ws-headers:
-    Host: nycqg19zkwacpm1b.v.3dns.vip
-- name: 🇸🇬SG-47.129.65.118-27
-  server: epnbiaynh2yw.cdn000.com
-  port: 30302
-  type: ss
-  cipher: 2022-blake3-aes-128-gcm
-  password: Y2FkNzhhZWQ0MzA1NzlhZA==:YmU0ZDQzODMtYWFhZi00Yg==
-- name: 🇭🇰HK-47.83.207.148-28
+    Host: m01c7b2z26dtqgee.v.3dns.vip
+- name: 🇭🇰HK-47.83.207.148-25
   server: vah4urdzl3jdx5r2.v.3dns.vip
   port: 443
   type: vmess
@@ -225,18 +195,93 @@ proxies:
   tls: true
   ws-headers:
     Host: vah4urdzl3jdx5r2.v.3dns.vip
-- name: 🇸🇬SG-47.129.65.118-29
-  server: epnbiaynh2yw.cdn000.com
-  port: 30204
-  type: ss
-  cipher: 2022-blake3-aes-128-gcm
-  password: Y2FkNzhhZWQ0MzA1NzlhZA==:YmU0ZDQzODMtYWFhZi00Yg==
-- name: 🇨🇳_CN_中国
-  type: vless
-  server: 120.227.1.43
-  port: 12528
-  uuid: f0169b08-43fd-4dc3-8195-18f6ad2fe39d
+- name: 🇺🇸US-157.254.38.210-26
+  server: hkdcrtc-e.catcat321.com
+  port: 20041
+  type: trojan
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  sni: de.catxstar.com
+  skip-cert-verify: true
+- name: 🇨🇳CN-110.40.135.215-27
+  server: v9.hdacd.com
+  port: 30809
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  ws-path: /
   tls: false
+  ws-headers:
+    Host: v9.hdacd.com
+- name: 🇭🇰HK-47.239.208.160-28
+  server: drbkg16egf3fzlm3.v.3dns.vip
+  port: 443
+  type: vmess
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /ws-vmess
+  tls: true
+  ws-headers:
+    Host: drbkg16egf3fzlm3.v.3dns.vip
+- name: 🇳🇱NL-45.130.22.70-29
+  server: 45.130.22.70
+  port: 32914
+  type: trojan
+  password: 1BARPLkaLl
+  sni: 45.130.22.70
+  skip-cert-verify: true
+- name: 🇭🇰HK-43.100.32.12-30
+  server: n1747624274.4u9ma.icu
+  port: 443
+  type: vmess
+  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  tls: true
+  ws-headers:
+    Host: n1747624274.4u9ma.icu
+- name: 🇭🇰_HK_中国香港
+  type: vmess
+  server: ejomsxptp19apygl.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+  udp: true
+- name: 🇷🇺_RU_俄罗斯
+  type: ss
+  server: 176.32.35.51
+  port: 10916
+  cipher: aes-256-gcm
+  password: 895b4b796a357570
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸_US_美国
+  type: vless
+  server: 88.218.44.4
+  port: 8443
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
+  network: grpc
+  servername: download.nvidia.com
+  tls: true
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: TunService
+  reality-opts:
+    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
   skip-cert-verify: true
   udp: true
 - name: 🇮🇷_IR_伊朗->🇩🇪_DE_德国
@@ -247,15 +292,126 @@ proxies:
   tls: true
   skip-cert-verify: true
   udp: true
-- name: 🇨🇳_CN_中国_1
-  type: ss
-  server: 61.171.92.202
-  port: 1001
-  cipher: aes-256-gcm
-  password: '123'
+- name: 🇰🇷_KR_韩国
+  type: trojan
+  server: uncommon-feline.rooster465.autos
+  port: 443
+  password: ND91608427
+  sni: uncommon-feline.rooster465.autos
+  skip-cert-verify: true
+  tls: false
+  udp: true
+- name: 🇺🇸_US_美国_1
+  type: vless
+  server: 88.218.44.4
+  port: 993
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
+  servername: download.nvidia.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
   skip-cert-verify: true
   udp: true
-- name: 🇦🇪_AE_阿拉伯联合酋长国->🇩🇪_DE_德国
+- name: 🇭🇰_HK_中国香港->🇺🇦_UA_乌克兰
+  type: trojan
+  server: hkdcrtc-e.catcat321.com
+  port: 20066
+  password: 41c406e2-12b5-41f2-a329-d0621052d675
+  sni: hk.catxstar.com
+  skip-cert-verify: true
+  tls: false
+  udp: true
+- name: 🇷🇺_RU_俄罗斯_1
+  type: ss
+  server: 195.133.5.207
+  port: 20188
+  cipher: aes-256-gcm
+  password: bdb313adf74c2ede
+  skip-cert-verify: true
+  udp: true
+- name: 🇷🇺_RU_俄罗斯_2
+  type: vless
+  server: 45.155.52.231
+  port: 443
+  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
+  servername: ru2.skydrgn-online.online
+  tls: true
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
+    short-id: 0b
+  skip-cert-verify: true
+  udp: true
+- name: 🇨🇳_CN_中国->🇸🇬_SG_新加坡
+  type: vmess
+  server: v45.hdacd.com
+  port: 30845
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 🇵🇱_PL_波兰
+  type: vless
+  server: 31.76.251.127.cdn-one.org
+  port: 443
+  uuid: 4f375fb4-3c95-425f-bc7b-8085487a6f3c
+  network: ws
+  servername: 31.76.251.127.cdn-one.org
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /10336/2GCOqG7bvA
+    headers:
+      Host: 31.76.251.127.cdn-one.org
+  skip-cert-verify: true
+  udp: true
+- name: 🇫🇮_FI_芬兰->🇹🇷_TR_土耳其
+  type: vless
+  server: 170.168.97.3
+  port: 8443
+  uuid: 5e243126-4a2a-84b6-782a-73b14797fb5f
+  network: grpc
+  servername: download.nvidia.com
+  tls: true
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: TunService
+  reality-opts:
+    public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
+  skip-cert-verify: true
+  udp: true
+- name: 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国
+  type: vless
+  server: 62.152.56.243
+  port: 443
+  uuid: 65761043-f5c1-4e7b-8c16-b72c7a3fa4b7
+  servername: smartcaptcha.yandexcloud.net
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: bwuT_tpimT_uUeWpSn-HbRztfol4o4uCcUHcdvkeFx0
+    short-id: 27e53bbcab7593d7
+  skip-cert-verify: true
+  udp: true
+- name: 🇭🇰_HK_中国香港_1
+  type: vmess
+  server: ex1ogt73nzpqkac2.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+  udp: true
+- name: 🇮🇷_IR_伊朗->🇩🇪_DE_德国_1
   type: vless
   server: 217.60.193.1
   port: 443
@@ -280,37 +436,18 @@ proxies:
       Host: 31.76.11.46.cdn-one.org
   skip-cert-verify: true
   udp: true
-- name: 🇭🇰_HK_中国香港_1
-  type: vmess
-  server: zudssgtmrqg9lpvi.v.3dns.vip
+- name: 🇵🇱_PL_波兰_1
+  type: trojan
+  server: discrete-basilisk.rooster465.autos
   port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  tls: true
+  password: ND91608427
+  sni: discrete-basilisk.rooster465.autos
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-  udp: true
-- name: 🇫🇮_FI_芬兰->🇹🇷_TR_土耳其
-  type: vless
-  server: 170.168.97.3
-  port: 8443
-  uuid: 5e243126-4a2a-84b6-782a-73b14797fb5f
-  network: grpc
-  servername: download.nvidia.com
-  tls: true
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: TunService
-  reality-opts:
-    public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
-  skip-cert-verify: true
+  tls: false
   udp: true
 - name: 🇭🇰_HK_中国香港_2
   type: vmess
-  server: m01c7b2z26dtqgee.v.3dns.vip
+  server: 93ucrn4i0pffuabk.v.3dns.vip
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
@@ -321,109 +458,29 @@ proxies:
   ws-opts:
     path: /ws-vmess
   udp: true
-- name: 🇹🇷_TR_土耳其
+- name: 🇩🇪_DE_德国_1
+  type: hysteria
+  server: 5.83.129.90
+  port: 54177
+  auth_str: dongtaiwang.com
+  up: '11'
+  down: '55'
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  udp: true
+- name: 🇺🇸_US_美国->🇹🇭_TH_泰国
   type: vless
-  server: 87.120.106.126
-  port: 443
-  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
-  servername: tr.tunnelx.space
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: zvbLa6BrfAeAKIg4TZ2AASiEZ9ntYCSEFhgkbqWwkQg
-    short-id: 4e9b5c2d1a3f5728
-  skip-cert-verify: true
-  udp: true
-- name: 🇳🇱_NL_荷兰
-  type: hysteria2
-  server: 205.237.109.212
-  port: 8443
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  sni: grape-turbo-fr.roxa.org
-  skip-cert-verify: true
-  udp: true
-- name: 🇨🇳_CN_中国->🇭🇰_HK_中国香港
-  type: vmess
-  server: v9.hdacd.com
-  port: 30809
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 🇹🇷_TR_土耳其_1
-  type: vless
-  server: 45.196.201.32
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  servername: storage.yandex.net
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  skip-cert-verify: true
-  udp: true
-- name: 🇭🇰_HK_中国香港_4
-  type: vmess
-  server: drbkg16egf3fzlm3.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-  udp: true
-- name: 🇳🇱_NL_荷兰_1
-  type: trojan
-  server: 45.130.22.70
-  port: 32914
-  password: 1BARPLkaLl
-  sni: 45.130.22.70
-  skip-cert-verify: true
-  tls: false
-  udp: true
-- name: 🇭🇰_HK_中国香港_5
-  type: vmess
-  server: n1747624274.4u9ma.icu
-  port: 443
-  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  udp: true
-- name: 🇺🇸_US_美国
-  type: vless
-  server: 88.218.44.4
-  port: 993
-  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-  servername: download.nvidia.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
-  skip-cert-verify: true
-  udp: true
-- name: 🇷🇺_RU_俄罗斯
-  type: vless
-  server: 185.247.16.4
-  port: 2200
-  uuid: 55009b9b-7b9c-4830-86c6-cb058a7a2e2f
+  server: 3.170.185.91
+  port: 80
+  uuid: 89c3b66f-c849-4602-a5a8-84b6f06af478
   network: ws
   tls: false
   ws-opts:
-    path: /v1
+    path: /
     headers:
-      Host: rzd.ru
+      Host: d2pwbkmfr5lxa4.cloudfront.net
   skip-cert-verify: true
   udp: true
 - name: 🇯🇵 adi|0703v - 日本-04 免流
