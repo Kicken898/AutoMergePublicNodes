@@ -1,207 +1,23 @@
 proxies:
-- name: 🇺🇸US-157.254.38.210-00
+- name: 🇭🇰_HK_中国香港
+  type: trojan
   server: oplosgru-c.catcat321.com
   port: 20088
-  type: trojan
   password: 41c406e2-12b5-41f2-a329-d0621052d675
   sni: hk.catxstar.com
   skip-cert-verify: true
-- name: 🏁RELAY-162.159.82.246-01
-  server: 162.159.82.246
-  port: 443
-  type: trojan
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  sni: yks-dd9.pages.dev
-  ws-path: h=%2F%3Fed%3D2048
-  skip-cert-verify: true
-- name: 🇺🇸US-157.254.38.210-02
-  server: oplosgru-c.catcat321.com
-  port: 20004
-  type: trojan
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  sni: hk.catxstar.com
-  skip-cert-verify: true
-- name: 🇩🇪DE-63.180.254.10-03
-  server: 63.180.254.10
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇭🇰HK-42.2.129.5-04
+  tls: false
+  udp: true
+- name: 🇭🇰_HK_中国香港_1
+  type: vmess
   server: v10.hdacd.com
   port: 30807
-  type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   alterId: 2
   cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  ws-path: /
   tls: false
-  ws-headers:
-    Host: v10.hdacd.com
-- name: 🇭🇰HK-16.162.21.59-05
-  server: 2c.fast9988.com
-  port: 50887
-  type: trojan
-  password: 6ec301428255a78a1d826988d86cc87e
-  sni: www.nintendogames.net
   skip-cert-verify: true
-- name: 🇭🇰HK-43.198.109.39-06
-  server: 43.198.109.39
-  port: 11035
-  type: trojan
-  password: BxceQaOe
-  sni: t.me%2Fripaojiedian
-  skip-cert-verify: true
-- name: 🇭🇰HK-43.198.126.41-07
-  server: 43.198.126.41
-  port: 35151
-  type: trojan
-  password: BxceQaOe
-  sni: t.me%2Fripaojiedian
-  skip-cert-verify: true
-- name: 🇭🇰HK-43.198.126.41-08
-  server: 43.198.126.41
-  port: 9408
-  type: trojan
-  password: BxceQaOe
-  sni: t.me%252Fripaojiedian
-  skip-cert-verify: true
-- name: 🇭🇰HK-18.163.100.58-09
-  server: 18.163.100.58
-  port: 18286
-  type: trojan
-  password: 6ec301428255a78a1d826988d86cc87e
-  sni: www.nintendogames.net
-  skip-cert-verify: true
-- name: 🇭🇰HK-95.40.107.76-10
-  server: 95.40.107.76
-  port: 18617
-  type: trojan
-  password: 6ec301428255a78a1d826988d86cc87e
-  sni: www.nintendogames.net
-  skip-cert-verify: true
-- name: 🇭🇰HK-18.163.100.58-11
-  server: 18.163.100.58
-  port: 36580
-  type: trojan
-  password: 6ec301428255a78a1d826988d86cc87e
-  sni: www.nintendogames.net
-  skip-cert-verify: true
-- name: 🇯🇵JP-57.183.7.187-12
-  server: 57.183.7.187
-  port: 32434
-  type: trojan
-  password: 6ec301428255a78a1d826988d86cc87e
-  sni: www.nintendogames.net
-  skip-cert-verify: true
-- name: 🇭🇰HK-18.166.178.40-13
-  server: 18.166.178.40
-  port: 45744
-  type: trojan
-  password: BxceQaOe
-  sni: t.me%252Fripaojiedian
-  skip-cert-verify: true
-- name: 🇭🇰HK-95.40.107.76-14
-  server: 95.40.107.76
-  port: 39024
-  type: trojan
-  password: 6ec301428255a78a1d826988d86cc87e
-  sni: www.nintendogames.net
-  skip-cert-verify: true
-- name: 🇭🇰HK-18.166.178.12-15
-  server: 18.166.178.12
-  port: 28051
-  type: trojan
-  password: 6ec301428255a78a1d826988d86cc87e
-  sni: www.nintendogames.net
-  skip-cert-verify: true
-- name: 🇭🇰HK-43.198.89.155-16
-  server: 43.198.89.155
-  port: 1431
-  type: trojan
-  password: BxceQaOe
-  sni: t.me%2Fripaojiedian
-  skip-cert-verify: true
-- name: 🇺🇸US-23.95.248.105-17
-  server: guanwang.awsno.com
-  port: 443
-  type: vmess
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  ws-path: /
-  tls: true
-  ws-headers:
-    Host: guanwang.awsno.com
-- name: 🇺🇸US-157.254.38.210-18
-  server: oplosgru-c.catcat321.com
-  port: 20034
-  type: trojan
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  sni: hk.catxstar.com
-  skip-cert-verify: true
-- name: 🇺🇸US-98.89.48.191-19
-  server: 98.89.48.191
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇨🇳CN-101.43.113.135-20
-  server: v6.hdacd.com
-  port: 30806
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  ws-path: /
-  tls: false
-  ws-headers:
-    Host: v6.hdacd.com
-- name: 🇨🇳CN-129.204.155.215-21
-  server: v35.hdacd.com
-  port: 30835
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  ws-path: /
-  tls: false
-  ws-headers:
-    Host: v35.hdacd.com
-- name: 🇨🇳CN-146.56.197.198-23
-  server: v33.hdacd.com
-  port: 30833
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  ws-path: /
-  tls: false
-  ws-headers:
-    Host: v33.hdacd.com
-- name: 🇨🇳CN-122.51.247.27-24
-  server: v24.hdacd.com
-  port: 30824
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  ws-path: /
-  tls: false
-  ws-headers:
-    Host: v24.hdacd.com
+  udp: true
 - name: 🇮🇷_IR_伊朗->🇩🇪_DE_德国
   type: vless
   server: ddc-akn.astralweb.tech
@@ -209,6 +25,25 @@ proxies:
   uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
   tls: true
   skip-cert-verify: true
+  udp: true
+- name: 🇨🇳_CN_中国->🇫🇷_FR_法国
+  type: vmess
+  server: v35.hdacd.com
+  port: 30835
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 🇭🇰_HK_中国香港->🇯🇵_JP_日本
+  type: trojan
+  server: oplosgru-c.catcat321.com
+  port: 20004
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  sni: hk.catxstar.com
+  skip-cert-verify: true
+  tls: true
   udp: true
 - name: 🇭🇰_HK_中国香港->🇩🇪_DE_德国
   type: trojan
@@ -260,6 +95,16 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
+- name: 🇨🇳_CN_中国->🇩🇪_DE_德国
+  type: vmess
+  server: v33.hdacd.com
+  port: 30833
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
 - name: 🇺🇸_US_美国->🇹🇭_TH_泰国_1
   type: vless
   server: 3.162.103.19
@@ -283,6 +128,26 @@ proxies:
   sni: de-two.quiet-rogue.site
   skip-cert-verify: true
   udp: true
+- name: 🇨🇳_CN_中国->🇺🇸_US_美国
+  type: vmess
+  server: v24.hdacd.com
+  port: 30824
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸_US_美国_1
+  type: vmess
+  server: guanwang.awsno.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  udp: true
 - name: 🇨🇳_CN_中国->🇭🇰_HK_中国香港
   type: vmess
   server: v9.hdacd.com
@@ -292,6 +157,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
+  udp: true
+- name: 🇭🇰_HK_中国香港->🇮🇳_IN_印度
+  type: trojan
+  server: oplosgru-c.catcat321.com
+  port: 20034
+  password: 41c406e2-12b5-41f2-a329-d0621052d675
+  sni: hk.catxstar.com
+  skip-cert-verify: true
+  tls: false
   udp: true
 - name: 🇭🇰_HK_中国香港->🇩🇪_DE_德国_1
   type: trojan
@@ -333,6 +207,16 @@ proxies:
   server: 180.178.60.253
   port: 10000
   uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 🇨🇳_CN_中国->🇯🇵_JP_日本
+  type: vmess
+  server: v6.hdacd.com
+  port: 30806
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
   tls: false
   skip-cert-verify: true
   udp: true
@@ -380,6 +264,14 @@ proxies:
   port: 12528
   uuid: f0169b08-43fd-4dc3-8195-18f6ad2fe39d
   tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸_US_美国_4
+  type: ss
+  server: 98.89.48.191
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
   skip-cert-verify: true
   udp: true
 - name: 🇯🇵 adi|0703v - 日本-04 免流
